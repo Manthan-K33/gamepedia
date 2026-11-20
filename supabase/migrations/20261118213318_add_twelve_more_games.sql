@@ -1,0 +1,57 @@
+INSERT INTO games (slug, title, short_description, about, developer, publisher, release_date, genres, tags, features, hero_image, box_image, rating, price_display, featured) VALUES
+('pubg-battlegrounds', 'PUBG: Battlegrounds', 'The original battle royale where 100 players fight to be the last one standing.', 'Drop onto an island, scavenge for weapons, and outlast 99 other players in the game that started the battle royale craze. With realistic gunplay, shrinking play zones, and tense, tactical firefights, every PUBG match is a story of survival.', 'Krafton', 'Krafton', '2017-12-21', ARRAY['Shooter','Action','Free to Play'], ARRAY['Battle Royale','Multiplayer','PvP','Realistic','Survival'], ARRAY['Online PvP','Voice Chat','Cross-Platform Play','Controller Support'], '/covers/pubg-battlegrounds.hero.jpg', '/covers/pubg-battlegrounds.box.jpg', 83, 'Free', false),
+('portal-2', 'Portal 2', 'A landmark puzzle game of portals, physics, and perfect comedy writing.', 'Wield a portal gun to bend space, solve ingeniously designed test chambers, and unravel a story voiced by one of gaming''s greatest villains. With a full separate co-op campaign, Portal 2 remains the gold standard for puzzle games — and for video game humor.', 'Valve', 'Valve', '2011-04-19', ARRAY['Puzzle','Adventure','Action'], ARRAY['First-Person','Single-player','Co-op','Comedy','Sci-fi'], ARRAY['Single-player','Local Co-op','Online Co-op','Controller Support','Cloud Saves','Achievements'], '/covers/portal-2.hero.jpg', '/covers/portal-2.box.jpg', 93, '$9.99', false),
+('cities-skylines', 'Cities: Skylines', 'The definitive modern city builder, with deep systems and endless creativity.', 'Design, build, and manage the metropolis of your dreams. With intricate traffic simulation, zoning, public services, and economy systems, Cities: Skylines is the deepest city builder ever made — and a relaxing creative sandbox all at once.', 'Colossal Order', 'Paradox Interactive', '2015-03-10', ARRAY['Simulation','Strategy','Indie'], ARRAY['City Builder','Management','Relaxing','Creative','Sandbox'], ARRAY['Single-player','Steam Workshop','Cloud Saves','Achievements'], '/covers/cities-skylines.hero.jpg', '/covers/cities-skylines.box.jpg', 85, '$29.99', false),
+('dark-souls-iii', 'Dark Souls III', 'The fires are fading in the brutal finale of the legendary Souls trilogy.', 'Journey to a dying world of crumbling kingdoms and monstrous lords of cinder. With ferociously demanding combat, intricate level design, and a haunting atmosphere, Dark Souls III is FromSoftware''s acclaimed trilogy-capper — a challenge like nothing else.', 'FromSoftware', 'Bandai Namco Entertainment', '2016-04-12', ARRAY['Action','RPG'], ARRAY['Souls-like','Difficult','Dark Fantasy','Atmospheric','Single-player'], ARRAY['Single-player','Online PvP','Online Co-op','Controller Support','Achievements'], '/covers/dark-souls-iii.hero.jpg', '/covers/dark-souls-iii.box.jpg', 89, '$39.99', false),
+('monster-hunter-world', 'Monster Hunter: World', 'Hunt colossal beasts in a living ecosystem of predators and prey.', 'Take on the role of a hunter stalked by gigantic monsters in vast, living landscapes. Track, trap, and battle fearsome creatures, craft ever-stronger gear from your kills, and team up with up to three friends in the most successful game in Capcom''s history.', 'Capcom', 'Capcom', '2018-01-26', ARRAY['Action','RPG'], ARRAY['Co-op','Hunting','Crafting','Difficult','Third-Person'], ARRAY['Single-player','Online Co-op','Voice Chat','Controller Support','Achievements'], '/covers/monster-hunter-world.hero.jpg', '/covers/monster-hunter-world.box.jpg', 90, '$29.99', false),
+('rocket-league', 'Rocket League', 'Soccer meets driving in the high-flying, rocket-powered sports phenomenon.', 'Spring for the ball, wall-drive, backflip, and score impossible aerial goals in the world''s most exciting vehicle-soccer hybrid. Free to play with fast matches, deep mechanics, and a thriving esports scene, Rocket League is endlessly replayable competition.', 'Psyonix', 'Psyonix', '2015-07-07', ARRAY['Sports','Racing','Free to Play'], ARRAY['Multiplayer','PvP','Competitive','Team-Based','Fast-Paced'], ARRAY['Online PvP','Cross-Platform Play','Split-screen','Controller Support','Leaderboards'], '/covers/rocket-league.hero.jpg', '/covers/rocket-league.box.jpg', 86, 'Free', false),
+('apex-legends', 'Apex Legends', 'A squad-based battle royale with fluid movement and unforgettable heroes.', 'Choose from a roster of legendary characters with unique abilities and fight in three-person squads across fast, fluid battle royale matches. With refined gunplay, innovative ping systems, and constant seasonal content, Apex remains a top competitive shooter.', 'Respawn Entertainment', 'Electronic Arts', '2019-02-04', ARRAY['Shooter','Action','Free to Play'], ARRAY['Battle Royale','Multiplayer','PvP','Hero Shooter','Team-Based'], ARRAY['Online PvP','Cross-Platform Play','Voice Chat','Controller Support','Leaderboards'], '/covers/apex-legends.hero.jpg', '/covers/apex-legends.box.jpg', 88, 'Free', false),
+('valheim', 'Valheim', 'A brutal Viking survival saga for one to ten players.', 'Prove your worth to the Norse gods by conquering a procedurally generated world of forests, mountains, and seas. Build longhalls, craft legendary weapons, and summon and slay ancient beasts. Deep survival mechanics and cooperative play make Valheim a phenomenon.', 'Iron Gate AB', 'Coffee Stain Publishing', '2021-02-02', ARRAY['Survival','Adventure','Indie'], ARRAY['Co-op','Crafting','Open World','Vikings','Base Building'], ARRAY['Single-player','Online Co-op','Cloud Saves','Steam Workshop'], '/covers/valheim.hero.jpg', '/covers/valheim.box.jpg', 93, '$19.99', false),
+('among-us', 'Among Us', 'Work together to keep your ship alive — but watch out for the impostor.', 'A party game of teamwork and betrayal. Complete tasks aboard a spaceship with your crewmates, while one of you quietly sabotages everything and picks off the crew. Deduce, debate, and vote out the impostor — the ultimate social deduction game.', 'InnerSloth', 'InnerSloth', '2018-06-15', ARRAY['Party','Casual','Indie'], ARRAY['Social Deduction','Multiplayer','Co-op','Memes','Short'], ARRAY['Online Co-op','Local Co-op','Voice Chat','Cross-Platform Play'], '/covers/among-us.hero.jpg', '/covers/among-us.box.jpg', 85, '$4.99', false),
+('fall-guys', 'Fall Guys', 'Wobble, tumble, and scramble through chaotic obstacle-course battle royale.', 'Race through wild obstacle courses, bounce through team games, and survive elimination rounds against dozens of others — all as a adorable bean person. Free to play and irresistibly silly, Fall Guys is pure party-game joy.', 'Mediatonic', 'Epic Games', '2020-08-04', ARRAY['Party','Action','Free to Play'], ARRAY['Battle Royale','Multiplayer','PvP','Family Friendly','Funny'], ARRAY['Online PvP','Cross-Platform Play','Controller Support','Leaderboards'], '/covers/fall-guys.hero.jpg', '/covers/fall-guys.box.jpg', 80, 'Free', false),
+('civilization-vi', 'Sid Meier''s Civilization VI', 'Build an empire to stand the test of time in the definitive 4X strategy game.', 'Lead a civilization from the first settlement to the space age. Research technologies, wage wars, spread religions, and shape history alongside leaders from across time. The famous "one more turn" hook has never been more addictive.', 'Firaxis Games', '2K Games', '2016-10-21', ARRAY['Strategy','Simulation'], ARRAY['Turn-Based','4X','Historical','Single-player','Multiplayer'], ARRAY['Single-player','Online PvP','Online Co-op','Cloud Saves','Achievements'], '/covers/civilization-vi.hero.jpg', '/covers/civilization-vi.box.jpg', 88, '$59.99', false),
+('nba-2k24', 'NBA 2K24', 'The most authentic basketball simulation, with all your favorite teams and stars.', 'Experience NBA basketball with lifelike graphics, authentic rosters, and deep game modes. Build a dynasty in MyCareer, relive Kobe Bryant''s legendary career in Mamba Moments, and dominate the hardwood in this year''s premier basketball sim.', 'Visual Concepts', '2K Sports', '2023-09-08', ARRAY['Sports','Simulation'], ARRAY['Basketball','Multiplayer','PvP','Licensed','Career'], ARRAY['Single-player','Online PvP','Local Co-op','Controller Support','Cross-Platform Play'], '/covers/nba-2k24.hero.jpg', '/covers/nba-2k24.box.jpg', 67, '$59.99', false);
+
+INSERT INTO game_prices (game_id, platform_id, price, regular_price, currency, store_url, on_sale)
+SELECT g.id, p.platform_id, p.price, p.regular_price, 'USD', p.store_url, p.on_sale
+FROM games g
+JOIN (VALUES
+  ('pubg-battlegrounds', 1, 0.00, 0.00, 'https://store.steampowered.com', false),
+  ('portal-2', 1, 9.99, 9.99, 'https://store.steampowered.com', false),
+  ('cities-skylines', 1, 29.99, 29.99, 'https://store.steampowered.com', false),
+  ('cities-skylines', 6, 29.99, 29.99, 'https://www.gog.com', false),
+  ('dark-souls-iii', 1, 39.99, 39.99, 'https://store.steampowered.com', false),
+  ('dark-souls-iii', 3, 39.99, 39.99, 'https://www.xbox.com/store', false),
+  ('dark-souls-iii', 4, 39.99, 39.99, 'https://store.playstation.com', false),
+  ('monster-hunter-world', 1, 29.99, 29.99, 'https://store.steampowered.com', false),
+  ('monster-hunter-world', 3, 29.99, 29.99, 'https://www.xbox.com/store', false),
+  ('monster-hunter-world', 4, 29.99, 29.99, 'https://store.playstation.com', false),
+  ('rocket-league', 1, 0.00, 0.00, 'https://store.steampowered.com', false),
+  ('rocket-league', 2, 0.00, 0.00, 'https://store.epicgames.com', false),
+  ('rocket-league', 3, 0.00, 0.00, 'https://www.xbox.com/store', false),
+  ('rocket-league', 4, 0.00, 0.00, 'https://store.playstation.com', false),
+  ('rocket-league', 5, 0.00, 0.00, 'https://www.nintendo.com/us/store', false),
+  ('apex-legends', 1, 0.00, 0.00, 'https://store.steampowered.com', false),
+  ('apex-legends', 3, 0.00, 0.00, 'https://www.xbox.com/store', false),
+  ('apex-legends', 4, 0.00, 0.00, 'https://store.playstation.com', false),
+  ('valheim', 1, 19.99, 19.99, 'https://store.steampowered.com', false),
+  ('valheim', 3, 19.99, 19.99, 'https://www.xbox.com/store', false),
+  ('among-us', 1, 4.99, 4.99, 'https://store.steampowered.com', false),
+  ('among-us', 2, 4.99, 4.99, 'https://store.epicgames.com', false),
+  ('among-us', 5, 4.99, 4.99, 'https://www.nintendo.com/us/store', false),
+  ('fall-guys', 1, 0.00, 0.00, 'https://store.steampowered.com', false),
+  ('fall-guys', 2, 0.00, 0.00, 'https://store.epicgames.com', false),
+  ('fall-guys', 3, 0.00, 0.00, 'https://www.xbox.com/store', false),
+  ('fall-guys', 4, 0.00, 0.00, 'https://store.playstation.com', false),
+  ('fall-guys', 5, 0.00, 0.00, 'https://www.nintendo.com/us/store', false),
+  ('civilization-vi', 1, 59.99, 59.99, 'https://store.steampowered.com', false),
+  ('civilization-vi', 3, 29.99, 59.99, 'https://www.xbox.com/store', true),
+  ('civilization-vi', 4, 59.99, 59.99, 'https://store.playstation.com', false),
+  ('civilization-vi', 5, 59.99, 59.99, 'https://www.nintendo.com/us/store', false),
+  ('civilization-vi', 6, 59.99, 59.99, 'https://www.gog.com', false),
+  ('nba-2k24', 1, 59.99, 59.99, 'https://store.steampowered.com', false),
+  ('nba-2k24', 3, 59.99, 59.99, 'https://www.xbox.com/store', false),
+  ('nba-2k24', 4, 59.99, 59.99, 'https://store.playstation.com', false),
+  ('nba-2k24', 5, 59.99, 59.99, 'https://www.nintendo.com/us/store', false)
+) AS p(game_slug, platform_id, price, regular_price, store_url, on_sale)
+ON p.game_slug = g.slug;
