@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Safe fallback so deep links work if routing ever moves off hash-based routes.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
