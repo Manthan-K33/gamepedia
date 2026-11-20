@@ -14,7 +14,6 @@ import {
   Users,
   Cpu,
   BookOpen,
-  Clock,
   BarChart3,
 } from 'lucide-react';
 import type { Game } from '@/lib/types';

@@ -124,7 +124,7 @@ function hashString(s: string): number {
   return h;
 }
 
-export function getCoverStyle(slug: string): CoverStyle {
+function getCoverStyle(slug: string): CoverStyle {
   if (COVER_STYLES[slug]) return COVER_STYLES[slug];
   return FALLBACK_STYLES[hashString(slug) % FALLBACK_STYLES.length];
 }
