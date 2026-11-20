@@ -43,7 +43,32 @@ The anon key is a public, RLS-scoped key intended for browser use. Never put a
 | `npm run typecheck` | `tsc --noEmit` over the app project |
 | `npm run lint` | ESLint |
 
-## Deploying to Netlify
+## Deploying
+
+Two free static hosts are supported. Both need only the built `dist/` directory,
+because the Supabase env vars are baked in at build time.
+
+### Cloudflare Pages (current production host)
+
+```sh
+npm run build
+wrangler pages deploy dist --project-name gamepedia --branch main
+```
+
+First-time setup:
+
+```sh
+npm i -g wrangler
+wrangler login
+wrangler pages project create gamepedia --production-branch main
+```
+
+Pages projects are public by default. `public/_redirects` provides the SPA
+fallback (`/* /index.html 200`). For Git-based continuous deploys, connect the
+repository in the Cloudflare dashboard with build command `npm run build`,
+output directory `dist`, and the two `VITE_SUPABASE_*` variables.
+
+### Netlify (alternative)
 
 The app is a static SPA, so Netlify's free tier runs it with no server code.
 
@@ -66,6 +91,10 @@ in locally, so nothing needs configuring in the dashboard.
    *Site configuration → Environment variables*.
 
 Every push to the production branch then rebuilds and redeploys for free.
+
+> On credit-based Free plans, new Netlify projects start **private** (team login
+> required). Change that under *Project configuration → General → Visitor access →
+> Project visibility → Public*. There is no API/CLI for this setting.
 
 ## Project layout
 
