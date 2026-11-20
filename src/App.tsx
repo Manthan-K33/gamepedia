@@ -75,6 +75,40 @@ export default function App() {
 
   const openGame = (slug: string) => navigate(`/game/${slug}`);
 
+  const openWithFilters = (patch: Partial<Filters>) => {
+    setFilters({ ...DEFAULT_FILTERS, ...patch });
+    navigate('/browse');
+  };
+
+  const filterByPlatform = (label: string) => {
+    const norm = label.toLowerCase();
+    const exact = platforms.find((p) => p.name.toLowerCase() === norm);
+    if (exact) {
+      openWithFilters({ platforms: [exact.id] });
+      return;
+    }
+    // Console names ("PlayStation 4/5") map to their storefront ("PlayStation").
+    const fuzzy = platforms.filter((p) => {
+      const name = p.name.toLowerCase();
+      return norm.includes(name) || name.includes(norm);
+    });
+    if (fuzzy.length > 0) {
+      openWithFilters({ platforms: fuzzy.map((p) => p.id) });
+      return;
+    }
+    // "PC" spans several storefronts.
+    if (/^pc\b/i.test(label)) {
+      const pcStores = platforms.filter((p) =>
+        ['steam', 'epic games store', 'gog'].includes(p.name.toLowerCase())
+      );
+      if (pcStores.length > 0) {
+        openWithFilters({ platforms: pcStores.map((p) => p.id) });
+        return;
+      }
+    }
+    openWithFilters({ search: label });
+  };
+
   const searchChanged = (value: string) => {
     setFilters((f) => ({ ...f, search: value }));
   };
@@ -113,12 +147,26 @@ export default function App() {
             g.genres.some((gen) => game.genres.includes(gen))
         )
         .slice(0, 5);
+      const seriesGames = game.series
+        ? games
+            .filter(
+              (g) =>
+                g.slug !== game.slug &&
+                g.series !== null &&
+                g.series === game.series
+            )
+            .slice(0, 5)
+        : [];
       content = (
         <GameDetail
           game={game}
           related={related}
+          seriesGames={seriesGames}
           onOpenGame={openGame}
           onBack={() => navigate('/')}
+          onFilterGenre={(genre) => openWithFilters({ genres: [genre] })}
+          onFilterTag={(tag) => openWithFilters({ tags: [tag] })}
+          onFilterPlatform={filterByPlatform}
         />
       );
     } else {
