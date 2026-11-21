@@ -1,5 +1,13 @@
-import { supabase } from './supabase';
+import catalog from '@/data/catalog.json';
 import type { Game, Platform, Price } from './types';
+
+// The catalog ships with the build (npm run data:export refreshes it), so the
+// site renders without any network call to a database.
+const SNAPSHOT = catalog as unknown as {
+  generated_at: string;
+  games: Game[];
+  platforms: Platform[];
+};
 
 const FALLBACK_PLATFORMS: Platform[] = [
   { id: 1, name: 'Steam', slug: 'steam', color: '#1b2838' },
@@ -10,31 +18,21 @@ const FALLBACK_PLATFORMS: Platform[] = [
   { id: 6, name: 'GOG', slug: 'gog', color: '#86328c' },
 ];
 
+export function catalogUpdatedAt(): string {
+  return SNAPSHOT.generated_at;
+}
+
 export async function fetchPlatforms(): Promise<Platform[]> {
-  const { data, error } = await supabase
-    .from('platforms')
-    .select('id, name, slug, color')
-    .order('id');
-  if (error || !data || data.length === 0) return FALLBACK_PLATFORMS;
+  const data = SNAPSHOT.platforms;
+  if (!data || data.length === 0) return FALLBACK_PLATFORMS;
   return data;
 }
 
 export async function fetchGames(): Promise<Game[]> {
-  const { data, error } = await supabase
-    .from('games')
-    .select(
-      `*,
-      game_prices (
-        id, platform_id, price, regular_price, currency, store_url, on_sale,
-        platforms ( id, name, slug, color )
-      )`
-    )
-    .order('title');
-
-  if (error) throw new Error(error.message);
+  const data = SNAPSHOT.games;
   if (!data) return [];
 
-  return (data as Game[]).map((g) => ({
+  return data.map((g) => ({
     ...g,
     game_prices: (g.game_prices ?? []).map((p) => ({
       ...p,

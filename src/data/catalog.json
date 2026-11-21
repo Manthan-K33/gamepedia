@@ -1,0 +1,5469 @@
+{
+  "generated_at": "2026-11-21T04:39:58.931Z",
+  "source": "ywwyppgegsfyxljwgdfv.supabase.co",
+  "games": [
+    {
+      "id": "3a0b4f64-9472-4232-a870-3ae750c75174",
+      "slug": "among-us",
+      "title": "Among Us",
+      "short_description": "Work together to keep your ship alive — but watch out for the impostor.",
+      "about": "A party game of teamwork and betrayal. Complete tasks aboard a spaceship with your crewmates, while one of you quietly sabotages everything and picks off the crew. Deduce, debate, and vote out the impostor — the ultimate social deduction game.",
+      "developer": "InnerSloth",
+      "publisher": "InnerSloth",
+      "release_date": "2018-06-15",
+      "genres": [
+        "Party",
+        "Casual",
+        "Indie"
+      ],
+      "tags": [
+        "Social Deduction",
+        "Multiplayer",
+        "Co-op",
+        "Memes",
+        "Short"
+      ],
+      "features": [
+        "Online Co-op",
+        "Local Co-op",
+        "Voice Chat",
+        "Cross-Platform Play"
+      ],
+      "hero_image": "/covers/among-us.hero.jpg",
+      "box_image": "/covers/among-us.box.jpg",
+      "rating": 85,
+      "price_display": "$4.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Online Co-op",
+        "Online PvP",
+        "Local Co-op"
+      ],
+      "esrb_rating": "E10+ (Everyone 10+)",
+      "engine": "Unity",
+      "series": "N/A",
+      "metacritic_score": 85,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "500+ million players at its 2020 peak",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Mobile Game 2020 (The Game Awards)",
+        "Best Multiplayer 2020 nominee"
+      ],
+      "trivia": [
+        "It was released in 2018 but exploded in popularity in mid-2020",
+        "Congresswoman Alexandria Ocasio-Cortez played it live on Twitch to encourage voting",
+        "The words \"sus\" and \"impostor\" entered internet slang worldwide",
+        "Its crewmate design was inspired by a doodle of a jelly bean"
+      ],
+      "game_prices": [
+        {
+          "id": "aea4434c-df12-41b0-9030-a17f9c5efd77",
+          "price": 4.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 4.99
+        },
+        {
+          "id": "943ef733-3d7b-4d64-93c6-fdb0567e3fe1",
+          "price": 4.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 4.99
+        },
+        {
+          "id": "92d74e6c-ea2c-4984-a7fc-32226b694acc",
+          "price": 4.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 4.99
+        }
+      ]
+    },
+    {
+      "id": "b5760c21-1437-4da7-a91f-192cd6aee0fd",
+      "slug": "animal-crossing-new-horizons",
+      "title": "Animal Crossing: New Horizons",
+      "short_description": "Escape to a peaceful island paradise you can shape as you like.",
+      "about": "Build your own island getaway, meet charming animal villagers, catch bugs and fish, decorate your home, and live life at your own pace. A gentle, ever-changing world that rewards daily visits and creativity — the ultimate cozy game.",
+      "developer": "Nintendo EPD",
+      "publisher": "Nintendo",
+      "release_date": "2020-03-20",
+      "genres": [
+        "Simulation",
+        "Adventure"
+      ],
+      "tags": [
+        "Cozy",
+        "Life Sim",
+        "Crafting",
+        "Relaxing",
+        "Multiplayer"
+      ],
+      "features": [
+        "Single-player",
+        "Local Co-op",
+        "Online Co-op",
+        "Controller Support"
+      ],
+      "hero_image": "/covers/animal-crossing-new-horizons.jpg",
+      "box_image": "/covers/animal-crossing-new-horizons.jpg",
+      "rating": 90,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Local Co-op",
+        "Online Co-op"
+      ],
+      "esrb_rating": "E (Everyone)",
+      "engine": "In-house (Nintendo EPD)",
+      "series": "Animal Crossing",
+      "metacritic_score": 90,
+      "steam_reviews_label": "Positive (not on Steam)",
+      "player_count": "45+ million copies sold; best-selling Nintendo Switch exclusive",
+      "main_story_hours": 60,
+      "completionist_hours": 350,
+      "awards": [
+        "Best Family Game 2020 (The Game Awards)",
+        "BAFTA Game of the Year 2021"
+      ],
+      "trivia": [
+        "It became a cultural phenomenon during 2020's pandemic lockdowns",
+        "Players recreated famous museums, fashion shows, and even weddings on their islands",
+        "Turnip trading (\"the Stalk Market\") became a real economic mini-game for fans",
+        "A fan-made Animal Crossing run set a world record for most Bells earned"
+      ],
+      "game_prices": [
+        {
+          "id": "83b2ef21-259e-477c-b770-4cc887cf13a0",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "660a3b51-d2ac-41c7-929f-644329c9b18c",
+      "slug": "apex-legends",
+      "title": "Apex Legends",
+      "short_description": "A squad-based battle royale with fluid movement and unforgettable heroes.",
+      "about": "Choose from a roster of legendary characters with unique abilities and fight in three-person squads across fast, fluid battle royale matches. With refined gunplay, innovative ping systems, and constant seasonal content, Apex remains a top competitive shooter.",
+      "developer": "Respawn Entertainment",
+      "publisher": "Electronic Arts",
+      "release_date": "2019-02-04",
+      "genres": [
+        "Shooter",
+        "Action",
+        "Free to Play"
+      ],
+      "tags": [
+        "Battle Royale",
+        "Multiplayer",
+        "PvP",
+        "Hero Shooter",
+        "Team-Based"
+      ],
+      "features": [
+        "Online PvP",
+        "Cross-Platform Play",
+        "Voice Chat",
+        "Controller Support",
+        "Leaderboards"
+      ],
+      "hero_image": "/covers/apex-legends.hero.jpg",
+      "box_image": "/covers/apex-legends.box.jpg",
+      "rating": 88,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Online PvP",
+        "Squad-based (Trios, Duos)"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "Source (Respawn fork)",
+      "series": "Titanfall",
+      "metacritic_score": 88,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "130+ million players worldwide",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2019 (The Game Awards)",
+        "Best Ongoing Game 2020 nominee"
+      ],
+      "trivia": [
+        "It launched with zero marketing and hit 25 million players in one week",
+        "Its ping system revolutionized communication in shooters",
+        "Characters like Wraith and Octane became pop-culture icons",
+        "Titanfall's wall-running movement was refined into Apex's slide and climb system"
+      ],
+      "game_prices": [
+        {
+          "id": "8421a21b-01d9-46e6-ac1f-9f6efaf32ac9",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        },
+        {
+          "id": "fea10e96-414d-42da-ab6c-b5a46984feba",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 0
+        },
+        {
+          "id": "edcb1336-17f0-4831-a93d-74dea5d898c5",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "6bb53ce9-495e-450b-a732-169a76185c9d",
+      "slug": "ark-survival-evolved",
+      "title": "ARK: Survival Evolved",
+      "short_description": "Tame dinosaurs and survive a mysterious prehistoric world.",
+      "about": "Wake up on a mysterious island filled with dinosaurs and other survivors. Tame and ride creatures from the T-rex to the dragon, build fortresses, craft technology, and uncover the mysteries of ARK — solo or with up to ten-player tribes.",
+      "developer": "Studio Wildcard",
+      "publisher": "Studio Wildcard",
+      "release_date": "2017-08-29",
+      "genres": [
+        "Survival",
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "Dinosaurs",
+        "Multiplayer",
+        "Crafting",
+        "Open World",
+        "Taming"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op",
+        "Controller Support",
+        "Steam Workshop"
+      ],
+      "hero_image": "/covers/ark-survival-evolved.hero.jpg",
+      "box_image": "/covers/ark-survival-evolved.box.jpg",
+      "rating": 76,
+      "price_display": "$9.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "Unreal Engine 4",
+      "series": "ARK",
+      "metacritic_score": 76,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "35+ million copies sold",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Survival Game 2017 nominee (multiple outlets)"
+      ],
+      "trivia": [
+        "Players can tame and ride over 150 species of dinosaurs",
+        "Its lore reveals the island is actually a space station",
+        "The ARK survival of the fittest mode became an esports tournament",
+        "Vin Diesel narrated the game's 2023 sequel, ARK 2"
+      ],
+      "game_prices": [
+        {
+          "id": "0806fe23-f226-4ada-8d3d-2dec78662dbe",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 9.99
+        },
+        {
+          "id": "c6d5edf1-b6fa-4c03-b64f-ef161978a02c",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 9.99
+        },
+        {
+          "id": "e1d5ae84-7ebe-4ee8-9cd7-b95a9245b3f0",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 9.99
+        },
+        {
+          "id": "818b024c-bf4c-4b87-a78a-5d695e6d69f5",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "dbb5a6fe-c8c1-418d-a306-b1a814015bda",
+      "slug": "baldur-s-gate-3",
+      "title": "Baldur's Gate 3",
+      "short_description": "Gather your party and return to the Forgotten Realms in this epic RPG.",
+      "about": "An epic narrative RPG set in the world of Dungeons & Dragons. Forge your destiny through hundreds of choices, turn-based tactical combat, and a sprawling story of up to 4-player co-op. Baldur's Gate 3 redefines what a CRPG can be, with unforgettable characters and truly reactive storytelling.",
+      "developer": "Larian Studios",
+      "publisher": "Larian Studios",
+      "release_date": "2023-08-03",
+      "genres": [
+        "RPG",
+        "Strategy",
+        "Adventure"
+      ],
+      "tags": [
+        "Turn-Based",
+        "Story Rich",
+        "Co-op",
+        "Character Customization",
+        "Choices Matter"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op",
+        "Controller Support",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/baldur-s-gate-3.jpg",
+      "box_image": "/covers/baldur-s-gate-3.jpg",
+      "rating": 96,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 5",
+        "Xbox Series X|S",
+        "macOS"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op (Split-screen)"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Divinity 4.0",
+      "series": "Baldur's Gate",
+      "metacritic_score": 96,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "15+ million copies sold; a record-breaking turn-based RPG",
+      "main_story_hours": 75,
+      "completionist_hours": 159,
+      "awards": [
+        "Game of the Year 2023 (The Game Awards)",
+        "Best RPG 2023",
+        "Best Community Support 2023",
+        "BAFTA Best Game 2024"
+      ],
+      "trivia": [
+        "Over 170 hours of cinematic cutscenes — more than any game ever made",
+        "It was in early access for nearly 3 years, shaped by millions of player decisions",
+        "Larian's CEO Sven Vincke bought the D&D license personally after Wizards of the Coast passed",
+        "The Dark Urge origin can be played as an evil campaign with unique scenes"
+      ],
+      "game_prices": [
+        {
+          "id": "e1a2681a-7e3c-4889-abf8-1052e8dc53bf",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 69.99
+        },
+        {
+          "id": "c1fa95d8-383a-4915-a815-306adee63501",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 69.99
+        },
+        {
+          "id": "b9967610-a823-40fc-a65d-f9e79efd2af1",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 59.99
+        },
+        {
+          "id": "949626f2-619f-4a44-b16e-83468fdfca63",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "dfcc8105-c8c4-4288-9893-d3cbf4274229",
+      "slug": "cities-skylines",
+      "title": "Cities: Skylines",
+      "short_description": "The definitive modern city builder, with deep systems and endless creativity.",
+      "about": "Design, build, and manage the metropolis of your dreams. With intricate traffic simulation, zoning, public services, and economy systems, Cities: Skylines is the deepest city builder ever made — and a relaxing creative sandbox all at once.",
+      "developer": "Colossal Order",
+      "publisher": "Paradox Interactive",
+      "release_date": "2015-03-10",
+      "genres": [
+        "Simulation",
+        "Strategy",
+        "Indie"
+      ],
+      "tags": [
+        "City Builder",
+        "Management",
+        "Relaxing",
+        "Creative",
+        "Sandbox"
+      ],
+      "features": [
+        "Single-player",
+        "Steam Workshop",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/cities-skylines.hero.jpg",
+      "box_image": "/covers/cities-skylines.box.jpg",
+      "rating": 85,
+      "price_display": "$29.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "E (Everyone)",
+      "engine": "Unity",
+      "series": "Cities",
+      "metacritic_score": 85,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "12+ million copies sold",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Simulation Game 2015 (multiple outlets)"
+      ],
+      "trivia": [
+        "It was created as the long-awaited successor to SimCity after SimCity's 2013 flop",
+        "Every citizen is individually simulated, with a job, home, and commute",
+        "Its traffic system is so accurate it's used in urban planning lectures",
+        "Paradox turned it into a franchise with three major expansions and a sequel"
+      ],
+      "game_prices": [
+        {
+          "id": "79e15575-910c-4c92-a8dc-0067fb2872e8",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 29.99
+        },
+        {
+          "id": "5c49e473-d3b8-432a-96cc-e89681f744ca",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 6,
+            "name": "GOG",
+            "slug": "gog",
+            "color": "#86328c"
+          },
+          "store_url": "https://www.gog.com",
+          "platform_id": 6,
+          "regular_price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "f5bd493b-e20d-4ba5-bb9f-b9b5b7fa53d0",
+      "slug": "counter-strike-2",
+      "title": "Counter-Strike 2",
+      "short_description": "The world's premier competitive FPS, rebuilt on a new engine.",
+      "about": "Counter-Strike 2 is the largest technical leap in Counter-Strike history, with new volumetric smoke, upgraded maps, and reworked lighting. The definitive tactical shooter where precision, teamwork, and a thriving competitive scene make every round count.",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "release_date": "2023-09-27",
+      "genres": [
+        "Shooter",
+        "Action",
+        "Free to Play"
+      ],
+      "tags": [
+        "FPS",
+        "Competitive",
+        "Multiplayer",
+        "PvP",
+        "Team-Based"
+      ],
+      "features": [
+        "Online PvP",
+        "Cross-Platform Play",
+        "Leaderboards",
+        "Voice Chat"
+      ],
+      "hero_image": "/covers/counter-strike-2.hero.jpg",
+      "box_image": "/covers/counter-strike-2.box.jpg",
+      "rating": 83,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation (via streaming)",
+        "Xbox (via streaming)"
+      ],
+      "game_modes": [
+        "Online PvP"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Source 2",
+      "series": "Counter-Strike",
+      "metacritic_score": 83,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "1.8+ million peak concurrent players on Steam; one of the most-played PC shooters",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Esports Game of the Year 2023 nominee",
+        "Longest-running competitive FPS franchise in history"
+      ],
+      "trivia": [
+        "Counter-Strike began as a Half-Life mod by Minh Le and Jess Cliffe in 1999",
+        "Its competitive format is still the industry's default for 5v5 shooters",
+        "Every map was rebuilt from scratch for Source 2",
+        "The economy system — earning money each round — remains a genre innovation"
+      ],
+      "game_prices": [
+        {
+          "id": "1af6b7f8-12cf-4039-9d67-83f6379469d6",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "deb0d6f1-d256-4906-841d-521f99cde4b9",
+      "slug": "cyberpunk-2077",
+      "title": "Cyberpunk 2077",
+      "short_description": "An open-world action-adventure story set in Night City.",
+      "about": "Become a cyberpunk mercenary in the megalopolis of Night City, where style and violence meet in a dystopian future. With the heart-pounding story of the Phantom Liberty expansion and the vibrant open world, Cyberpunk 2077 is a thrilling RPG of ambition, body modification, and neon-lit danger.",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "release_date": "2020-12-10",
+      "genres": [
+        "RPG",
+        "Action",
+        "Shooter"
+      ],
+      "tags": [
+        "Open World",
+        "Cyberpunk",
+        "Story Rich",
+        "First-Person",
+        "Sci-fi"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Achievements",
+        "Cloud Saves"
+      ],
+      "hero_image": "/covers/cyberpunk-2077.jpg",
+      "box_image": "/covers/cyberpunk-2077.jpg",
+      "rating": 86,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "REDengine 4",
+      "series": "Cyberpunk",
+      "metacritic_score": 86,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "30+ million copies sold; a comeback story after a rocky launch",
+      "main_story_hours": 103,
+      "completionist_hours": 170,
+      "awards": [
+        "Best RPG 2020 (multiple outlets)",
+        "Golden Joystick Most Wanted 2020 (pre-release)"
+      ],
+      "trivia": [
+        "Keanu Reeves' character Johnny Silverhand was written specifically for him",
+        "Its controversial 2020 launch led to class-action lawsuits and a PlayStation Store removal",
+        "The Phantom Liberty expansion, released in 2023, was widely praised as a redemption arc",
+        "Its Night City map was built with real city-planning software"
+      ],
+      "game_prices": [
+        {
+          "id": "24cbcd3f-932a-4f10-a7e6-9c6b39f703b6",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 59.99
+        },
+        {
+          "id": "29982cb0-66c7-4601-a330-01b62593813a",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        },
+        {
+          "id": "839bf554-5a14-4acd-82c4-7bb58ec89ac9",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "06afda6d-a310-4723-8c57-9a0624eb10d2",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 59.99
+        },
+        {
+          "id": "46eb5c3f-d7c4-4df6-ae50-e720c79818aa",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "1e540e0b-998f-40c9-a345-ddd40254293f",
+      "slug": "dark-souls-iii",
+      "title": "Dark Souls III",
+      "short_description": "The fires are fading in the brutal finale of the legendary Souls trilogy.",
+      "about": "Journey to a dying world of crumbling kingdoms and monstrous lords of cinder. With ferociously demanding combat, intricate level design, and a haunting atmosphere, Dark Souls III is FromSoftware's acclaimed trilogy-capper — a challenge like nothing else.",
+      "developer": "FromSoftware",
+      "publisher": "Bandai Namco Entertainment",
+      "release_date": "2016-04-12",
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "tags": [
+        "Souls-like",
+        "Difficult",
+        "Dark Fantasy",
+        "Atmospheric",
+        "Single-player"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/dark-souls-iii.hero.jpg",
+      "box_image": "/covers/dark-souls-iii.box.jpg",
+      "rating": 89,
+      "price_display": "$39.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "In-house (FromSoftware)",
+      "series": "Souls",
+      "metacritic_score": 89,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "10+ million copies sold",
+      "main_story_hours": 32,
+      "completionist_hours": 60,
+      "awards": [
+        "Golden Joystick Ultimate Game of the Year 2016 nominee"
+      ],
+      "trivia": [
+        "Its final DLC, The Ringed City, closes the entire Dark Souls saga",
+        "The soul level 1 run — beating the game without leveling — remains a legendary challenge",
+        "Firelink Shrine's music is an orchestral variation of the series' theme",
+        "Its combat is faster than Dark Souls 1 and 2, closer to Bloodborne"
+      ],
+      "game_prices": [
+        {
+          "id": "12800c37-56e3-44b5-98b9-f1f12e8f7ca2",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 39.99
+        },
+        {
+          "id": "9f06c74f-3c16-49a5-9e22-1f20bc582104",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 39.99
+        },
+        {
+          "id": "15053884-0dab-4ab8-a237-4cd25dd3cfa2",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 39.99
+        }
+      ]
+    },
+    {
+      "id": "15dfd122-9dcd-441f-b383-12a8e712b0e8",
+      "slug": "dead-by-daylight",
+      "title": "Dead by Daylight",
+      "short_description": "Four survivors, one killer — a multiplayer horror where every match is a slasher film.",
+      "about": "One player becomes the Killer; four must repair generators and escape. With iconic horror villains like Michael Myers and Leatherface, tense cat-and-mouse gameplay, and years of new content, Dead by Daylight is the definitive asymmetric horror game.",
+      "developer": "Behaviour Interactive",
+      "publisher": "Behaviour Interactive",
+      "release_date": "2016-06-14",
+      "genres": [
+        "Horror",
+        "Action",
+        "Multiplayer"
+      ],
+      "tags": [
+        "Asymmetric",
+        "PvP",
+        "Multiplayer",
+        "Stealth",
+        "Slasher"
+      ],
+      "features": [
+        "Online PvP",
+        "Voice Chat",
+        "Controller Support",
+        "Cross-Platform Play"
+      ],
+      "hero_image": "/covers/dead-by-daylight.hero.jpg",
+      "box_image": "/covers/dead-by-daylight.box.jpg",
+      "rating": 80,
+      "price_display": "$19.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Online PvP (Asymmetric 4v1)"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Unreal Engine 4",
+      "series": "N/A",
+      "metacritic_score": 80,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "60+ million players",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2016 nominee (The Game Awards)"
+      ],
+      "trivia": [
+        "Licensed killers include Michael Myers, Leatherface, Nemesis, and Vecna",
+        "Each match is a slasher film with a different ending",
+        "Its fog, generators, and hooks are now genre shorthand",
+        "Behavior Interactive added original killers like The Trickster and The Artist"
+      ],
+      "game_prices": [
+        {
+          "id": "52780ea3-f47c-44dd-a8c0-9be6479f1cce",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 19.99
+        },
+        {
+          "id": "7ddddacb-73e6-48af-b7ce-ee211240dafc",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 19.99
+        },
+        {
+          "id": "a6b5cebf-4946-4516-a248-5bec49d0df73",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 19.99
+        },
+        {
+          "id": "e1723882-c0a9-4e47-a837-2375c2173fb1",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 19.99
+        }
+      ]
+    },
+    {
+      "id": "aa252fe8-f40c-409c-b258-9f5ac4700d66",
+      "slug": "death-stranding",
+      "title": "Death Stranding",
+      "short_description": "Connect a fractured America as a legendary deliveryman.",
+      "about": "In the aftermath of a catastrophe that blurred the line between life and death, sam porter Bridges crosses a hauntingly beautiful landscape to reconnect isolated cities. A one-of-a-kind journey about human connection, from the mind of Hideo Kojima.",
+      "developer": "Kojima Productions",
+      "publisher": "Sony Interactive Entertainment",
+      "release_date": "2020-07-14",
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "tags": [
+        "Open World",
+        "Story Rich",
+        "Single-player",
+        "Sci-fi",
+        "Atmospheric"
+      ],
+      "features": [
+        "Single-player",
+        "Async Multiplayer",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/death-stranding.hero.jpg",
+      "box_image": "/covers/death-stranding.box.jpg",
+      "rating": 82,
+      "price_display": "$19.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Async Multiplayer"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Decima",
+      "series": "Death Stranding",
+      "metacritic_score": 82,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "10+ million copies sold",
+      "main_story_hours": 40,
+      "completionist_hours": 105,
+      "awards": [
+        "Best Game Direction 2019 (The Game Awards)",
+        "Best Score/Music 2019"
+      ],
+      "trivia": [
+        "Its terrain traversal — balancing cargo while walking — is the core gameplay",
+        "Players' structures appear in each other's worlds asynchronously",
+        "Norman Reedus, Mads Mikkelsen, and Léa Seydoux star in it",
+        "A sequel, Death Stranding 2, was announced at The Game Awards 2022"
+      ],
+      "game_prices": [
+        {
+          "id": "640e1b4e-cc71-4969-bcda-e2cccf681088",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 19.99
+        },
+        {
+          "id": "b5577618-0d09-4a97-8024-99c59f327546",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 39.99
+        },
+        {
+          "id": "405a0508-b56b-4d04-89ec-a38c6cfa547f",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 19.99
+        }
+      ]
+    },
+    {
+      "id": "c7696fcc-edf4-4b6e-b183-e546ce0a933b",
+      "slug": "devil-may-cry-5",
+      "title": "Devil May Cry 5",
+      "short_description": "Over-the-top stylish action from the masters of the genre.",
+      "about": "Three demon hunters — Nero, Dante, and the mysterious V — wage war against the demonic invasion of Red Grave City. With impossibly fluid combat, deep style rankings, and pure arcade spectacle, DMC5 is the pinnacle of character-action games.",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "release_date": "2019-03-08",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "Character Action",
+        "Stylish",
+        "Third-Person",
+        "Fast-Paced",
+        "Boss Fights"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/devil-may-cry-5.hero.jpg",
+      "box_image": "/covers/devil-may-cry-5.box.jpg",
+      "rating": 89,
+      "price_display": "$29.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "RE Engine",
+      "series": "Devil May Cry",
+      "metacritic_score": 89,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "8+ million copies sold",
+      "main_story_hours": 11,
+      "completionist_hours": 75,
+      "awards": [
+        "Best Action Game 2019 nominee (The Game Awards)"
+      ],
+      "trivia": [
+        "Its style meter grades attacks from \"D\" to \"SSS\"",
+        "V, a new character, fights with summoned beasts instead of weapons",
+        "The Special Edition added Vergil as a playable character",
+        "Its soundtrack adapts to how stylishly the player fights"
+      ],
+      "game_prices": [
+        {
+          "id": "476eb8ec-ccc0-4103-8ee2-beedf5ce5155",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 29.99
+        },
+        {
+          "id": "0d9f3a2f-2700-4da2-97e2-87f637882c23",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 29.99
+        },
+        {
+          "id": "1136395d-abfb-4ed1-a069-354a073a8fca",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "521b8936-f7d5-4c76-baf6-abe8fac48503",
+      "slug": "doom-eternal",
+      "title": "DOOM Eternal",
+      "short_description": "Rip and tear through hell in the most aggressive shooter ever made.",
+      "about": "The legions of Hell have invaded Earth. As the Doom Slayer, you are the only thing standing between humanity and extinction. Chain together glory kills, devastating weapons, and relentless movement in a power-fantasy shooter that never lets up.",
+      "developer": "id Software",
+      "publisher": "Bethesda Softworks",
+      "release_date": "2020-03-20",
+      "genres": [
+        "Shooter",
+        "Action"
+      ],
+      "tags": [
+        "FPS",
+        "Fast-Paced",
+        "Single-player",
+        "Metal",
+        "Difficult"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/doom-eternal.png",
+      "box_image": "/covers/doom-eternal.png",
+      "rating": 90,
+      "price_display": "$29.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP (Battlemode)"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "id Tech 7",
+      "series": "Doom",
+      "metacritic_score": 88,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "10+ million copies sold",
+      "main_story_hours": 14,
+      "completionist_hours": 27,
+      "awards": [
+        "Best Action Game 2020 (multiple outlets)",
+        "Game of the Year 2020 nominee"
+      ],
+      "trivia": [
+        "Its \"Demon Slayer\" combat loop was designed to feel like a first-person action figure set",
+        "Mick Gordon, the composer, built the soundtrack with analog synthesizers and guitar feedback",
+        "The Series X/S versions run at 120 fps in performance mode",
+        "It runs on Nintendo Switch thanks to a port by Panic Button"
+      ],
+      "game_prices": [
+        {
+          "id": "8a036af0-ec68-4b6a-aa02-c87db4335be1",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 29.99
+        },
+        {
+          "id": "9d65bf4e-5993-476a-b176-75166e6ad12a",
+          "price": 19.99,
+          "on_sale": true,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 29.99
+        },
+        {
+          "id": "a855d08d-2644-4720-804b-d0dfef9f95c2",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 29.99
+        },
+        {
+          "id": "87cfea4d-0ec5-4ca3-9650-160d90c3290e",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "f4450e91-f466-4125-ad74-00b4590066b5",
+      "slug": "ea-sports-fc-24",
+      "title": "EA Sports FC 24",
+      "short_description": "The world's game, with millions of players and the most realistic football yet.",
+      "about": "Formerly FIFA, EA Sports FC 24 brings authentic football with real clubs, players, and leagues from around the world. With HyperMotionV technology, playing styles modeled on real pros, and modes like Ultimate Team and Career, it's the definitive football experience.",
+      "developer": "EA Vancouver",
+      "publisher": "EA Sports",
+      "release_date": "2023-09-29",
+      "genres": [
+        "Sports",
+        "Simulation"
+      ],
+      "tags": [
+        "Football",
+        "Multiplayer",
+        "PvP",
+        "Licensed",
+        "Ultimate Team"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Local Co-op",
+        "Controller Support",
+        "Cross-Platform Play"
+      ],
+      "hero_image": "/covers/ea-sports-fc-24.hero.jpg",
+      "box_image": "/covers/ea-sports-fc-24.box.jpg",
+      "rating": 78,
+      "price_display": "$69.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "E (Everyone)",
+      "engine": "In-house (EA Frostbite)",
+      "series": "FIFA / EA Sports FC",
+      "metacritic_score": 62,
+      "steam_reviews_label": "Mostly Negative (Steam) / Positive (console)",
+      "player_count": "The best-selling sports game franchise in history",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Guinness World Record for best-selling sports game franchise (as FIFA)"
+      ],
+      "trivia": [
+        "It was the first entry after EA and FIFA ended their 30-year partnership",
+        "HyperMotionV technology captures real match data from 180 pro matches",
+        "Its \"Ultimate Team\" mode remains one of gaming's largest economies",
+        "The switch from FIFA to FC cost EA the World Cup license but freed it to rename clubs"
+      ],
+      "game_prices": [
+        {
+          "id": "225cd8a9-557a-4f3d-8b68-1ea9677aadab",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 69.99
+        },
+        {
+          "id": "c021573c-3cc5-4530-8506-ea412a934faf",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 69.99
+        },
+        {
+          "id": "1292c7f7-5530-4a3b-bb89-f5c4a1255690",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 69.99
+        },
+        {
+          "id": "c3283ea6-4088-4190-913e-f46a44c65123",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 69.99
+        },
+        {
+          "id": "644fe523-3e35-4a2c-ac7e-dac87da6d652",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 69.99
+        }
+      ]
+    },
+    {
+      "id": "d12f3941-312f-423e-8988-5a8efbae6a3a",
+      "slug": "elden-ring",
+      "title": "Elden Ring",
+      "short_description": "A vast fantasy world of wonder and peril awaits in FromSoftware's biggest adventure yet.",
+      "about": "Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring. Explore the Lands Between, a breathtaking world filled with peril and wonder, and face demigods to become an Elden Lord. With deep, challenging combat and a vast open world co-created with George R. R. Martin, Elden Ring is a landmark action RPG.",
+      "developer": "FromSoftware",
+      "publisher": "Bandai Namco Entertainment",
+      "release_date": "2022-02-25",
+      "genres": [
+        "Action",
+        "RPG",
+        "Adventure"
+      ],
+      "tags": [
+        "Open World",
+        "Souls-like",
+        "Difficult",
+        "Dark Fantasy",
+        "Story Rich"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Online PvP",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/elden-ring.hero.jpg",
+      "box_image": "/covers/elden-ring.box.jpg",
+      "rating": 96,
+      "price_display": "$59.99",
+      "featured": true,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op",
+        "Async Multiplayer"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "In-house (FromSoftware)",
+      "series": "Souls",
+      "metacritic_score": 96,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "25+ million copies sold; one of the best-selling games of all time",
+      "main_story_hours": 60,
+      "completionist_hours": 132,
+      "awards": [
+        "Game of the Year 2022 (The Game Awards)",
+        "Best Art Direction 2022",
+        "Best RPG 2022 (Golden Joystick)"
+      ],
+      "trivia": [
+        "Sold 12 million copies in under a month, faster than any FromSoftware game",
+        "Hidetaka Miyazaki collaborated with George R. R. Martin on the world's lore",
+        "Its horse, Torrent, cannot die — only be resummoned",
+        "Speedrunners have beaten the game in under 3 minutes"
+      ],
+      "game_prices": [
+        {
+          "id": "ea41308e-5489-4518-b496-a5c15847c0b3",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "6b707853-24a6-4dfa-85ce-959b6eaea34c",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 69.99
+        },
+        {
+          "id": "50c60d55-2d52-4304-aa33-afb402e8fd83",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "381001e9-b9c1-4627-b634-bbd34a08d9a2",
+      "slug": "fall-guys",
+      "title": "Fall Guys",
+      "short_description": "Wobble, tumble, and scramble through chaotic obstacle-course battle royale.",
+      "about": "Race through wild obstacle courses, bounce through team games, and survive elimination rounds against dozens of others — all as a adorable bean person. Free to play and irresistibly silly, Fall Guys is pure party-game joy.",
+      "developer": "Mediatonic",
+      "publisher": "Epic Games",
+      "release_date": "2020-08-04",
+      "genres": [
+        "Party",
+        "Action",
+        "Free to Play"
+      ],
+      "tags": [
+        "Battle Royale",
+        "Multiplayer",
+        "PvP",
+        "Family Friendly",
+        "Funny"
+      ],
+      "features": [
+        "Online PvP",
+        "Cross-Platform Play",
+        "Controller Support",
+        "Leaderboards"
+      ],
+      "hero_image": "/covers/fall-guys.hero.jpg",
+      "box_image": "/covers/fall-guys.box.jpg",
+      "rating": 80,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "E (Everyone)",
+      "engine": "Unreal Engine 4",
+      "series": "N/A",
+      "metacritic_score": 80,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "50+ million players in its first two weeks",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2020 nominee (The Game Awards)"
+      ],
+      "trivia": [
+        "Its bean-shaped characters became instant memes",
+        "It launched free on PlayStation Plus, boosting it to record players",
+        "Mediatonic was acquired by Epic Games in 2021",
+        "Its crossover skins include Sonic, Godzilla, and Spider-Man"
+      ],
+      "game_prices": [
+        {
+          "id": "4dc1857c-f61c-40d4-ac29-f8b3ba442a30",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        },
+        {
+          "id": "2b682e1b-6a27-4760-aa16-138011970da1",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 0
+        },
+        {
+          "id": "be3bc127-5272-40ce-8f09-ab51550010d0",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 0
+        },
+        {
+          "id": "5f7f709f-7d11-4748-b49a-14a4d0e84ed4",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 0
+        },
+        {
+          "id": "a92e6823-f084-4e80-be8a-e9a925ed5afe",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "9d32609e-58df-4ca5-83e5-8d67da09890e",
+      "slug": "fortnite",
+      "title": "Fortnite",
+      "short_description": "The cultural phenomenon battle royale with endless crossovers and modes.",
+      "about": "Drop in, gear up, and be the last one standing in this massively popular battle royale. With constant content updates, wild collaborations, creative mode, and a vibrant, cartoonish style, Fortnite is free-to-play fun that has become a global social hangout.",
+      "developer": "Epic Games",
+      "publisher": "Epic Games",
+      "release_date": "2017-07-25",
+      "genres": [
+        "Shooter",
+        "Action",
+        "Free to Play"
+      ],
+      "tags": [
+        "Battle Royale",
+        "Multiplayer",
+        "PvP",
+        "Building",
+        "Team-Based"
+      ],
+      "features": [
+        "Online PvP",
+        "Cross-Platform Play",
+        "Voice Chat",
+        "Controller Support"
+      ],
+      "hero_image": "/covers/fortnite.png",
+      "box_image": "/covers/fortnite.png",
+      "rating": 80,
+      "price_display": "Free",
+      "featured": true,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch",
+        "Mobile (via cloud)"
+      ],
+      "game_modes": [
+        "Online PvP",
+        "Online Co-op",
+        "Squad-based (Trios, Duos, Squads)"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "Unreal Engine 5",
+      "series": "Fortnite",
+      "metacritic_score": 78,
+      "steam_reviews_label": "Positive (not on Steam)",
+      "player_count": "500+ million registered players; one of the most-played games in history",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2018 (The Game Awards)",
+        "Best Ongoing Game 2019"
+      ],
+      "trivia": [
+        "Travis Scott's 2020 in-game concert drew over 12 million live viewers",
+        "Its battle royale mode was built in two months by a small internal team",
+        "It popularized the \"battle pass\" model now used across the industry",
+        "Players have recreated entire cities, movie sets, and working arcade machines in Creative mode"
+      ],
+      "game_prices": [
+        {
+          "id": "0ea57d4e-7648-410a-a9e5-f90d3cebb833",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 0
+        },
+        {
+          "id": "bb6b72ee-0fbe-4c93-80d1-c9040bdfd761",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 0
+        },
+        {
+          "id": "ee765171-9ffd-4fe9-adec-7b65b2e6189a",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 0
+        },
+        {
+          "id": "8dba77a0-e257-4de1-b446-48aa3f9cb8f3",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 1,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "f9a44543-433d-4fa0-b14f-c68e4c536de5",
+      "slug": "forza-horizon-5",
+      "title": "Forza Horizon 5",
+      "short_description": "Your epic Horizon adventure in the vibrant evolving open world of Mexico.",
+      "about": "Explore the diverse landscapes of Mexico in the ultimate open-world racing adventure. Drive hundreds of world-class cars through living deserts, jungles, and historic cities, with stunning graphics, endless events, and a joyful celebration of speed and cars.",
+      "developer": "Playground Games",
+      "publisher": "Xbox Game Studios",
+      "release_date": "2021-11-05",
+      "genres": [
+        "Racing",
+        "Sports",
+        "Action"
+      ],
+      "tags": [
+        "Open World",
+        "Multiplayer",
+        "Driving",
+        "Beautiful",
+        "Fast-Paced"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op",
+        "Controller Support",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/forza-horizon-5.hero.jpg",
+      "box_image": "/covers/forza-horizon-5.box.jpg",
+      "rating": 92,
+      "price_display": "$59.99",
+      "featured": true,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 5",
+        "Xbox One/Series X|S"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "E (Everyone)",
+      "engine": "ForzaTech",
+      "series": "Forza",
+      "metacritic_score": 92,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "40+ million players; the biggest launch in Xbox history",
+      "main_story_hours": 20,
+      "completionist_hours": 120,
+      "awards": [
+        "Best Sports/Racing 2021 (The Game Awards)",
+        "BAFTA nominee 2022"
+      ],
+      "trivia": [
+        "Its Mexico map is one of the most diverse racing game worlds ever, with volcano, jungle, and desert",
+        "The Forzavista mode lets players explore every car in photorealistic detail",
+        "It supports ray tracing on console and PC",
+        "Its festival hub lets players build custom courses for friends"
+      ],
+      "game_prices": [
+        {
+          "id": "c7d7e2e1-fa99-4f31-a798-0267f07c0dfd",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 59.99
+        },
+        {
+          "id": "a7e7428a-3ea2-426d-869e-25fdaec16ca3",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "1920781d-cd82-45be-b919-f54f2a1104a5",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 59.99
+        },
+        {
+          "id": "9be3747d-595a-4ab0-953f-b46fee4fa65e",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "62aaca07-dd67-4e76-8a16-366533fd5267",
+      "slug": "garrys-mod",
+      "title": "Garry's Mod",
+      "short_description": "A physics sandbox where the only limit is your imagination.",
+      "about": "There are no goals — just you, a world of physics objects, and every tool you need. Play thousands of community-made game modes, from prop hunt to Trouble in Terrorist Town. Garry's Mod is the ultimate creative playground and a party-game institution.",
+      "developer": "Facepunch Studios",
+      "publisher": "Facepunch Studios",
+      "release_date": "2006-11-29",
+      "genres": [
+        "Sandbox",
+        "Indie"
+      ],
+      "tags": [
+        "Physics",
+        "Creative",
+        "Multiplayer",
+        "Modding",
+        "Comedy"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Online PvP",
+        "Steam Workshop"
+      ],
+      "hero_image": "/covers/garrys-mod.hero.jpg",
+      "box_image": "/covers/garrys-mod.box.jpg",
+      "rating": 88,
+      "price_display": "$9.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "macOS",
+        "Linux"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op",
+        "Online PvP"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Source",
+      "series": "N/A",
+      "metacritic_score": 88,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "20+ million copies sold",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "A cultural institution with over a decade of community content"
+      ],
+      "trivia": [
+        "It started as a free mod called Garry's Mod 9",
+        "The \"Trouble in Terrorist Town\" mode inspired Among Us' deduction gameplay",
+        "Its Prop Hunt mode became its own standalone game",
+        "The iconic \"Dr. Kleiner\" NPC model is reused in thousands of community videos"
+      ],
+      "game_prices": [
+        {
+          "id": "428ab05d-c049-4fc2-a84f-09e75b761be7",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "0b7b7e53-4903-4683-afa5-18f6cfad574d",
+      "slug": "ghost-of-tsushima",
+      "title": "Ghost of Tsushima",
+      "short_description": "Become the Ghost in a stunning open-world samurai epic.",
+      "about": "In 1274, a Mongol invasion has devastated Tsushima. As samurai Jin Sakai, you must forge a new path — breaking tradition to fight with stealth and cunning. With gorgeous wind-guided exploration and cinematic sword combat, this is one of the most beautiful games ever made.",
+      "developer": "Sucker Punch Productions",
+      "publisher": "Sony Interactive Entertainment",
+      "release_date": "2020-07-17",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "Open World",
+        "Samurai",
+        "Story Rich",
+        "Beautiful",
+        "Stealth"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Photo Mode",
+        "Achievements"
+      ],
+      "hero_image": "/covers/ghost-of-tsushima.hero.jpg",
+      "box_image": "/covers/ghost-of-tsushima.box.jpg",
+      "rating": 83,
+      "price_display": "$59.99",
+      "featured": true,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "In-house (Sucker Punch engine)",
+      "series": "N/A",
+      "metacritic_score": 83,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "13+ million copies sold",
+      "main_story_hours": 27,
+      "completionist_hours": 60,
+      "awards": [
+        "Players' Voice 2020 (The Game Awards)",
+        "Best Art Direction nominee 2020"
+      ],
+      "trivia": [
+        "The wind literally guides players — no quest markers on screen",
+        "A fan petition asked Sony for a God of War-style exploration mode; it got one",
+        "Its multiplayer Legends mode was added free post-launch",
+        "The island of Iki in the DLC is based on a real Mongol invasion site"
+      ],
+      "game_prices": [
+        {
+          "id": "af266cde-c621-4375-898d-1df1ecdf2e88",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "f6801d13-e116-44f9-a242-0e2a3a4085c3",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "6011fc29-2b04-4914-85af-bc3a6e0b6851",
+      "slug": "god-of-war-ragnarok",
+      "title": "God of War Ragnarök",
+      "short_description": "Kratos and Atreus journey through the Nine Realms as the end times approach.",
+      "about": "The epic conclusion to the Norse saga. Father and son face the oncoming Ragnarök, traveling through breathtaking realms, battling gods and monsters, and grappling with what it means to be a father, a son, and a warrior. Combat is visceral, the storytelling is superb, and the visuals are stunning.",
+      "developer": "Santa Monica Studio",
+      "publisher": "Sony Interactive Entertainment",
+      "release_date": "2022-11-09",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "tags": [
+        "Mythology",
+        "Story Rich",
+        "Third-Person",
+        "Single-player",
+        "Beautiful"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Achievements",
+        "Photo Mode"
+      ],
+      "hero_image": "/covers/god-of-war-ragnarok.jpg",
+      "box_image": "/covers/god-of-war-ragnarok.jpg",
+      "rating": 94,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "In-house (Santa Monica Studio)",
+      "series": "God of War",
+      "metacritic_score": 94,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "15+ million copies sold; a flagship PlayStation exclusive",
+      "main_story_hours": 26,
+      "completionist_hours": 52,
+      "awards": [
+        "Best Narrative 2022 (The Game Awards)",
+        "Best Score and Music 2022",
+        "BAFTA Audio Achievement 2023"
+      ],
+      "trivia": [
+        "Its one-shot camera means the game never cuts during gameplay",
+        "Kratos was recast with Christopher Judge, best known as Teal'c in Stargate SG-1",
+        "The 2018 prequel won Game of the Year 2018; Ragnarok was its direct sequel",
+        "Squirrel Ratatoskr was voiced by Robot Chicken's Seth Green"
+      ],
+      "game_prices": [
+        {
+          "id": "a62cc89a-08d9-4ada-be80-b5c365594c3f",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        },
+        {
+          "id": "f2fe78bb-ea45-4be1-a99f-d2ade116e834",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "e283d6ce-556c-4c8e-8475-92d50c34dc45",
+      "slug": "grand-theft-auto-v",
+      "title": "Grand Theft Auto V",
+      "short_description": "A sprawling satirical open world of crime and opportunity in Los Santos.",
+      "about": "Follow three very different criminals — a retired bank robber, a street hustler, and a psychotic lunatic — through the sun-soaked city of Los Santos. With a massive open world, razor-sharp satire, endless activities, and the ever-popular GTA Online, GTA V remains one of the most played games ever made.",
+      "developer": "Rockstar North",
+      "publisher": "Rockstar Games",
+      "release_date": "2013-09-17",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "Open World",
+        "Crime",
+        "Third-Person",
+        "Multiplayer",
+        "Satire"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/grand-theft-auto-v.png",
+      "box_image": "/covers/grand-theft-auto-v.png",
+      "rating": 96,
+      "price_display": "$29.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 3/4/5",
+        "Xbox 360/One/Series X|S"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP (GTA Online)"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "RAGE",
+      "series": "Grand Theft Auto",
+      "metacritic_score": 97,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "200+ million copies sold; the second best-selling video game of all time",
+      "main_story_hours": 31,
+      "completionist_hours": 97,
+      "awards": [
+        "Game of the Year 2013 (multiple outlets, including The Game Awards)"
+      ],
+      "trivia": [
+        "Three protagonists was a first for the series and a technical feat",
+        "Its music score blends hip-hop, rock, and electronic for every radio station",
+        "GTA Online's Heists update was delayed so long it became a running joke",
+        "The game world, Los Santos, is bigger than the combined maps of GTA IV, San Andreas, and Red Dead Redemption"
+      ],
+      "game_prices": [
+        {
+          "id": "3c280088-bc3c-4493-ac84-d865e528ad39",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 29.99
+        },
+        {
+          "id": "e8425d2b-258e-48ce-8c0f-fbc428ae926e",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 29.99
+        },
+        {
+          "id": "25bb8807-b6ea-499f-bc33-6c7038c4fe72",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 29.99
+        },
+        {
+          "id": "9d552a71-b027-4c7c-8014-82a31413d935",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "e8b23de3-bf5a-45b7-9a92-591f2126269a",
+      "slug": "hades",
+      "title": "Hades",
+      "short_description": "Defy the god of the dead in this award-winning rogue-like dungeon crawler.",
+      "about": "Battle out of the Greek underworld as the immortal prince of the Underworld, wielding the powers of Olympus in a story-rich, endlessly replayable escape attempt. Every death brings you closer to victory in this critically-acclaimed blend of fast action and rich narrative.",
+      "developer": "Supergiant Games",
+      "publisher": "Supergiant Games",
+      "release_date": "2020-09-17",
+      "genres": [
+        "Action",
+        "Roguelite",
+        "Indie"
+      ],
+      "tags": [
+        "Roguelike",
+        "Dungeon Crawler",
+        "Mythology",
+        "Story Rich",
+        "Fast-Paced"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/hades.hero.jpg",
+      "box_image": "/covers/hades.box.jpg",
+      "rating": 93,
+      "price_display": "$24.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "In-house (Cheats & Engines / custom C#)",
+      "series": "Hades",
+      "metacritic_score": 93,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "10+ million copies sold; a genre-defining roguelike",
+      "main_story_hours": 21,
+      "completionist_hours": 99,
+      "awards": [
+        "Best Action Game 2020 (The Game Awards)",
+        "Best Indie Game 2020",
+        "Hugo Award for Best Interactive Media 2021"
+      ],
+      "trivia": [
+        "It was the first video game ever to win a Hugo Award",
+        "Every death triggers new dialogue — over 20,000 voice lines total",
+        "The story of escaping the underworld is drawn straight from Greek mythology",
+        "Its voice cast included Logan Cunningham, long-time Supergiant collaborator"
+      ],
+      "game_prices": [
+        {
+          "id": "2ead7152-5ce8-424f-8e27-03d4eda1e11f",
+          "price": 24.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 24.99
+        },
+        {
+          "id": "defa93a3-6ab5-4eb4-ba2a-a9eeb43645ed",
+          "price": 24.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 24.99
+        },
+        {
+          "id": "572e8443-c9af-4219-8f3e-95fc924bc355",
+          "price": 24.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 24.99
+        },
+        {
+          "id": "78e075b7-c0b5-4865-bb8d-abc40900913e",
+          "price": 24.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 24.99
+        },
+        {
+          "id": "3d8f6c4d-4876-430b-a851-c4f282d293d9",
+          "price": 24.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 24.99
+        }
+      ]
+    },
+    {
+      "id": "9fd76a9b-59ae-41e0-9836-cbe4c562c96a",
+      "slug": "hogwarts-legacy",
+      "title": "Hogwarts Legacy",
+      "short_description": "Live the unwritten and attend Hogwarts in the 1800s.",
+      "about": "Your character is a student who holds the key to an ancient secret. Explore an open world of Hogwarts, Hogsmeade, and the surrounding highlands, learn spells, brew potions, tame magical beasts, and shape your own legacy in the wizarding world — a full century before Harry Potter's story.",
+      "developer": "Avalanche Software",
+      "publisher": "Warner Bros. Games",
+      "release_date": "2023-02-10",
+      "genres": [
+        "RPG",
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "Open World",
+        "Magic",
+        "Fantasy",
+        "Single-player",
+        "Story Rich"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Achievements",
+        "Cloud Saves"
+      ],
+      "hero_image": "/covers/hogwarts-legacy.hero.jpg",
+      "box_image": "/covers/hogwarts-legacy.box.jpg",
+      "rating": 84,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "Unreal Engine 4",
+      "series": "Wizarding World",
+      "metacritic_score": 84,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "30+ million copies sold",
+      "main_story_hours": 25,
+      "completionist_hours": 70,
+      "awards": [
+        "Best Fantasy Game 2023 (The Game Awards nominee)",
+        "Golden Joystick PlayStation Game of the Year 2023"
+      ],
+      "trivia": [
+        "It is set in the 1890s, long before Harry Potter's era",
+        "Players can tame and ride Hippogriffs and Thestrals",
+        "The Room of Requirement serves as a base-building hub",
+        "It sold 12 million copies in its first two weeks despite controversy"
+      ],
+      "game_prices": [
+        {
+          "id": "c264d95a-d000-4edc-aea6-ffe1fb58bb90",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        },
+        {
+          "id": "485619ba-761a-4370-9382-98d184f33148",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "4788e6f3-ffd0-472b-96f3-5ad86eb5cac0",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        },
+        {
+          "id": "3c2d0a9f-677f-4e48-be85-0e3a8c03ed67",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "426dbdd2-8504-4f4f-bc20-3c9a25f004bd",
+      "slug": "hollow-knight",
+      "title": "Hollow Knight",
+      "short_description": "A haunting, hand-drawn adventure through the ruins of a forgotten kingdom.",
+      "about": "Explore twisting caverns, ancient cities, and deadly wastes in this atmospheric Metroidvania. Battle tainted creatures, befriend bizarre bugs, and uncover the ancient mystery at the heart of Hallownest. With beautiful hand-drawn art and challenging, precise combat, Hollow Knight is a modern classic.",
+      "developer": "Team Cherry",
+      "publisher": "Team Cherry",
+      "release_date": "2017-02-24",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "tags": [
+        "Metroidvania",
+        "Difficult",
+        "Hand-drawn",
+        "Atmospheric",
+        "Exploration"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/hollow-knight.hero.jpg",
+      "box_image": "/covers/hollow-knight.box.jpg",
+      "rating": 91,
+      "price_display": "$14.99",
+      "featured": true,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "E10+ (Everyone 10+)",
+      "engine": "Unity",
+      "series": "Hollow Knight",
+      "metacritic_score": 90,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "15+ million copies sold",
+      "main_story_hours": 27,
+      "completionist_hours": 55,
+      "awards": [
+        "Best Indie Game 2017 (multiple outlets)",
+        "GDC Award for Best Visual Art 2018"
+      ],
+      "trivia": [
+        "It was funded on Kickstarter in 2014 with just $57,000",
+        "Team Cherry, the developer, is a three-person studio from Adelaide, Australia",
+        "Its hand-drawn art took years and inspired thousands of fan animations",
+        "The game's lore is deliberately left for players to piece together"
+      ],
+      "game_prices": [
+        {
+          "id": "42727bd7-95a0-4453-95dd-28e7e1268f92",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 14.99
+        },
+        {
+          "id": "6eb09bab-9afe-4e4a-8a49-7bad4a155a9a",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 14.99
+        },
+        {
+          "id": "20461900-1272-41c5-a536-9e5cb258f1cc",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 14.99
+        },
+        {
+          "id": "27e5a1bd-5fec-4223-b235-70602c689543",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 14.99
+        },
+        {
+          "id": "1cd8c690-29f0-4fe7-a872-9a9bb15f4e54",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 14.99
+        }
+      ]
+    },
+    {
+      "id": "ff0d61a3-08d1-4325-b133-7cc9b1cd760d",
+      "slug": "it-takes-two",
+      "title": "It Takes Two",
+      "short_description": "A mind-bending co-op adventure built entirely around two-player play.",
+      "about": "Play as the clashing couple Cody and May, turned into dolls and trapped in a fantastical world. Forced to work together through wildly varied gameplay and creative challenges, this pure co-op adventure requires two players and delivers an unforgettable ride about teamwork and love.",
+      "developer": "Hazelight Studios",
+      "publisher": "Electronic Arts",
+      "release_date": "2021-03-26",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Platformer"
+      ],
+      "tags": [
+        "Co-op",
+        "Puzzle",
+        "Creative",
+        "Split-screen",
+        "Story Rich"
+      ],
+      "features": [
+        "Online Co-op",
+        "Local Co-op",
+        "Split-screen",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/it-takes-two.hero.jpg",
+      "box_image": "/covers/it-takes-two.box.jpg",
+      "rating": 89,
+      "price_display": "$39.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Local Co-op",
+        "Online Co-op (Friend's Pass)"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "Unreal Engine 4",
+      "series": "N/A",
+      "metacritic_score": 89,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "20+ million copies sold",
+      "main_story_hours": 12,
+      "completionist_hours": 15,
+      "awards": [
+        "Game of the Year 2021 (The Game Awards)",
+        "Best Multiplayer 2021",
+        "BAFTA Best Game 2022"
+      ],
+      "trivia": [
+        "It can only be played in co-op — no single-player mode exists",
+        "The Friend's Pass lets one buyer play with a friend for free",
+        "Its story is about a married couple turned into dolls working through divorce",
+        "A companion book, \"It Takes Two: An Adventure in Creativity\", accompanied its release"
+      ],
+      "game_prices": [
+        {
+          "id": "969da50a-75ff-4c29-9be6-855b91799333",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 39.99
+        },
+        {
+          "id": "426a79ef-a4c5-4163-8aa5-13c22c55a42e",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 39.99
+        },
+        {
+          "id": "0b03a4e2-4655-40c6-a106-d7fd3f7c6fc4",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 39.99
+        },
+        {
+          "id": "42a6b8af-73a3-4e34-a471-fb7fc6e78be8",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 39.99
+        },
+        {
+          "id": "6c863b68-73d1-4e52-8b96-a4ecb811200c",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 39.99
+        }
+      ]
+    },
+    {
+      "id": "8f87fa0f-54f4-4900-a44b-fc7ca87eb58f",
+      "slug": "left-4-dead-2",
+      "title": "Left 4 Dead 2",
+      "short_description": "The definitive four-player zombie co-op shooter.",
+      "about": "Team up with three friends and blast through hordes of zombies in the legendary co-op shooter. With distinct special infected, endless replayability, and campaigns across the South, L4D2 remains the greatest zombie game ever made.",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "release_date": "2009-11-17",
+      "genres": [
+        "Shooter",
+        "Action"
+      ],
+      "tags": [
+        "Zombies",
+        "Co-op",
+        "FPS",
+        "Multiplayer",
+        "Classic"
+      ],
+      "features": [
+        "Online Co-op",
+        "Local Co-op",
+        "Online PvP",
+        "Controller Support",
+        "Steam Workshop"
+      ],
+      "hero_image": "/covers/left-4-dead-2.hero.jpg",
+      "box_image": "/covers/left-4-dead-2.box.jpg",
+      "rating": 89,
+      "price_display": "$9.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "Xbox 360"
+      ],
+      "game_modes": [
+        "Online Co-op",
+        "Local Co-op (Split-screen)",
+        "Online PvP"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Source",
+      "series": "Left 4 Dead",
+      "metacritic_score": 89,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "15+ million copies sold",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2009 (multiple outlets)"
+      ],
+      "trivia": [
+        "It was released just one year after the original — an unusually fast sequel",
+        "The AI \"Director\" adjusts pacing, spawns, and items to each play session",
+        "Its community Workshop adds thousands of custom campaigns",
+        "The four survivors of the first game return as playable characters in DLC"
+      ],
+      "game_prices": [
+        {
+          "id": "7d12acf6-d2cc-4f8d-8cf2-ab6c94a9789c",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "9c6907fc-0260-403f-b6f6-997e34d746a4",
+      "slug": "minecraft",
+      "title": "Minecraft",
+      "short_description": "Build anything you can imagine in the world's most popular sandbox game.",
+      "about": "Minecraft is a sandbox game of infinite creativity. Mine blocks, craft tools, build towering structures, and survive against monsters in a procedurally generated world of endless possibility. Play solo, join friends online, or explore countless community-made worlds and mods — there is truly something for everyone in this modern classic.",
+      "developer": "Mojang Studios",
+      "publisher": "Mojang Studios",
+      "release_date": "2011-11-18",
+      "genres": [
+        "Sandbox",
+        "Survival",
+        "Adventure"
+      ],
+      "tags": [
+        "Crafting",
+        "Open World",
+        "Multiplayer",
+        "Creative",
+        "Block-Based"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op",
+        "Cross-Platform Play",
+        "Controller Support",
+        "Cloud Saves"
+      ],
+      "hero_image": "/covers/minecraft.png",
+      "box_image": "/covers/minecraft.png",
+      "rating": 93,
+      "price_display": "$26.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op",
+        "Online PvP"
+      ],
+      "esrb_rating": "E10+ (Everyone 10+)",
+      "engine": "In-house (Java / Bedrock Engine)",
+      "series": "Minecraft",
+      "metacritic_score": 93,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "300+ million copies sold; the best-selling video game of all time",
+      "main_story_hours": 0,
+      "completionist_hours": 3500,
+      "awards": [
+        "Named the best-selling game ever by Guinness World Records"
+      ],
+      "trivia": [
+        "Creepers were created by accident when a coding error made a pig too tall and too long",
+        "Its soundtrack by C418 is widely considered one of gaming's most iconic",
+        "There are over 140 million monthly active players worldwide",
+        "Players have built working computers, hard drives, and even 1-bit CPUs inside the game"
+      ],
+      "game_prices": [
+        {
+          "id": "4770cf3c-43fc-4f20-9023-90500dddeb1e",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 29.99
+        },
+        {
+          "id": "6921f741-845a-49c5-a4d3-c7f92ac47cb5",
+          "price": 26.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 26.99
+        },
+        {
+          "id": "098950d0-a22b-438f-b098-296948c1d101",
+          "price": 26.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 26.99
+        },
+        {
+          "id": "2767e431-50fa-48ce-97de-406b12dcd89d",
+          "price": 26.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 26.99
+        },
+        {
+          "id": "4b3f9e08-7893-4ed8-b3a5-c0931fd44c9f",
+          "price": 26.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 26.99
+        }
+      ]
+    },
+    {
+      "id": "c3597765-81c6-4927-9f80-e451012b770a",
+      "slug": "monster-hunter-world",
+      "title": "Monster Hunter: World",
+      "short_description": "Hunt colossal beasts in a living ecosystem of predators and prey.",
+      "about": "Take on the role of a hunter stalked by gigantic monsters in vast, living landscapes. Track, trap, and battle fearsome creatures, craft ever-stronger gear from your kills, and team up with up to three friends in the most successful game in Capcom's history.",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "release_date": "2018-01-26",
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "tags": [
+        "Co-op",
+        "Hunting",
+        "Crafting",
+        "Difficult",
+        "Third-Person"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Voice Chat",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/monster-hunter-world.hero.jpg",
+      "box_image": "/covers/monster-hunter-world.box.jpg",
+      "rating": 90,
+      "price_display": "$29.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "MT Framework",
+      "series": "Monster Hunter",
+      "metacritic_score": 90,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "25+ million copies sold; Capcom's best-selling game ever",
+      "main_story_hours": 48,
+      "completionist_hours": 165,
+      "awards": [
+        "Best RPG 2018 nominee (The Game Awards)",
+        "Japan Game Awards 2018"
+      ],
+      "trivia": [
+        "It was the first Monster Hunter designed for a global audience",
+        "Each monster has an ecosystem — they hunt, eat, and fight each other",
+        "Its Palico cat companions can be customized with equipment",
+        "The Iceborne expansion added a whole new arctic continent"
+      ],
+      "game_prices": [
+        {
+          "id": "e3e22a70-0153-4299-bbc3-b3065f8ed4a9",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 29.99
+        },
+        {
+          "id": "062631df-041e-4239-8536-fd3ba13ac24a",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 29.99
+        },
+        {
+          "id": "697827f2-bcd7-4c3f-b9bc-c13b08c8e9ee",
+          "price": 29.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "d92a912c-50c4-43f8-aba0-24fb3cd9300e",
+      "slug": "nba-2k24",
+      "title": "NBA 2K24",
+      "short_description": "The most authentic basketball simulation, with all your favorite teams and stars.",
+      "about": "Experience NBA basketball with lifelike graphics, authentic rosters, and deep game modes. Build a dynasty in MyCareer, relive Kobe Bryant's legendary career in Mamba Moments, and dominate the hardwood in this year's premier basketball sim.",
+      "developer": "Visual Concepts",
+      "publisher": "2K Sports",
+      "release_date": "2023-09-08",
+      "genres": [
+        "Sports",
+        "Simulation"
+      ],
+      "tags": [
+        "Basketball",
+        "Multiplayer",
+        "PvP",
+        "Licensed",
+        "Career"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Local Co-op",
+        "Controller Support",
+        "Cross-Platform Play"
+      ],
+      "hero_image": "/covers/nba-2k24.hero.jpg",
+      "box_image": "/covers/nba-2k24.box.jpg",
+      "rating": 67,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "E (Everyone)",
+      "engine": "In-house (Visual Concepts engine)",
+      "series": "NBA 2K",
+      "metacritic_score": 67,
+      "steam_reviews_label": "Mostly Negative (Steam)",
+      "player_count": "The best-selling basketball video game franchise",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Sports Game of the Year nominee (multiple outlets, historic)"
+      ],
+      "trivia": [
+        "Kobe Bryant graces the cover for the Mamba Moments mode",
+        "ProPLAY technology animates real NBA footage into gameplay",
+        "Its MyCareer mode lets players live out an NBA story from high school to the Hall of Fame",
+        "The W mode focuses on WNBA careers for the first time in the series"
+      ],
+      "game_prices": [
+        {
+          "id": "b3117b21-3e8c-4b2e-9128-ce7459fc1fa3",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        },
+        {
+          "id": "aa1b67ec-4220-48d2-bc6e-916a01a395c1",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "efa94387-1cec-442c-a575-1f50289ba159",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        },
+        {
+          "id": "25efbb4a-e16d-4771-9b77-8a8fb7ac0f1e",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "13985fec-f8b9-4ef4-ad5d-628c3e41660a",
+      "slug": "overwatch-2",
+      "title": "Overwatch 2",
+      "short_description": "A team-based hero shooter with a vibrant cast of unique heroes.",
+      "about": "Team up and pick your hero from a diverse roster of tank, damage, and support characters, each with their own abilities and personality. With fast-paced objective-based matches and colorful, competitive action, Overwatch 2 is a polished, always-evolving hero shooter.",
+      "developer": "Blizzard Entertainment",
+      "publisher": "Blizzard Entertainment",
+      "release_date": "2022-10-04",
+      "genres": [
+        "Shooter",
+        "Action",
+        "Free to Play"
+      ],
+      "tags": [
+        "Hero Shooter",
+        "Multiplayer",
+        "PvP",
+        "Team-Based",
+        "Competitive"
+      ],
+      "features": [
+        "Online PvP",
+        "Cross-Platform Play",
+        "Voice Chat",
+        "Controller Support"
+      ],
+      "hero_image": "/covers/overwatch-2.jpg",
+      "box_image": "/covers/overwatch-2.jpg",
+      "rating": 79,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Online PvP",
+        "Co-op (PvE missions)"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "In-house (Blizzard engine)",
+      "series": "Overwatch",
+      "metacritic_score": 80,
+      "steam_reviews_label": "Mixed (Steam) / Positive (Battle.net)",
+      "player_count": "35+ million players in its first year; one of the largest shooter communities",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2022 (The Game Awards, for launch momentum)"
+      ],
+      "trivia": [
+        "It replaced the original Overwatch's 6v6 format with 5v5 squads",
+        "Every hero has a unique ultimate that can change the course of a team fight",
+        "It became free-to-play in October 2022 with a seasonal battle pass model",
+        "Kiriko's \"Kitsune Rush\" ultimate was inspired by Japanese folklore"
+      ],
+      "game_prices": [
+        {
+          "id": "7f04bfad-58a5-4723-b92e-50a9956f63f8",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 0
+        },
+        {
+          "id": "b6d7d1a6-c325-4f45-a208-d3eb6f79d382",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 0
+        },
+        {
+          "id": "96f6a4b5-a906-42d9-85ad-c4e1709c2dcc",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 0
+        },
+        {
+          "id": "c6318b36-3e0a-4fa3-9c3e-c7143c294a3e",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 0
+        },
+        {
+          "id": "c7650633-b774-4d4e-8ea8-58d0da946e3e",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "a93cb0c6-96e2-4a89-9138-71fa3efe407f",
+      "slug": "persona-5-royal",
+      "title": "Persona 5 Royal",
+      "short_description": "A stylish JRPG about phantom thieves stealing corrupt hearts.",
+      "about": "Lead a group of vigilante students who moonlight as the Phantom Thieves, entering a supernatural realm to change the hearts of corrupt adults. With razor-sharp style, a deep turn-based combat system, unforgettable characters, and a hundred hours of story, Persona 5 Royal is a modern JRPG landmark.",
+      "developer": "Atlus",
+      "publisher": "Atlus",
+      "release_date": "2019-10-31",
+      "genres": [
+        "RPG",
+        "Adventure",
+        "Simulation"
+      ],
+      "tags": [
+        "Turn-Based",
+        "Anime",
+        "Story Rich",
+        "Stylish",
+        "School Life"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/persona-5-royal.hero.jpg",
+      "box_image": "/covers/persona-5-royal.box.jpg",
+      "rating": 95,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "In-house (Atlus engine)",
+      "series": "Persona",
+      "metacritic_score": 95,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "8+ million copies sold (Persona 5 family)",
+      "main_story_hours": 103,
+      "completionist_hours": 145,
+      "awards": [
+        "Best RPG 2017 (multiple outlets, original release)",
+        "NAACP Image Award nominee for its jazz soundtrack"
+      ],
+      "trivia": [
+        "The soundtrack by Shoji Meguro blends acid jazz with rock and opera",
+        "Its calendar system means every in-game day matters",
+        "Persona 5's cast became so popular they crossed over into Smash Bros",
+        "The Royal version adds 30 hours of new content and a third semester"
+      ],
+      "game_prices": [
+        {
+          "id": "a0c832f1-e183-4204-970d-f341c967a911",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        },
+        {
+          "id": "5112af7f-7a13-4fa9-84f9-1b106c8f7a29",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "cb62b822-d0ab-48d6-bdaa-e07bc0461df4",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        },
+        {
+          "id": "b298e247-f4d1-444f-a065-fcc3ce63634a",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "481a12ad-a380-4596-bc77-59e07178874f",
+      "slug": "portal-2",
+      "title": "Portal 2",
+      "short_description": "A landmark puzzle game of portals, physics, and perfect comedy writing.",
+      "about": "Wield a portal gun to bend space, solve ingeniously designed test chambers, and unravel a story voiced by one of gaming's greatest villains. With a full separate co-op campaign, Portal 2 remains the gold standard for puzzle games — and for video game humor.",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "release_date": "2011-04-19",
+      "genres": [
+        "Puzzle",
+        "Adventure",
+        "Action"
+      ],
+      "tags": [
+        "First-Person",
+        "Single-player",
+        "Co-op",
+        "Comedy",
+        "Sci-fi"
+      ],
+      "features": [
+        "Single-player",
+        "Local Co-op",
+        "Online Co-op",
+        "Controller Support",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/portal-2.hero.jpg",
+      "box_image": "/covers/portal-2.box.jpg",
+      "rating": 93,
+      "price_display": "$9.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 3",
+        "Xbox 360",
+        "Nintendo Switch (Portal: Companion Collection)"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op"
+      ],
+      "esrb_rating": "E10+ (Everyone 10+)",
+      "engine": "Source",
+      "series": "Portal",
+      "metacritic_score": 95,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "10+ million copies sold",
+      "main_story_hours": 8,
+      "completionist_hours": 12,
+      "awards": [
+        "BAFTA Best Game 2012",
+        "Game of the Year 2011 (multiple outlets)"
+      ],
+      "trivia": [
+        "Stephen Merchant and J.K. Simmons voiced key characters",
+        "Its co-op campaign has an entirely separate story from the single-player",
+        "GLaDOS's passive-aggressive humor is considered one of gaming's best-written villains",
+        "A Valve engineer once hid a Portal 2 reference in an Arduino firmware update"
+      ],
+      "game_prices": [
+        {
+          "id": "6a11e39d-f121-428d-a4f3-8259b060ba6f",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "544d3d8b-3f84-490a-9d2a-ee111be17cd8",
+      "slug": "pubg-battlegrounds",
+      "title": "PUBG: Battlegrounds",
+      "short_description": "The original battle royale where 100 players fight to be the last one standing.",
+      "about": "Drop onto an island, scavenge for weapons, and outlast 99 other players in the game that started the battle royale craze. With realistic gunplay, shrinking play zones, and tense, tactical firefights, every PUBG match is a story of survival.",
+      "developer": "Krafton",
+      "publisher": "Krafton",
+      "release_date": "2017-12-21",
+      "genres": [
+        "Shooter",
+        "Action",
+        "Free to Play"
+      ],
+      "tags": [
+        "Battle Royale",
+        "Multiplayer",
+        "PvP",
+        "Realistic",
+        "Survival"
+      ],
+      "features": [
+        "Online PvP",
+        "Voice Chat",
+        "Cross-Platform Play",
+        "Controller Support"
+      ],
+      "hero_image": "/covers/pubg-battlegrounds.hero.jpg",
+      "box_image": "/covers/pubg-battlegrounds.box.jpg",
+      "rating": 83,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Online PvP",
+        "Squad-based (Squads, Duos)"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "Unreal Engine 4",
+      "series": "PUBG",
+      "metacritic_score": 83,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "75+ million copies sold; 350+ million mobile players",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2017 nominee (The Game Awards)",
+        "Esports Game of the Year 2018 nominee"
+      ],
+      "trivia": [
+        "It popularized the battle royale genre and inspired Fortnite and Apex",
+        "Brendan Greene, \"PlayerUnknown\", created the mode from Arma mods",
+        "The blue zone — a shrinking wall of electricity — became genre standard",
+        "PUBG Mobile has been downloaded over 1 billion times"
+      ],
+      "game_prices": [
+        {
+          "id": "c1fcd7cc-319a-467c-baea-4abf3c4c78a9",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "2aa7db41-4cfd-4276-9c57-b0ce0feae525",
+      "slug": "red-dead-redemption-2",
+      "title": "Red Dead Redemption 2",
+      "short_description": "America, 1899. The end of the Wild West era is near.",
+      "about": "Arthur Morgan and the Van der Linde gang are on the run. This sprawling epic of life in America's unforgiving heartland features a massive open world, deep characters, and a story of loyalty and betrayal. Every detail of this living world is crafted to draw you into the dying days of the outlaw era.",
+      "developer": "Rockstar Games",
+      "publisher": "Rockstar Games",
+      "release_date": "2018-10-26",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "Open World",
+        "Western",
+        "Story Rich",
+        "Third-Person",
+        "Atmospheric"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/red-dead-redemption-2.hero.jpg",
+      "box_image": "/covers/red-dead-redemption-2.box.jpg",
+      "rating": 97,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP (Red Dead Online)"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "RAGE",
+      "series": "Red Dead",
+      "metacritic_score": 97,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "65+ million copies sold; one of the best-selling games of all time",
+      "main_story_hours": 50,
+      "completionist_hours": 178,
+      "awards": [
+        "Best Narrative 2018 (The Game Awards)",
+        "Best Score/Music 2018",
+        "BAFTA Best Game 2019"
+      ],
+      "trivia": [
+        "Every NPC has a daily routine, including going to work and eating dinner",
+        "Animal testicles shrink in cold weather — a detail widely reported by players",
+        "Its homage to the original Red Dead Redemption is woven into the story",
+        "RDR2's horse bonding system tracks care, grooming, and rider trust"
+      ],
+      "game_prices": [
+        {
+          "id": "ae588fe0-d1f7-4d84-a36f-74902c646733",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 59.99
+        },
+        {
+          "id": "4a6c96aa-57a4-495f-b386-d65abf8d19bd",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "4e2a1c43-f039-4379-934f-dd2310e093fd",
+      "slug": "resident-evil-4-remake",
+      "title": "Resident Evil 4 (2023)",
+      "short_description": "Survival is just the beginning in this reimagining of a survival horror classic.",
+      "about": "Special agent Leon S. Kennedy is sent to rescue the U.S. President's daughter from a sinister cult in rural Spain. This ground-up remake of the legendary survival horror game blends tense combat, resource management, and modernized storytelling into a relentless, heart-pounding experience.",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "release_date": "2023-03-24",
+      "genres": [
+        "Action",
+        "Horror",
+        "Shooter"
+      ],
+      "tags": [
+        "Survival Horror",
+        "Remake",
+        "Third-Person",
+        "Story Rich",
+        "Single-player"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/resident-evil-4-remake.hero.jpg",
+      "box_image": "/covers/resident-evil-4-remake.box.jpg",
+      "rating": 93,
+      "price_display": "$39.99",
+      "featured": true,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox Series X|S"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "RE Engine",
+      "series": "Resident Evil",
+      "metacritic_score": 93,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "7+ million copies sold within a year",
+      "main_story_hours": 16,
+      "completionist_hours": 30,
+      "awards": [
+        "Best VR/Action Game 2023 (The Game Awards)",
+        "Golden Joystick Ultimate Game of the Year 2023"
+      ],
+      "trivia": [
+        "The original 2005 Resident Evil 4 is widely considered one of the greatest games ever",
+        "The remake overhauls combat with modern parries and knife durability",
+        "Ashley's AI companion was rebuilt to feel like a real partner, not a burden",
+        "Ada Wong's Separate Ways campaign was re-released as DLC in 2023"
+      ],
+      "game_prices": [
+        {
+          "id": "20da6c8c-f84b-429d-9c17-40c33d10aee8",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 39.99
+        },
+        {
+          "id": "998b0350-d2a0-43c7-83d9-cf2af4a464b8",
+          "price": 29.99,
+          "on_sale": true,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 39.99
+        },
+        {
+          "id": "360f688f-683e-48ea-b16a-cd1da845341a",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 39.99
+        }
+      ]
+    },
+    {
+      "id": "6f2b43f0-5d7c-4856-a52e-01d46a9c051f",
+      "slug": "rocket-league",
+      "title": "Rocket League",
+      "short_description": "Soccer meets driving in the high-flying, rocket-powered sports phenomenon.",
+      "about": "Spring for the ball, wall-drive, backflip, and score impossible aerial goals in the world's most exciting vehicle-soccer hybrid. Free to play with fast matches, deep mechanics, and a thriving esports scene, Rocket League is endlessly replayable competition.",
+      "developer": "Psyonix",
+      "publisher": "Psyonix",
+      "release_date": "2015-07-07",
+      "genres": [
+        "Sports",
+        "Racing",
+        "Free to Play"
+      ],
+      "tags": [
+        "Multiplayer",
+        "PvP",
+        "Competitive",
+        "Team-Based",
+        "Fast-Paced"
+      ],
+      "features": [
+        "Online PvP",
+        "Cross-Platform Play",
+        "Split-screen",
+        "Controller Support",
+        "Leaderboards"
+      ],
+      "hero_image": "/covers/rocket-league.hero.jpg",
+      "box_image": "/covers/rocket-league.box.jpg",
+      "rating": 86,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Online PvP",
+        "Local Co-op (Split-screen)"
+      ],
+      "esrb_rating": "E (Everyone)",
+      "engine": "Unreal Engine 3/4",
+      "series": "N/A",
+      "metacritic_score": 86,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "90+ million players worldwide",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Sports Game 2015 (The Game Awards)",
+        "Best Independent Game 2015 nominee"
+      ],
+      "trivia": [
+        "It was made by a small studio in San Diego, later bought by Epic Games",
+        "Its \"ranked\" seasons run in competitive playlists year-round",
+        "Cars can be customized with over 1,000 cosmetic items",
+        "The rocket-powered car-soccer idea came from a 2008 game called Supersonic Acrobatic Rocket-Powered Battle-Cars"
+      ],
+      "game_prices": [
+        {
+          "id": "b5f4fdad-0fa1-4686-8402-7458d11811a1",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        },
+        {
+          "id": "ca857d93-74a2-45e9-b9f4-c2ad5f19a095",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 0
+        },
+        {
+          "id": "ede6bea2-edee-4221-8626-0c069e5bb9bc",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 0
+        },
+        {
+          "id": "b8321f15-3a7c-4606-b664-56a1e40a4067",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 0
+        },
+        {
+          "id": "83155485-53a7-4828-bdab-4a9c0677e2ce",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "231f5dfe-8b3e-4604-a475-f46e05e8c14d",
+      "slug": "rust",
+      "title": "Rust",
+      "short_description": "Survive, build, and betray in the world's most brutal survival game.",
+      "about": "Wake up naked on a beach with a rock and a torch. Gather, build, raid, and defend against a world of ruthless players in the multiplayer survival game that made betrayal an art form. Harsh, unforgiving, and endlessly compelling.",
+      "developer": "Facepunch Studios",
+      "publisher": "Facepunch Studios",
+      "release_date": "2018-02-08",
+      "genres": [
+        "Survival",
+        "Action"
+      ],
+      "tags": [
+        "Multiplayer",
+        "PvP",
+        "Crafting",
+        "Open World",
+        "Base Building"
+      ],
+      "features": [
+        "Online PvP",
+        "Online Co-op",
+        "Voice Chat",
+        "Cloud Saves"
+      ],
+      "hero_image": "/covers/rust.hero.jpg",
+      "box_image": "/covers/rust.box.jpg",
+      "rating": 86,
+      "price_display": "$39.99",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S"
+      ],
+      "game_modes": [
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Unity",
+      "series": "Rust",
+      "metacritic_score": 86,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "16+ million copies sold",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Survival Game 2018 (multiple outlets)"
+      ],
+      "trivia": [
+        "Every player's skin color is assigned randomly and permanently",
+        "Its monthly forced server wipes reset the entire world",
+        "Raiding other players' bases is the endgame for most clans",
+        "It began as a DayZ-inspired clone, then became its own brutal identity"
+      ],
+      "game_prices": [
+        {
+          "id": "ba665183-8580-4310-99f3-d5acb5262f58",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 39.99
+        },
+        {
+          "id": "8fa731c7-b46c-4151-8bf5-7339394aa6a8",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 39.99
+        },
+        {
+          "id": "fd895748-2377-471a-88cf-f0fbfe9855ed",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 39.99
+        }
+      ]
+    },
+    {
+      "id": "bd5b5ea3-535e-46db-98a8-efbd93b42462",
+      "slug": "sekiro-shadows-die-twice",
+      "title": "Sekiro: Shadows Die Twice",
+      "short_description": "Hardened ninja combat in a beautifully brutal Sengoku-era Japan.",
+      "about": "You are a shinobi bound to protect a young lord of an ancient bloodline, facing impossible odds. With precise, rhythm-based sword combat, a rich world of myth and stealth, and some of FromSoftware's most demanding boss fights, Sekiro rewards mastery like few other games.",
+      "developer": "FromSoftware",
+      "publisher": "Activision",
+      "release_date": "2019-03-22",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "tags": [
+        "Souls-like",
+        "Difficult",
+        "Stealth",
+        "Historical",
+        "Single-player"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/sekiro-shadows-die-twice.jpg",
+      "box_image": "/covers/sekiro-shadows-die-twice.jpg",
+      "rating": 90,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "In-house (FromSoftware)",
+      "series": "Souls",
+      "metacritic_score": 90,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "10+ million copies sold",
+      "main_story_hours": 35,
+      "completionist_hours": 70,
+      "awards": [
+        "Game of the Year 2019 (The Game Awards)",
+        "Best Action/Adventure 2019"
+      ],
+      "trivia": [
+        "It trades Souls games' RPG builds for pure swordsmanship skill",
+        "The resurrection mechanic — literally dying twice — gave the game its title",
+        "Shinobi prosthetic tools allow creative playstyles akin to a puzzle box",
+        "Its score by Yuka Kitamura and Hiroki Kikuta is considered a modern classic"
+      ],
+      "game_prices": [
+        {
+          "id": "99d58ac4-516e-4f37-813c-d09de56169b6",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        },
+        {
+          "id": "715c41dc-7f35-4699-a590-85e3549f2b3d",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "c311172b-c366-40a0-8592-c10b4e007560",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 59.99
+        },
+        {
+          "id": "dbda4cd4-c873-4dd8-a423-014480a0b14c",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "73b33020-ef99-49d3-8a83-bc464b39400e",
+      "slug": "civilization-vi",
+      "title": "Sid Meier's Civilization VI",
+      "short_description": "Build an empire to stand the test of time in the definitive 4X strategy game.",
+      "about": "Lead a civilization from the first settlement to the space age. Research technologies, wage wars, spread religions, and shape history alongside leaders from across time. The famous \"one more turn\" hook has never been more addictive.",
+      "developer": "Firaxis Games",
+      "publisher": "2K Games",
+      "release_date": "2016-10-21",
+      "genres": [
+        "Strategy",
+        "Simulation"
+      ],
+      "tags": [
+        "Turn-Based",
+        "4X",
+        "Historical",
+        "Single-player",
+        "Multiplayer"
+      ],
+      "features": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/civilization-vi.hero.jpg",
+      "box_image": "/covers/civilization-vi.box.jpg",
+      "rating": 88,
+      "price_display": "$59.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online PvP",
+        "Online Co-op"
+      ],
+      "esrb_rating": "E10+ (Everyone 10+)",
+      "engine": "In-house (Firaxis engine)",
+      "series": "Civilization",
+      "metacritic_score": 88,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "11+ million copies sold",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Strategy Game 2016 nominee (The Game Awards)"
+      ],
+      "trivia": [
+        "Sean Bean narrates the tech tree — quoting actual historical figures",
+        "Every leader has an AI personality that shapes diplomacy",
+        "Its \"one more turn\" design is legendary among strategy fans",
+        "The Rise and Fall expansion introduced loyal and rebellious cities"
+      ],
+      "game_prices": [
+        {
+          "id": "5fbd5eff-9b27-4d6d-a072-b950e7784f37",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 59.99
+        },
+        {
+          "id": "27692922-9f4f-4c63-b7de-08af53f4c073",
+          "price": 29.99,
+          "on_sale": true,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 59.99
+        },
+        {
+          "id": "d228e856-5708-4e26-867c-c16a207db7af",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 59.99
+        },
+        {
+          "id": "b3641be7-6e00-4055-8bc7-cc927cd4f65b",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 59.99
+        },
+        {
+          "id": "d7ccf692-7003-47e8-acfd-9e72d3d46b1e",
+          "price": 59.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 6,
+            "name": "GOG",
+            "slug": "gog",
+            "color": "#86328c"
+          },
+          "store_url": "https://www.gog.com",
+          "platform_id": 6,
+          "regular_price": 59.99
+        }
+      ]
+    },
+    {
+      "id": "e73c1d83-9c4a-4158-aecb-4fc231ac9422",
+      "slug": "stardew-valley",
+      "title": "Stardew Valley",
+      "short_description": "A beloved farming sim where you build the life of your dreams.",
+      "about": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools, set out to build a new life. Grow crops, raise animals, mine for treasure, befriend townsfolk, and maybe find love in this charming, endlessly relaxing farming adventure with surprising depth.",
+      "developer": "ConcernedApe",
+      "publisher": "ConcernedApe",
+      "release_date": "2016-02-26",
+      "genres": [
+        "Simulation",
+        "RPG",
+        "Indie"
+      ],
+      "tags": [
+        "Farming Sim",
+        "Cozy",
+        "Crafting",
+        "Pixel Graphics",
+        "Relaxing"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op",
+        "Controller Support",
+        "Cloud Saves",
+        "Achievements"
+      ],
+      "hero_image": "/covers/stardew-valley.hero.jpg",
+      "box_image": "/covers/stardew-valley.box.jpg",
+      "rating": 97,
+      "price_display": "$14.99",
+      "featured": true,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op"
+      ],
+      "esrb_rating": "E10+ (Everyone 10+)",
+      "engine": "MonoGame (C#)",
+      "series": "Stardew Valley",
+      "metacritic_score": 89,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "41+ million copies sold; one of the best-selling indie games ever",
+      "main_story_hours": 80,
+      "completionist_hours": 160,
+      "awards": [
+        "Golden Joystick Breakthrough 2016",
+        "BAFTA nominee 2017"
+      ],
+      "trivia": [
+        "It was created by a single developer, Eric Barone, over four years",
+        "Barone drew all the pixel art and wrote all the music himself",
+        "The game's community center replaced a last-minute \"Joja warehouse\" ending",
+        "Jas, one of the town's children, is named after Barone's sister"
+      ],
+      "game_prices": [
+        {
+          "id": "16f53855-d0ee-4e93-9989-9ad1f25362f3",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 14.99
+        },
+        {
+          "id": "056d5425-d846-4023-88db-62fbc1a6e732",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 14.99
+        },
+        {
+          "id": "337894e3-c051-4b67-b8c5-bbbdf77a9805",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 14.99
+        },
+        {
+          "id": "5bc1f5d8-12df-4c0b-af41-20e6ea22dd62",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 14.99
+        },
+        {
+          "id": "a03b08e8-d64f-4ccb-889a-ac1ac1698279",
+          "price": 14.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 14.99
+        }
+      ]
+    },
+    {
+      "id": "a10ac461-f52e-41ee-8cb4-597a125691a6",
+      "slug": "team-fortress-2",
+      "title": "Team Fortress 2",
+      "short_description": "Nine ridiculous classes, one legendary team-based shooter.",
+      "about": "The comic, chaotic, endlessly influential hero shooter. Play as the Scout, the Spy, the Medic, and more in objective-based multiplayer mayhem. With decades of updates, an iconic art style, and a beloved community, TF2 is a true gaming institution.",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "release_date": "2007-10-10",
+      "genres": [
+        "Shooter",
+        "Action",
+        "Free to Play"
+      ],
+      "tags": [
+        "Multiplayer",
+        "PvP",
+        "Team-Based",
+        "Classes",
+        "Comedy"
+      ],
+      "features": [
+        "Online PvP",
+        "Voice Chat",
+        "Steam Workshop",
+        "Leaderboards"
+      ],
+      "hero_image": "/covers/team-fortress-2.hero.jpg",
+      "box_image": "/covers/team-fortress-2.box.jpg",
+      "rating": 92,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "game_modes": [
+        "Online PvP"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "Source",
+      "series": "Team Fortress",
+      "metacritic_score": 92,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "One of the most-played Steam games for 15+ years",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Multiplayer Game 2007 (multiple outlets)",
+        "Guinness World Record for most-patched game (2010s)"
+      ],
+      "trivia": [
+        "Its cartoon art style is based on the work of illustrator J.C. Leyendecker",
+        "Every class has a rich comic-book backstory, published free online",
+        "The Spy can disguise as any enemy class and backstab for instant kills",
+        "Its hat economy became a real phenomenon studied by economists"
+      ],
+      "game_prices": [
+        {
+          "id": "059f23a6-63bf-4b42-bacb-182477d5ceb6",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "ac96d8cc-99bc-4c5e-a63c-3a2656930c61",
+      "slug": "terraria",
+      "title": "Terraria",
+      "short_description": "Dig, fight, explore, build — a 2D sandbox adventure of endless depth.",
+      "about": "In Terraria, the world is your canvas and the underground is your playground. Dig for treasure, fight huge bosses, build incredible structures, and craft thousands of items in this charming 2D sandbox. With tons of content and endless replayability, Terraria is a true indie legend.",
+      "developer": "Re-Logic",
+      "publisher": "Re-Logic",
+      "release_date": "2011-05-16",
+      "genres": [
+        "Sandbox",
+        "Adventure",
+        "Indie"
+      ],
+      "tags": [
+        "Crafting",
+        "2D",
+        "Building",
+        "Exploration",
+        "Boss Fights"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op",
+        "Controller Support",
+        "Cloud Saves"
+      ],
+      "hero_image": "/covers/terraria.jpg",
+      "box_image": "/covers/terraria.jpg",
+      "rating": 83,
+      "price_display": "$9.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch",
+        "Mobile (iOS/Android)"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op",
+        "Local Co-op",
+        "Online PvP"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "In-house (XNA/FNA)",
+      "series": "Terraria",
+      "metacritic_score": 83,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "44+ million copies sold; one of the best-selling indie games ever",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Indie Game 2011 (IndieDB)",
+        "Golden Joystick indie nominee"
+      ],
+      "trivia": [
+        "It has received over a decade of free content updates — a record for an indie game",
+        "The final \"Journey's End\" update added over 1,000 new items",
+        "The Moon Lord is a reference to the Lovecraftian Cthulhu mythos",
+        "It started as a Minecraft-meets-Metroid hybrid proposed on a forum"
+      ],
+      "game_prices": [
+        {
+          "id": "ff025b3a-0350-4f15-a696-1e67ff25ae42",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 6,
+            "name": "GOG",
+            "slug": "gog",
+            "color": "#86328c"
+          },
+          "store_url": "https://www.gog.com",
+          "platform_id": 6,
+          "regular_price": 9.99
+        },
+        {
+          "id": "8703cc55-6fba-4ccd-8d1f-986add132fed",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 9.99
+        },
+        {
+          "id": "03f8ce0a-46d1-46ee-8da7-65a5ff79224f",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 9.99
+        },
+        {
+          "id": "8d20299e-a064-46ff-8dbd-fb53de6c9516",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 9.99
+        },
+        {
+          "id": "c92405d6-c8d6-47e0-b124-cc148c61776f",
+          "price": 9.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 9.99
+        }
+      ]
+    },
+    {
+      "id": "a5cde308-f6ea-4dc5-9640-a77d6db1fd03",
+      "slug": "the-last-of-us-part-i",
+      "title": "The Last of Us Part I",
+      "short_description": "A heartbreaking post-apocalyptic journey of survival and love.",
+      "about": "Joel, a hardened survivor, is hired to smuggle 14-year-old Ellie out of a quarantine zone. What starts as a simple job becomes a brutal journey across a decimated America. With masterful storytelling, tense survival gameplay, and unforgettable characters, The Last of Us is one of gaming's greatest narratives.",
+      "developer": "Naughty Dog",
+      "publisher": "Sony Interactive Entertainment",
+      "release_date": "2022-09-02",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Horror"
+      ],
+      "tags": [
+        "Story Rich",
+        "Post-apocalyptic",
+        "Single-player",
+        "Third-Person",
+        "Emotional"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Achievements"
+      ],
+      "hero_image": "/covers/the-last-of-us-part-i.hero.jpg",
+      "box_image": "/covers/the-last-of-us-part-i.box.jpg",
+      "rating": 88,
+      "price_display": "$49.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 5"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "In-house (Naughty Dog engine)",
+      "series": "The Last of Us",
+      "metacritic_score": 88,
+      "steam_reviews_label": "Very Positive",
+      "player_count": "Original sold 20+ million; Part I remake sold millions more",
+      "main_story_hours": 13,
+      "completionist_hours": 24,
+      "awards": [
+        "Original won Game of the Year 2013; remake nominated for accessibility awards"
+      ],
+      "trivia": [
+        "The remake was rebuilt from scratch with modern lighting and animations",
+        "Its infected enemies are based on real Cordyceps fungi",
+        "The story of Joel and Ellie is considered a high-water mark for narrative games",
+        "The HBO adaptation, starring Pedro Pascal and Bella Ramsey, premiered in 2023"
+      ],
+      "game_prices": [
+        {
+          "id": "0871c63d-fd9b-4d49-8cf3-37c3ff5e1b28",
+          "price": 39.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 49.99
+        },
+        {
+          "id": "3e1d70bf-95ac-483c-9353-50437a80ac72",
+          "price": 49.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 49.99
+        },
+        {
+          "id": "3e2a7a53-e91d-4e32-a031-d5b340eabf9e",
+          "price": 49.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 49.99
+        }
+      ]
+    },
+    {
+      "id": "854420a7-6f59-4cb8-97d1-be117c7aa31c",
+      "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "short_description": "An epic adventure across the land and skies of Hyrule.",
+      "about": "In the sequel to Breath of the Wild, Link explores the sprawling skies and deep depths of Hyrule. With new abilities like Ultrahand and Fuse, you can craft weapons, build vehicles, and solve puzzles in a world that rewards creativity like no other.",
+      "developer": "Nintendo EPD",
+      "publisher": "Nintendo",
+      "release_date": "2023-05-12",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "tags": [
+        "Open World",
+        "Crafting",
+        "Puzzle",
+        "Story Rich",
+        "Exploration"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support"
+      ],
+      "hero_image": "/covers/the-legend-of-zelda-tears-of-the-kingdom.jpg",
+      "box_image": "/covers/the-legend-of-zelda-tears-of-the-kingdom.jpg",
+      "rating": 96,
+      "price_display": "$69.99",
+      "featured": true,
+      "created_at": "2026-11-18T20:47:08.296489+00:00",
+      "platforms_released": [
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "E10+ (Everyone 10+)",
+      "engine": "In-house (Nintendo EPD)",
+      "series": "The Legend of Zelda",
+      "metacritic_score": 96,
+      "steam_reviews_label": "Positive (not on Steam)",
+      "player_count": "20+ million copies sold; fastest-selling Zelda game ever",
+      "main_story_hours": 59,
+      "completionist_hours": 250,
+      "awards": [
+        "Best Action/Adventure 2023 (The Game Awards)",
+        "Players' Voice 2023"
+      ],
+      "trivia": [
+        "Its fuse and ultrahand abilities let players build vehicles, machines, and more",
+        "The map is roughly triple the size of Breath of the Wild when counting the sky and depths",
+        "Nintendo released an official, free trading card of its Master Sword",
+        "Players found a way to defeat the final boss in under 2 minutes using creative ability stacking"
+      ],
+      "game_prices": [
+        {
+          "id": "cd11dc55-baa3-43e3-ae46-494b3d9ec10e",
+          "price": 69.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 5,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "color": "#e60012"
+          },
+          "store_url": "https://www.nintendo.com/us/store",
+          "platform_id": 5,
+          "regular_price": 69.99
+        }
+      ]
+    },
+    {
+      "id": "376bd987-40fd-43eb-94df-356adf878d28",
+      "slug": "the-sims-4",
+      "title": "The Sims 4",
+      "short_description": "The world-famous life simulator, where you create and control people.",
+      "about": "Build homes, design personalities, pursue careers, start families, and tell stories with the most beloved life sim ever made. Free to play with a decade of add-on content, The Sims 4 lets you play with life in any way you can imagine.",
+      "developer": "Maxis",
+      "publisher": "Electronic Arts",
+      "release_date": "2014-09-02",
+      "genres": [
+        "Simulation",
+        "Casual"
+      ],
+      "tags": [
+        "Life Sim",
+        "Creative",
+        "Building",
+        "Relaxing",
+        "Single-player"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Cloud Saves",
+        "Gallery"
+      ],
+      "hero_image": "/covers/the-sims-4.hero.jpg",
+      "box_image": "/covers/the-sims-4.box.jpg",
+      "rating": 76,
+      "price_display": "Free",
+      "featured": false,
+      "created_at": "2026-11-19T13:23:30.971394+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "In-house (Maxis engine)",
+      "series": "The Sims",
+      "metacritic_score": 76,
+      "steam_reviews_label": "Mostly Positive",
+      "player_count": "70+ million players worldwide",
+      "main_story_hours": 0,
+      "completionist_hours": 0,
+      "awards": [
+        "Best Simulation Game 2014 (multiple outlets)"
+      ],
+      "trivia": [
+        "It became free-to-play in October 2022",
+        "Its Create-a-Sim introduced customizable body types and skin tones",
+        "The Gallery lets players share houses and households worldwide",
+        "Emotions — happy, angry, embarrassed — drive its simulation, a first for the series"
+      ],
+      "game_prices": [
+        {
+          "id": "e33cd57e-dfdf-4c9f-b7fe-1bb215f50388",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 0
+        },
+        {
+          "id": "c32a761e-f905-481e-b622-d40c7cb50559",
+          "price": 0,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 0
+        }
+      ]
+    },
+    {
+      "id": "39cc1bf8-37fa-43c1-a4ec-c00adee8ca98",
+      "slug": "the-witcher-3-wild-hunt",
+      "title": "The Witcher 3: Wild Hunt",
+      "short_description": "A story-driven RPG of monster hunting and moral ambiguity.",
+      "about": "You are Geralt of Rivia, a monster slayer for hire, on a quest to find your adopted daughter in a war-torn world. With rich characters, meaningful choices, breathtaking landscapes, and two massive story expansions, The Witcher 3 set a new standard for open-world RPGs and remains a genre benchmark.",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "release_date": "2015-05-19",
+      "genres": [
+        "RPG",
+        "Adventure",
+        "Action"
+      ],
+      "tags": [
+        "Open World",
+        "Story Rich",
+        "Choices Matter",
+        "Fantasy",
+        "Third-Person"
+      ],
+      "features": [
+        "Single-player",
+        "Controller Support",
+        "Achievements",
+        "Cloud Saves"
+      ],
+      "hero_image": "/covers/the-witcher-3-wild-hunt.jpg",
+      "box_image": "/covers/the-witcher-3-wild-hunt.jpg",
+      "rating": 93,
+      "price_display": "$49.99",
+      "featured": false,
+      "created_at": "2026-11-18T20:50:33.589934+00:00",
+      "platforms_released": [
+        "PC",
+        "PlayStation 4/5",
+        "Xbox One/Series X|S",
+        "Nintendo Switch"
+      ],
+      "game_modes": [
+        "Single-player"
+      ],
+      "esrb_rating": "M (Mature 17+)",
+      "engine": "REDengine 3",
+      "series": "The Witcher",
+      "metacritic_score": 93,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "50+ million copies sold; among the best-selling RPGs ever",
+      "main_story_hours": 105,
+      "completionist_hours": 189,
+      "awards": [
+        "Game of the Year 2015 (The Game Awards)",
+        "Golden Joystick Ultimate Game of the Year 2015"
+      ],
+      "trivia": [
+        "CD Projekt Red promised no DRM and delivered",
+        "The Bloody Baron questline is taught in writing courses as an example of branching narrative",
+        "Gwent, an in-game card game, became its own standalone game",
+        "The game's \"Evil Incarnate\" ending was voted on by fans in Poland"
+      ],
+      "game_prices": [
+        {
+          "id": "c7cfc261-1656-4f51-8d02-a542c7ca1c55",
+          "price": 49.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 6,
+            "name": "GOG",
+            "slug": "gog",
+            "color": "#86328c"
+          },
+          "store_url": "https://www.gog.com",
+          "platform_id": 6,
+          "regular_price": 49.99
+        },
+        {
+          "id": "3b241082-bb7f-48a5-99fd-0992fe077b94",
+          "price": 49.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 4,
+            "name": "PlayStation",
+            "slug": "playstation",
+            "color": "#0070d1"
+          },
+          "store_url": "https://store.playstation.com",
+          "platform_id": 4,
+          "regular_price": 49.99
+        },
+        {
+          "id": "585d2a6b-e5c5-4bcf-84d6-76e6cfd3c973",
+          "price": 49.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 49.99
+        },
+        {
+          "id": "a18b47e1-f2b2-45f8-ac75-d5d351b7efe6",
+          "price": 49.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 2,
+            "name": "Epic Games Store",
+            "slug": "epic-games-store",
+            "color": "#e5e5e5"
+          },
+          "store_url": "https://store.epicgames.com",
+          "platform_id": 2,
+          "regular_price": 49.99
+        },
+        {
+          "id": "b5e40758-c24d-41f4-87f8-06960d55ba8d",
+          "price": 49.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 49.99
+        }
+      ]
+    },
+    {
+      "id": "693ca9bb-9c9c-4c54-819a-548f29e3fe5c",
+      "slug": "valheim",
+      "title": "Valheim",
+      "short_description": "A brutal Viking survival saga for one to ten players.",
+      "about": "Prove your worth to the Norse gods by conquering a procedurally generated world of forests, mountains, and seas. Build longhalls, craft legendary weapons, and summon and slay ancient beasts. Deep survival mechanics and cooperative play make Valheim a phenomenon.",
+      "developer": "Iron Gate AB",
+      "publisher": "Coffee Stain Publishing",
+      "release_date": "2021-02-02",
+      "genres": [
+        "Survival",
+        "Adventure",
+        "Indie"
+      ],
+      "tags": [
+        "Co-op",
+        "Crafting",
+        "Open World",
+        "Vikings",
+        "Base Building"
+      ],
+      "features": [
+        "Single-player",
+        "Online Co-op",
+        "Cloud Saves",
+        "Steam Workshop"
+      ],
+      "hero_image": "/covers/valheim.hero.jpg",
+      "box_image": "/covers/valheim.box.jpg",
+      "rating": 93,
+      "price_display": "$19.99",
+      "featured": false,
+      "created_at": "2026-11-18T21:33:19.956379+00:00",
+      "platforms_released": [
+        "PC",
+        "Xbox One/Series X|S"
+      ],
+      "game_modes": [
+        "Single-player",
+        "Online Co-op (up to 10 players)"
+      ],
+      "esrb_rating": "T (Teen)",
+      "engine": "Unity",
+      "series": "N/A",
+      "metacritic_score": 93,
+      "steam_reviews_label": "Overwhelmingly Positive",
+      "player_count": "12+ million copies sold",
+      "main_story_hours": 60,
+      "completionist_hours": 150,
+      "awards": [
+        "Best Debut Game 2021 nominee (The Game Awards)",
+        "Golden Joystick Breakthrough 2021"
+      ],
+      "trivia": [
+        "It was made by a five-person studio in Sweden",
+        "Its procedural worlds are inspired by Norse mythology",
+        "Building, farming, and sailing are as important as combat",
+        "The name \"Valheim\" refers to the tenth world in Norse mythology"
+      ],
+      "game_prices": [
+        {
+          "id": "70a9a5af-037f-4628-bc6f-f9c14895a176",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "color": "#66c0f4"
+          },
+          "store_url": "https://store.steampowered.com",
+          "platform_id": 1,
+          "regular_price": 19.99
+        },
+        {
+          "id": "3b0f1f9d-917e-4529-911f-4bd55935ef17",
+          "price": 19.99,
+          "on_sale": false,
+          "currency": "USD",
+          "platforms": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox",
+            "color": "#107c10"
+          },
+          "store_url": "https://www.xbox.com/store",
+          "platform_id": 3,
+          "regular_price": 19.99
+        }
+      ]
+    }
+  ],
+  "platforms": [
+    {
+      "id": 1,
+      "name": "Steam",
+      "slug": "steam",
+      "color": "#66c0f4"
+    },
+    {
+      "id": 2,
+      "name": "Epic Games Store",
+      "slug": "epic-games-store",
+      "color": "#e5e5e5"
+    },
+    {
+      "id": 3,
+      "name": "Xbox",
+      "slug": "xbox",
+      "color": "#107c10"
+    },
+    {
+      "id": 4,
+      "name": "PlayStation",
+      "slug": "playstation",
+      "color": "#0070d1"
+    },
+    {
+      "id": 5,
+      "name": "Nintendo Switch",
+      "slug": "nintendo-switch",
+      "color": "#e60012"
+    },
+    {
+      "id": 6,
+      "name": "GOG",
+      "slug": "gog",
+      "color": "#86328c"
+    }
+  ]
+}
