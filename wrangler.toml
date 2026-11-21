@@ -1,0 +1,8 @@
+name = "gamepedia"
+compatibility_date = "2026-11-20"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "game-pedia"
+database_id = "3e4bb8b7-440f-4559-8788-8bf9e972aa63"

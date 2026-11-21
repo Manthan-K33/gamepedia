@@ -3,8 +3,8 @@
 A browsable, wiki-style catalog of 48 games: cover art, store prices, Metacritic and
 community reception, playtime estimates, trivia, awards, platforms, and series links.
 
-Built with React 18 + TypeScript + Vite + Tailwind. The catalog is bundled into the
-build as a JSON snapshot, so the site is fully static and needs no database at runtime.
+Built with React 18 + TypeScript + Vite + Tailwind. Game data lives in Cloudflare D1
+(SQLite) and is served to the browser by a Pages Function at `/api/catalog`.
 
 ## Stack
 
@@ -12,9 +12,10 @@ build as a JSON snapshot, so the site is fully static and needs no database at r
 |---|---|
 | UI | React 18, TypeScript, Tailwind CSS 3 |
 | Build | Vite 7 |
-| Data | Bundled snapshot (`src/data/catalog.json`) |
+| Data | Cloudflare D1 (`games`, `game_prices`, `platforms`) |
+| API | Pages Function `functions/api/catalog.ts` |
 | Routing | Hash router (`#/`, `#/browse`, `#/game/:slug`) |
-| Hosting | Cloudflare Pages (static build) |
+| Hosting | Cloudflare Pages + Pages Functions |
 
 ## Local development
 
@@ -23,25 +24,50 @@ npm install
 npm run dev            # http://localhost:5173
 ```
 
-The app reads `src/data/catalog.json`, which is committed, so no environment
-variables are needed to run or build. Refreshing the data from Supabase is the
-only step that needs credentials (`.env`, git-ignored):
+`vite dev` has no Pages Functions, so it falls back to the checked-in snapshot
+`src/data/catalog.json`. To run against a real D1 binding locally:
+
+```sh
+npm run build
+wrangler d1 execute game-pedia --local --file=db/schema.sql
+wrangler d1 execute game-pedia --local --file=db/seed.sql
+wrangler pages dev dist
+```
+
+Refreshing the data from Supabase (the original import source) is optional and is
+the only step that needs credentials (`.env`, git-ignored):
 
 ```
 VITE_SUPABASE_URL=https://<project-ref>.supabase.co
 VITE_SUPABASE_ANON_KEY=<anon key>
 ```
 
-Then run `npm run data:export` to regenerate `src/data/catalog.json`.
+Then `npm run data:export` rewrites the snapshot, and `npm run db:seed:generate`
+turns it into `db/seed.sql`. Never put a `service_role` key in `.env`.
 
-The anon key is a public, RLS-scoped key intended for browser use. Never put a
-`service_role` key in this file.
+## Database
+
+```
+db/schema.sql   tables, indexes, FKs
+db/seed.sql     generated idempotent load (48 games, 159 prices)
+```
+
+| Command | Purpose |
+|---|---|
+| `npm run db:schema` | Apply the schema to remote D1 |
+| `npm run db:seed` | Load `db/seed.sql` into remote D1 |
+| `npm run db:seed:generate` | Regenerate `db/seed.sql` from the snapshot |
+| `npm run db:query` | Interactive SQL against remote D1 |
+
+The browser fetches `/api/catalog`, which the function caches for 60 seconds
+(`stale-while-revalidate=300`). Editing a row in D1 shows up within that window;
+`?cb=<timestamp>` bypasses the edge cache while testing.
 
 ## Scripts
 
 | Command | Purpose |
 |---|---|
-| `npm run dev` | Vite dev server with HMR |
+| `npm run dev` | Vite dev server (snapshot fallback, no API) |
 | `npm run build` | Production build into `dist/` |
 | `npm run preview` | Serve the built output locally |
 | `npm run data:export` | Refresh `src/data/catalog.json` from Supabase |
@@ -50,8 +76,8 @@ The anon key is a public, RLS-scoped key intended for browser use. Never put a
 
 ## Deploying
 
-Both hosts below need only the built `dist/` directory. There are no build-time
-environment variables to configure, because the data ships in the build.
+Both the static assets and the API are deployed together. The D1 binding is declared
+in `wrangler.toml`, so no dashboard configuration is needed.
 
 ### Cloudflare Pages (current production host)
 
@@ -66,38 +92,22 @@ First-time setup:
 npm i -g wrangler
 wrangler login
 wrangler pages project create gamepedia --production-branch main
+wrangler d1 create game-pedia            # copy the id into wrangler.toml
+npm run db:schema                        # create tables
+npm run db:seed                          # load the catalog
 ```
 
-Pages projects are public by default. `public/_redirects` provides the SPA
-fallback (`/* /index.html 200`). For Git-based continuous deploys, connect the
-repository in the Cloudflare dashboard with build command `npm run build` and
-output directory `dist`.
+`wrangler pages deploy` uploads `dist/` plus the `functions/` bundle. Pages projects
+are public by default and `public/_redirects` provides the SPA fallback
+(`/* /index.html 200`). For Git-based continuous deploys, connect the repository in
+the Cloudflare dashboard with build command `npm run build` and output directory
+`dist`; keep the D1 binding in `wrangler.toml`.
 
-### Netlify (alternative)
+### Other hosts
 
-The app is a static SPA, so Netlify's free tier runs it with no server code.
-
-**Option A — manual deploy from this machine**
-
-```sh
-npm run build
-npx netlify-cli deploy --prod --dir=dist
-```
-
-The first run authenticates and creates/links a site. Nothing needs configuring in
-the dashboard.
-
-**Option B — continuous deploy from Git**
-
-1. Push this repo to GitHub.
-2. In Netlify: *Add new site → Import an existing project*.
-3. Build command `npm run build`, publish directory `dist` (already in `netlify.toml`).
-
-Every push to the production branch then rebuilds and redeploys for free.
-
-> On credit-based Free plans, new Netlify projects start **private** (team login
-> required). Change that under *Project configuration → General → Visitor access →
-> Project visibility → Public*. There is no API/CLI for this setting.
+The app needs a SQLite-compatible database and a serverless function for
+`/api/catalog`. Netlify or Vercel would require porting `functions/api/catalog.ts`
+to their function format and moving the data to their database.
 
 ## Project layout
 
@@ -106,10 +116,16 @@ src/
   App.tsx              hash routing + data loading + filter state
   components/          Header, Footer, GameCard, GameCover
   pages/               Home, Browse, GameDetail (wiki entry)
-  data/catalog.json    bundled 48-game snapshot (generated by data:export)
-  lib/                 data access, price helpers, types
+  data/catalog.json    import snapshot, used by `vite dev` and as seed source
+  lib/                 API data access, price helpers, types
+functions/
+  api/catalog.ts       Pages Function reading D1
+db/
+  schema.sql           D1 schema
+  seed.sql             generated catalog load
 scripts/
   export-data.mjs      pulls the catalog from Supabase into src/data
+  generate-seed.mjs    turns the snapshot into db/seed.sql
 supabase/
   migrations/          schema + 48-game catalog and wiki data
   covers/              source cover images
@@ -120,7 +136,7 @@ public/covers/         served cover art
 
 - All 48 games have complete wiki fields (reception, trivia, awards, playtime,
   engine, series, ESRB, platforms, modes).
-- Prices are a snapshot taken when `npm run data:export` last ran; the page shows no
-  "live" claim. Re-run that script and rebuild to refresh them.
+- Prices in D1 are a snapshot from the original import. Update them with SQL or by
+  re-running the export → seed → deploy chain; the API caches for 60 seconds.
 - `game-pedia-source.tar.gz` and `game-pedia-source.zip` are export artifacts from
   the original Bolt project; they are not used at runtime.

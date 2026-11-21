@@ -1,13 +1,42 @@
-import catalog from '@/data/catalog.json';
 import type { Game, Platform, Price } from './types';
 
-// The catalog ships with the build (npm run data:export refreshes it), so the
-// site renders without any network call to a database.
-const SNAPSHOT = catalog as unknown as {
+// The catalog lives in Cloudflare D1 and is served by /api/catalog.
+// `npm run db:seed` loads the checked-in snapshot into the database.
+interface Catalog {
   generated_at: string;
   games: Game[];
   platforms: Platform[];
-};
+}
+
+let cached: Promise<Catalog> | null = null;
+
+async function loadSnapshot(): Promise<Catalog> {
+  const { default: snapshot } = await import('@/data/catalog.json');
+  return snapshot as unknown as Catalog;
+}
+
+async function fetchCatalog(): Promise<Catalog> {
+  try {
+    const res = await fetch('/api/catalog');
+    if (!res.ok) throw new Error(`Catalog API returned ${res.status}`);
+    return (await res.json()) as Catalog;
+  } catch (error) {
+    // `vite dev` has no Pages Functions, so local development reads the snapshot.
+    // Production surfaces the failure instead of hiding a broken database.
+    if (import.meta.env.DEV) return loadSnapshot();
+    throw error;
+  }
+}
+
+function catalog(): Promise<Catalog> {
+  if (!cached) {
+    cached = fetchCatalog().catch((error) => {
+      cached = null;
+      throw error;
+    });
+  }
+  return cached;
+}
 
 const FALLBACK_PLATFORMS: Platform[] = [
   { id: 1, name: 'Steam', slug: 'steam', color: '#1b2838' },
@@ -18,18 +47,14 @@ const FALLBACK_PLATFORMS: Platform[] = [
   { id: 6, name: 'GOG', slug: 'gog', color: '#86328c' },
 ];
 
-export function catalogUpdatedAt(): string {
-  return SNAPSHOT.generated_at;
-}
-
 export async function fetchPlatforms(): Promise<Platform[]> {
-  const data = SNAPSHOT.platforms;
+  const data = (await catalog()).platforms;
   if (!data || data.length === 0) return FALLBACK_PLATFORMS;
   return data;
 }
 
 export async function fetchGames(): Promise<Game[]> {
-  const data = SNAPSHOT.games;
+  const data = (await catalog()).games;
   if (!data) return [];
 
   return data.map((g) => ({

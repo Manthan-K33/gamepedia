@@ -9,7 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
-    "data:export": "node scripts/export-data.mjs"
+    "data:export": "node scripts/export-data.mjs",
+    "db:schema": "wrangler d1 execute game-pedia --remote --file=db/schema.sql",
+    "db:seed": "wrangler d1 execute game-pedia --remote --file=db/seed.sql",
+    "db:seed:generate": "node scripts/generate-seed.mjs",
+    "db:query": "wrangler d1 execute game-pedia --remote"
   },
   "dependencies": {
     "lucide-react": "^0.446.0",
