@@ -70,6 +70,10 @@ export default function App() {
   }, []);
 
   const navigate = (path: string) => {
+    if (path === '-1') {
+      window.history.back();
+      return;
+    }
     window.location.hash = path;
   };
 
@@ -130,7 +134,7 @@ export default function App() {
         </p>
         <p className="mt-2 text-sm text-gray-500">{error}</p>
         <button
-          onClick={() => window.location.reload()}
+          onClick={() => window.history.back()}
           className="mt-6 rounded-md bg-sky-500 px-5 py-2.5 text-sm font-bold text-white hover:bg-sky-400"
         >
           Try again
@@ -163,7 +167,7 @@ export default function App() {
           related={related}
           seriesGames={seriesGames}
           onOpenGame={openGame}
-          onBack={() => navigate('/')}
+          onBack={() => navigate('-1')}
           onFilterGenre={(genre) => openWithFilters({ genres: [genre] })}
           onFilterTag={(tag) => openWithFilters({ tags: [tag] })}
           onFilterPlatform={filterByPlatform}
@@ -203,6 +207,7 @@ export default function App() {
       <Header
         route={route.name === 'game' ? '/' : `/${route.name}`}
         onNavigate={navigate}
+        games={games}
         search={filters.search}
         onSearch={searchChanged}
       />

@@ -68,9 +68,8 @@ export async function fetchGames(): Promise<Game[]> {
 }
 
 export function lowestPrice(game: Game): Price | null {
-  const priced = game.game_prices.filter(
-    (p) => p.price !== null && p.price > 0
-  );
+  // A price of 0 is a real listing ("Free"), not a missing price.
+  const priced = game.game_prices.filter((p) => p.price !== null);
   if (priced.length === 0) return null;
   return priced.reduce((min, p) => (p.price! < min.price! ? p : min));
 }

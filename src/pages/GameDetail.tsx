@@ -21,6 +21,37 @@ import {
 import type { Game } from '@/lib/types';
 import { discountPercent, formatPrice } from '@/lib/games';
 
+// Document title and meta tags
+const pageTitle = (game: Game) =>
+  `${game.title} - GamePedia Game Library & Price Tracker`;
+
+const metaDescription = (game: Game) =>
+  `${game.short_description || game.about || 'Information about ' + game.title}. Compare prices, check ratings, and find the best deals across stores.`;
+
+const metaKeywords = (game: Game) =>
+  [
+    game.title,
+    ...(game.genres || []),
+    ...(game.tags || []),
+    ...(game.platforms_released || []),
+  ]
+    .filter(Boolean)
+    .join(', ');
+
+// Reuses (or creates) a
+// <meta name="..."> tag so the page can carry per-game SEO data.
+function ensureMeta(name: string): HTMLMetaElement {
+  const existing = document.head.querySelector<HTMLMetaElement>(
+    `meta[name="${name}"]`
+  );
+  if (existing) return existing;
+  const tag = document.createElement('meta');
+  tag.setAttribute('name', name);
+  document.head.appendChild(tag);
+  return tag;
+}
+
+
 interface GameDetailProps {
   game: Game;
   related: Game[];
@@ -202,8 +233,15 @@ function PlaytimeRow({
 
 function triviaHeadline(text: string): string {
   const clean = text.trim();
-  const sentence = clean.match(/^(.{20,120}?[.!?])(\s|$)/);
-  if (sentence && sentence[1].length <= 110) return sentence[1];
+  // Find the first sentence end, but skip internal periods like "R. R. Martin"
+  // Strategy: look for [.!?] followed by space + capital letter + lowercase letters (real word)
+  const sentenceMatch = clean.match(/^[^.!?]{20,120}([.!?](?=\s+[A-Z][a-z]|\s*$))/);
+  if (sentenceMatch) {
+    const sentence = sentenceMatch[1]
+      ? clean.slice(0, clean.indexOf(sentenceMatch[1]) + 1).trim()
+      : clean.slice(0, 120).trim();
+    if (sentence.length <= 110) return sentence;
+  }
   return clean.length > 100 ? `${clean.slice(0, 97).trimEnd()}…` : clean;
 }
 
@@ -261,10 +299,10 @@ function GameThumb({
       className="group overflow-hidden rounded-lg border border-white/5 bg-[#1a1a22] text-left transition-all hover:border-sky-400/40"
     >
       <img
-        src={game.box_image ?? ''}
+        src={game.box_image ?? game.hero_image ?? ''}
         alt={`${game.title} cover art`}
         loading="lazy"
-        className="aspect-[3/4] w-full object-cover object-top"
+        className="aspect-[3/4] w-full object-contain"
       />
       <div className="p-2.5">
         <p className="truncate text-sm font-semibold text-white">
@@ -307,6 +345,26 @@ export default function GameDetail({
   const mainHours = formatHours(game.main_story_hours);
   const completionHours = formatHours(game.completionist_hours);
   const progress = useScrollProgress();
+
+  // Keep the browser tab title and meta tags in sync with the open game,
+  // restoring the previous values when the page unmounts.
+  useEffect(() => {
+    const previousTitle = document.title;
+    const descriptionTag = ensureMeta('description');
+    const keywordsTag = ensureMeta('keywords');
+    const previousDescription = descriptionTag.content;
+    const previousKeywords = keywordsTag.content;
+
+    document.title = pageTitle(game);
+    descriptionTag.setAttribute('content', metaDescription(game));
+    keywordsTag.setAttribute('content', metaKeywords(game));
+
+    return () => {
+      document.title = previousTitle;
+      descriptionTag.setAttribute('content', previousDescription);
+      keywordsTag.setAttribute('content', previousKeywords);
+    };
+  }, [game]);
 
   const sections = useMemo(() => {
     const list: { id: string; label: string }[] = [
@@ -373,11 +431,23 @@ export default function GameDetail({
 
       {/* Hero banner */}
       <section className="relative overflow-hidden rounded-xl border border-white/5">
-        <img
-          src={game.hero_image ?? ''}
-          alt={game.title}
-          className="h-[300px] w-full object-cover object-top sm:h-[380px]"
-        />
+        <div className="relative h-[300px] w-full bg-[#0b0b10] sm:h-[380px]">
+          {game.hero_image && (
+            <img
+              src={game.hero_image}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 h-full w-full object-cover object-center scale-110 opacity-30 blur-2xl"
+            />
+          )}
+          {game.hero_image && (
+            <img
+              src={game.hero_image}
+              alt={game.title}
+              className="absolute inset-0 h-full w-full object-cover object-center"
+            />
+          )}
+        </div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#0e0e12] via-black/50 to-transparent" />
         <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
           <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
@@ -472,7 +542,7 @@ export default function GameDetail({
         </nav>
       )}
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_320px]">
+      <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-[1fr_320px] overflow-x-hidden">
         {/* Main column */}
         <div className="space-y-6">
           <SectionCard id="about" title="About this game">
@@ -484,7 +554,7 @@ export default function GameDetail({
           {/* Reception */}
           {(game.metacritic_score !== null || game.steam_reviews_label) && (
             <SectionCard id="reception" title="Reception" icon={BarChart3}>
-              <div className="mt-4 grid gap-4 sm:grid-cols-2">
+              <div className="mt-4 grid gap-4 sm:grid-cols-2 grid-cols-1">
                 {game.metacritic_score !== null && (
                   <div className="rounded-lg bg-white/[0.03] p-4">
                     <div className="flex items-baseline gap-2">
@@ -702,9 +772,9 @@ export default function GameDetail({
         <aside className="space-y-6">
           <div className="overflow-hidden rounded-lg border border-white/5 bg-[#1a1a22]">
             <img
-              src={game.box_image ?? ''}
+              src={game.box_image ?? game.hero_image ?? ''}
               alt={`${game.title} cover art`}
-              className="aspect-[3/4] w-full object-cover object-top"
+              className="aspect-[3/4] w-full object-contain"
             />
           </div>
 

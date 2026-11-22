@@ -1,8 +1,19 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ChevronDown, ChevronUp, SlidersHorizontal, X } from 'lucide-react';
 import type { Filters, Game, Platform, SortKey } from '@/lib/types';
 import { allGenres, allTags, bestDeal } from '@/lib/games';
 import GameCard from '@/components/GameCard';
+
+const DEFAULT_FILTERS: Filters = {
+  search: '',
+  genres: [],
+  tags: [],
+  platforms: [],
+  maxPrice: null,
+  onSaleOnly: false,
+  freeOnly: false,
+  sort: 'relevance',
+};
 
 interface BrowseProps {
   games: Game[];
@@ -91,6 +102,17 @@ export default function Browse({
   onOpenGame,
 }: BrowseProps) {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setMobileFiltersOpen(false);
+      }
+    };
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, []);
+
   const genres = allGenres(games);
   const tags = allTags(games);
   const set = (patch: Partial<Filters>) =>
@@ -112,6 +134,7 @@ export default function Browse({
   }, [games]);
 
   const activeFilterCount =
+    (filters.search.trim().length > 0 ? 1 : 0) +
     filters.genres.length +
     filters.tags.length +
     filters.platforms.length +
@@ -121,7 +144,7 @@ export default function Browse({
 
   const filtered = useMemo(() => {
     const q = filters.search.trim().toLowerCase();
-    let list = games.filter((g) => {
+    const list = games.filter((g) => {
       if (
         q &&
         !g.title.toLowerCase().includes(q) &&
@@ -158,33 +181,68 @@ export default function Browse({
       return true;
     });
 
-    const priceOf = (g: Game) => bestDeal(g)?.price ?? 0;
+    const priceOf = (g: Game) => {
+      const p = bestDeal(g)?.price;
+      // Games with no price sort after every priced game.
+      return p === null || p === undefined ? Number.POSITIVE_INFINITY : p;
+    };
+
+    const relevance = (g: Game) => {
+      if (!q) return 0;
+      const title = g.title.toLowerCase();
+      let score = 0;
+      if (title === q) score += 1000;
+      else if (title.startsWith(q)) score += 500;
+      else if (title.includes(q)) score += 200;
+      if ((g.developer ?? '').toLowerCase().includes(q)) score += 60;
+      if ((g.publisher ?? '').toLowerCase().includes(q)) score += 40;
+      if (g.genres.some((genre) => genre.toLowerCase().includes(q))) score += 20;
+      if (g.tags.some((t) => t.toLowerCase().includes(q))) score += 10;
+      return score;
+    };
+
+    const byTitle = (a: Game, b: Game) => a.title.localeCompare(b.title);
+
     switch (filters.sort) {
+      case 'title-asc':
+        list.sort(byTitle);
+        break;
       case 'rating-desc':
-        list = [...list].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
+        list.sort((a, b) => (b.rating ?? -1) - (a.rating ?? -1) || byTitle(a, b));
         break;
       case 'release-desc':
-        list = [...list].sort(
-          (a, b) =>
-            (b.release_date ?? '').localeCompare(a.release_date ?? '')
-        );
+      case 'release-asc': {
+        const direction = filters.sort === 'release-desc' ? -1 : 1;
+        list.sort((a, b) => {
+          const aDate = a.release_date ?? '';
+          const bDate = b.release_date ?? '';
+          if (!aDate && !bDate) return byTitle(a, b);
+          if (!aDate) return 1;
+          if (!bDate) return -1;
+          if (aDate === bDate) return byTitle(a, b);
+          return aDate < bDate ? -direction : direction;
+        });
         break;
-      case 'release-asc':
-        list = [...list].sort(
-          (a, b) =>
-            (a.release_date ?? '').localeCompare(b.release_date ?? '')
-        );
-        break;
+      }
       case 'price-asc':
-        list = [...list].sort((a, b) => priceOf(a) - priceOf(b));
+        list.sort((a, b) => priceOf(a) - priceOf(b) || byTitle(a, b));
         break;
       case 'price-desc':
-        list = [...list].sort((a, b) => priceOf(b) - priceOf(a));
+        list.sort((a, b) => {
+          const aPrice = priceOf(a);
+          const bPrice = priceOf(b);
+          if (aPrice === bPrice) return byTitle(a, b);
+          if (!Number.isFinite(aPrice)) return 1;
+          if (!Number.isFinite(bPrice)) return -1;
+          return bPrice - aPrice;
+        });
         break;
-      case 'title-asc':
-        list = [...list].sort((a, b) => a.title.localeCompare(b.title));
-        break;
+      default:
+        // Relevance only reorders when the user has typed a query;
+        // otherwise the curated catalog order is kept.
+        if (q) list.sort((a, b) => relevance(b) - relevance(a) || byTitle(a, b));
     }
+
     return list;
   }, [games, filters]);
 
@@ -363,9 +421,7 @@ export default function Browse({
             </button>
           ))}
           <button
-            onClick={() =>
-              onFiltersChange({ ...filters, genres: [], tags: [], platforms: [], maxPrice: null, onSaleOnly: false, freeOnly: false })
-            }
+            onClick={() => onFiltersChange(DEFAULT_FILTERS)}
             className="rounded-full border border-white/10 px-2.5 py-1 text-xs font-semibold text-gray-400 hover:text-white"
           >
             Clear all
@@ -379,6 +435,13 @@ export default function Browse({
         {mobileFiltersOpen && (
           <aside className="fixed inset-x-0 bottom-16 top-16 z-40 overflow-y-auto bg-[#121216] p-4 lg:hidden">
             {sidebar}
+            <button
+              onClick={() => setMobileFiltersOpen(false)}
+              className="absolute top-4 right-4 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors text-white"
+              aria-label="Close filters"
+            >
+              <X className="h-5 w-5" />
+            </button>
           </aside>
         )}
 
