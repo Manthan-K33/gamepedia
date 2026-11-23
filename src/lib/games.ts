@@ -47,8 +47,22 @@ const FALLBACK_PLATFORMS: Platform[] = [
   { id: 6, name: 'GOG', slug: 'gog', color: '#86328c' },
 ];
 
-export async function fetchPlatforms(): Promise<Platform[]> {
-  const data = (await catalog()).platforms;
+// Timestamp of the price snapshot the catalog was built from.
+export async function fetchCatalogGeneratedAt(): Promise<string> {
+  return (await catalog()).generated_at;
+}
+
+export function formatSnapshotDate(iso: string): string {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return iso;
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
+
+export async function fetchPlatforms(): Promise<Platform[]> {  const data = (await catalog()).platforms;
   if (!data || data.length === 0) return FALLBACK_PLATFORMS;
   return data;
 }

@@ -19,7 +19,7 @@ import {
   Layers,
 } from 'lucide-react';
 import type { Game } from '@/lib/types';
-import { discountPercent, formatPrice } from '@/lib/games';
+import { discountPercent, fetchCatalogGeneratedAt, formatPrice, formatSnapshotDate } from '@/lib/games';
 
 // Document title and meta tags
 const pageTitle = (game: Game) =>
@@ -345,6 +345,21 @@ export default function GameDetail({
   const mainHours = formatHours(game.main_story_hours);
   const completionHours = formatHours(game.completionist_hours);
   const progress = useScrollProgress();
+
+  const [pricesUpdatedAt, setPricesUpdatedAt] = useState<string | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    fetchCatalogGeneratedAt()
+      .then((value) => {
+        if (!cancelled) setPricesUpdatedAt(value);
+      })
+      .catch(() => {
+        // Non-critical: the page still renders without the timestamp.
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   // Keep the browser tab title and meta tags in sync with the open game,
   // restoring the previous values when the page unmounts.
@@ -692,6 +707,13 @@ export default function GameDetail({
             <p className="mt-1 text-xs text-gray-500">
               Compare where this game is sold and for how much. Purchases are
               made on the store&apos;s website.
+              {pricesUpdatedAt && (
+                <>
+                  {' '}
+                  Prices last checked{' '}
+                  {formatSnapshotDate(pricesUpdatedAt)}.
+                </>
+              )}
             </p>
             <div className="mt-4 divide-y divide-white/5">
               {prices.map((p) => {

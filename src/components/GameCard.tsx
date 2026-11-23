@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Heart, Star, Tag } from 'lucide-react';
 import type { Game } from '@/lib/types';
 import { bestDeal, discountPercent, formatPrice } from '@/lib/games';
+import GameCover from '@/components/GameCover';
 
 interface GameCardProps {
   game: Game;
@@ -9,6 +10,10 @@ interface GameCardProps {
 }
 
 export default function GameCard({ game, onOpen }: GameCardProps) {
+  const [imageFailed, setImageFailed] = useState(false);
+  const [landscapeArt, setLandscapeArt] = useState(false);
+
+  const cover = game.box_image ?? game.hero_image ?? '';
   const [wishlisted, setWishlisted] = useState(() => {
     try {
       return JSON.parse(
@@ -57,12 +62,35 @@ export default function GameCard({ game, onOpen }: GameCardProps) {
       className="group cursor-pointer overflow-hidden rounded-lg border border-white/5 bg-[#1a1a22] transition-all duration-200 hover:-translate-y-1 hover:border-sky-400/40 hover:shadow-lg hover:shadow-sky-500/10"
     >
       <div className="relative aspect-[3/4] overflow-hidden bg-[#14141b]">
-        <img
-          src={game.box_image ?? game.hero_image ?? ''}
-          alt={`${game.title} cover art`}
-          loading="lazy"
-          className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
-        />
+        {!cover || imageFailed ? (
+          <GameCover game={game} />
+        ) : landscapeArt ? (
+          // Wide logo art (Fortnite, Minecraft) is a title card, not a poster:
+          // show the whole logo on a light panel instead of cropping it.
+          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#dfe7f3] via-[#f3f6fb] to-[#c9d5e8] p-5">
+            <img
+              src={cover}
+              alt={`${game.title} logo`}
+              loading="lazy"
+              className="max-h-[42%] w-[88%] object-contain drop-shadow-sm"
+              onError={() => setImageFailed(true)}
+            />
+          </div>
+        ) : (
+          <img
+            src={cover}
+            alt={`${game.title} cover art`}
+            loading="lazy"
+            onLoad={(event) => {
+              const { naturalWidth, naturalHeight } = event.currentTarget;
+              if (naturalHeight > 0 && naturalWidth / naturalHeight > 1.15) {
+                setLandscapeArt(true);
+              }
+            }}
+            onError={() => setImageFailed(true)}
+            className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a22] via-transparent to-transparent" />
         {discount !== null && (
           <span className="absolute left-2 top-2 rounded bg-emerald-500 px-1.5 py-0.5 text-xs font-bold text-white">
