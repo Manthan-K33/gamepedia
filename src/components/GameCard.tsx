@@ -93,7 +93,7 @@ export default function GameCard({ game, onOpen }: GameCardProps) {
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a22] via-transparent to-transparent" />
         {discount !== null && (
-          <span className="absolute left-2 top-2 rounded bg-emerald-500 px-1.5 py-0.5 text-xs font-bold text-white">
+          <span className="absolute left-2 top-2 rounded bg-emerald-400 px-1.5 py-0.5 text-xs font-bold text-emerald-950">
             -{discount}%
           </span>
         )}
@@ -126,7 +126,7 @@ export default function GameCard({ game, onOpen }: GameCardProps) {
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
-              className="underline underline-offset-2 hover:text-sky-400"
+              className="inline-block py-0.5 underline underline-offset-2 hover:text-sky-400"
             >
               {game.title}
             </a>

@@ -25,7 +25,8 @@ export default function Home({ games, onOpenGame, onBrowse }: HomeProps) {
   const canNext = slide + 6 < games.length;
 
   const goTo = (slug: string) => {
-    const idx = games.findIndex((g) => g.slug === slug);
+    // `heroIndex` indexes the featured list, not the full catalog.
+    const idx = hero.findIndex((g) => g.slug === slug);
     if (idx >= 0) setHeroIndex(idx);
   };
 
@@ -61,7 +62,7 @@ export default function Home({ games, onOpenGame, onBrowse }: HomeProps) {
           <div className="mt-4 flex flex-wrap items-center gap-3">
             <button
               onClick={() => onOpenGame(current.slug)}
-              className="flex items-center gap-2 rounded-md bg-sky-500 px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-sky-400"
+              className="flex items-center gap-2 rounded-md bg-sky-400 px-5 py-2.5 text-sm font-bold text-slate-950 transition-colors hover:bg-sky-300"
             >
               <Info className="h-4 w-4" />
               View details
@@ -97,10 +98,14 @@ export default function Home({ games, onOpenGame, onBrowse }: HomeProps) {
               key={g.slug}
               onClick={() => setHeroIndex(hero.indexOf(g))}
               aria-label={`Show ${g.title}`}
-              className={`h-1.5 rounded-full transition-all ${
-                g.slug === current.slug ? 'w-6 bg-sky-400' : 'w-3 bg-white/30'
-              }`}
-            />
+              className="flex h-6 w-6 items-center justify-center"
+            >
+              <span
+                className={`block h-1.5 rounded-full transition-all ${
+                  g.slug === current.slug ? 'w-6 bg-sky-400' : 'w-3 bg-white/30'
+                }`}
+              />
+            </button>
           ))}
         </div>
       </section>

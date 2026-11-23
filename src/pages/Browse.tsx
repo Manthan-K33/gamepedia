@@ -88,7 +88,7 @@ function CheckRow({
       />
       <span className="flex-1">{label}</span>
       {count !== undefined && (
-        <span className="text-xs text-gray-600">{count}</span>
+        <span className="text-xs text-gray-400">{count}</span>
       )}
     </label>
   );
@@ -321,7 +321,7 @@ export default function Browse({
             }
             className="w-full accent-sky-500"
           />
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-gray-400">
             Max:{' '}
             {filters.maxPrice === null ? 'Any' : `$${filters.maxPrice}`}
           </p>
@@ -368,7 +368,7 @@ export default function Browse({
           <h1 className="text-2xl font-extrabold tracking-tight text-white">
             Browse
           </h1>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-400">
             {filtered.length} game{filtered.length !== 1 ? 's' : ''} found
           </p>
         </div>
@@ -380,12 +380,13 @@ export default function Browse({
             <SlidersHorizontal className="h-4 w-4" />
             Filters
             {activeFilterCount > 0 && (
-              <span className="rounded-full bg-sky-500 px-1.5 text-xs font-bold text-white">
+              <span className="rounded-full bg-sky-400 px-1.5 text-xs font-bold text-slate-950">
                 {activeFilterCount}
               </span>
             )}
           </button>
           <select
+            aria-label="Sort games"
             value={filters.sort}
             onChange={(e) => set({ sort: e.target.value as SortKey })}
             className="rounded-md border border-white/10 bg-[#1a1a22] px-3 py-2 text-sm text-gray-300 focus:border-sky-400 focus:outline-none"
@@ -446,10 +447,11 @@ export default function Browse({
         )}
 
         <div className="min-w-0 flex-1">
+          <h2 className="sr-only">Game results</h2>
           {filtered.length === 0 ? (
             <div className="rounded-lg border border-white/5 bg-[#1a1a22] p-12 text-center">
               <p className="text-lg font-semibold text-white">No games found</p>
-              <p className="mt-1 text-sm text-gray-500">
+              <p className="mt-1 text-sm text-gray-400">
                 Try removing some filters or broadening your search.
               </p>
             </div>

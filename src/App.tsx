@@ -7,12 +7,27 @@ import GameDetail from '@/pages/GameDetail';
 import type { Filters, Game, Platform } from '@/lib/types';
 import { fetchGames, fetchPlatforms } from '@/lib/games';
 
-function parseRoute(hash: string): { name: 'home' | 'browse' | 'game'; slug?: string } {
+type Route =
+  | { name: 'home' }
+  | { name: 'browse' }
+  | { name: 'game'; slug: string }
+  | { name: 'notfound' };
+
+function parseRoute(hash: string): Route {
   const clean = hash.replace(/^#/, '');
-  if (clean.startsWith('/game/'))
-    return { name: 'game', slug: clean.slice('/game/'.length) };
+  if (clean === '' || clean === '/') return { name: 'home' };
   if (clean.startsWith('/browse')) return { name: 'browse' };
-  return { name: 'home' };
+  if (clean.startsWith('/game/') && clean.length > '/game/'.length) {
+    try {
+      return {
+        name: 'game',
+        slug: decodeURIComponent(clean.slice('/game/'.length)),
+      };
+    } catch {
+      return { name: 'notfound' };
+    }
+  }
+  return { name: 'notfound' };
 }
 
 const DEFAULT_FILTERS: Filters = {
@@ -132,10 +147,10 @@ export default function App() {
         <p className="text-lg font-semibold text-white">
           We couldn't load the game library
         </p>
-        <p className="mt-2 text-sm text-gray-500">{error}</p>
+        <p className="mt-2 text-sm text-gray-400">{error}</p>
         <button
           onClick={() => window.history.back()}
-          className="mt-6 rounded-md bg-sky-500 px-5 py-2.5 text-sm font-bold text-white hover:bg-sky-400"
+          className="mt-6 rounded-md bg-sky-400 px-5 py-2.5 text-sm font-bold text-slate-950 hover:bg-sky-300"
         >
           Try again
         </button>
@@ -179,7 +194,7 @@ export default function App() {
           <p className="text-lg font-semibold text-white">Game not found</p>
           <button
             onClick={goBrowse}
-            className="mt-6 rounded-md bg-sky-500 px-5 py-2.5 text-sm font-bold text-white hover:bg-sky-400"
+            className="mt-6 rounded-md bg-sky-400 px-5 py-2.5 text-sm font-bold text-slate-950 hover:bg-sky-300"
           >
             Browse all games
           </button>
@@ -195,6 +210,32 @@ export default function App() {
         onFiltersChange={setFilters}
         onOpenGame={openGame}
       />
+    );
+  } else if (route.name === 'notfound') {
+    content = (
+      <div className="mx-auto max-w-7xl px-4 py-20 text-center sm:px-6">
+        <p className="text-xs font-bold uppercase tracking-wider text-sky-400">
+          404
+        </p>
+        <h1 className="mt-2 text-2xl font-bold text-white">Page not found</h1>
+        <p className="mt-2 text-sm text-gray-400">
+          The page you&apos;re looking for doesn&apos;t exist or may have moved.
+        </p>
+        <div className="mt-6 flex flex-wrap justify-center gap-3">
+          <button
+            onClick={goBrowse}
+            className="rounded-md bg-sky-400 px-5 py-2.5 text-sm font-bold text-slate-950 hover:bg-sky-300"
+          >
+            Browse all games
+          </button>
+          <button
+            onClick={() => navigate('/')}
+            className="rounded-md border border-white/15 px-5 py-2.5 text-sm font-bold text-white hover:border-white/30"
+          >
+            Go home
+          </button>
+        </div>
+      </div>
     );
   } else {
     content = (

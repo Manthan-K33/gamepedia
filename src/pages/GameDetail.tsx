@@ -19,7 +19,13 @@ import {
   Layers,
 } from 'lucide-react';
 import type { Game } from '@/lib/types';
-import { discountPercent, fetchCatalogGeneratedAt, formatPrice, formatSnapshotDate } from '@/lib/games';
+import {
+  discountPercent,
+  fetchCatalogGeneratedAt,
+  formatPrice,
+  formatSnapshotDate,
+  storeHref,
+} from '@/lib/games';
 
 // Document title and meta tags
 const pageTitle = (game: Game) =>
@@ -121,12 +127,12 @@ function InfoRow({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex items-start gap-2">
-      <Icon className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" />
-      <div className="min-w-0">
-        <dt className="text-xs text-gray-500">{label}</dt>
-        <dd className="font-semibold text-white">{children}</dd>
-      </div>
+    <div className="flex flex-col gap-0.5">
+      <dt className="flex items-center gap-2 text-xs text-gray-400">
+        <Icon className="h-4 w-4 shrink-0" />
+        {label}
+      </dt>
+      <dd className="pl-6 font-semibold text-white">{children}</dd>
     </div>
   );
 }
@@ -270,7 +276,7 @@ function TriviaItem({
           {triviaHeadline(text)}
         </span>
         <ChevronDown
-          className={`h-4 w-4 shrink-0 text-gray-500 transition-transform ${open ? 'rotate-180' : ''}`}
+          className={`h-4 w-4 shrink-0 text-gray-400 transition-transform ${open ? 'rotate-180' : ''}`}
         />
       </button>
       <div
@@ -308,7 +314,7 @@ function GameThumb({
         <p className="truncate text-sm font-semibold text-white">
           {game.title}
         </p>
-        <p className="truncate text-xs text-gray-500">
+        <p className="truncate text-xs text-gray-400">
           {game.genres.slice(0, 2).join(' • ')}
         </p>
       </div>
@@ -495,7 +501,7 @@ export default function GameDetail({
       <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
         {game.esrb_rating && (
           <div className="rounded-lg border border-white/5 bg-[#1a1a22] p-3">
-            <p className="text-[11px] uppercase tracking-wide text-gray-500">
+            <p className="text-[11px] uppercase tracking-wide text-gray-400">
               Age rating
             </p>
             <p className="mt-0.5 truncate text-sm font-semibold text-white">
@@ -505,7 +511,7 @@ export default function GameDetail({
         )}
         {game.series && (
           <div className="rounded-lg border border-white/5 bg-[#1a1a22] p-3">
-            <p className="text-[11px] uppercase tracking-wide text-gray-500">
+            <p className="text-[11px] uppercase tracking-wide text-gray-400">
               Series
             </p>
             <p className="mt-0.5 truncate text-sm font-semibold text-white">
@@ -515,7 +521,7 @@ export default function GameDetail({
         )}
         {(mainHours || completionHours) && (
           <div className="rounded-lg border border-white/5 bg-[#1a1a22] p-3">
-            <p className="text-[11px] uppercase tracking-wide text-gray-500">
+            <p className="text-[11px] uppercase tracking-wide text-gray-400">
               Playtime
             </p>
             <p className="mt-0.5 truncate text-sm font-semibold text-white">
@@ -526,7 +532,7 @@ export default function GameDetail({
         )}
         {awards.length > 0 && (
           <div className="rounded-lg border border-white/5 bg-[#1a1a22] p-3">
-            <p className="text-[11px] uppercase tracking-wide text-gray-500">
+            <p className="text-[11px] uppercase tracking-wide text-gray-400">
               Awards
             </p>
             <p className="mt-0.5 truncate text-sm font-semibold text-white">
@@ -576,9 +582,9 @@ export default function GameDetail({
                       <span className="text-3xl font-extrabold text-white">
                         {game.metacritic_score}
                       </span>
-                      <span className="text-xs text-gray-500">/ 100</span>
+                      <span className="text-xs text-gray-400">/ 100</span>
                     </div>
-                    <p className="mt-1 text-xs text-gray-500">
+                    <p className="mt-1 text-xs text-gray-400">
                       Metacritic critic score
                     </p>
                     <div className="mt-3">
@@ -591,14 +597,14 @@ export default function GameDetail({
                     <p className="text-sm font-bold text-sky-300">
                       {game.steam_reviews_label}
                     </p>
-                    <p className="mt-1 text-xs text-gray-500">
+                    <p className="mt-1 text-xs text-gray-400">
                       Community review summary
                     </p>
                   </div>
                 )}
                 {game.player_count && (
                   <div className="rounded-lg bg-white/[0.03] p-4 sm:col-span-2">
-                    <p className="text-xs text-gray-500">Player base</p>
+                    <p className="text-xs text-gray-400">Player base</p>
                     <p className="mt-1 text-sm font-semibold text-white">
                       {game.player_count}
                     </p>
@@ -633,7 +639,7 @@ export default function GameDetail({
                   />
                 )}
               </div>
-              <p className="mt-4 text-xs text-gray-500">
+              <p className="mt-4 text-xs text-gray-400">
                 Community-reported averages for a typical playthrough. Actual
                 time varies with difficulty, exploration, and play style.
               </p>
@@ -655,7 +661,7 @@ export default function GameDetail({
                         : new Set(trivia.map((_, i) => i))
                     )
                   }
-                  className="text-[11px] font-semibold text-gray-500 transition-colors hover:text-sky-300"
+                  className="text-[11px] font-semibold text-gray-400 transition-colors hover:text-sky-300"
                 >
                   {allTriviaOpen ? 'Collapse all' : 'Expand all'}
                 </button>
@@ -704,7 +710,7 @@ export default function GameDetail({
           )}
 
           <SectionCard id="pricing" title="Availability & pricing">
-            <p className="mt-1 text-xs text-gray-500">
+            <p className="mt-1 text-xs text-gray-400">
               Compare where this game is sold and for how much. Purchases are
               made on the store&apos;s website.
               {pricesUpdatedAt && (
@@ -734,7 +740,7 @@ export default function GameDetail({
                       <p className="truncate text-sm font-semibold text-white">
                         {platform?.name ?? 'Unknown store'}
                       </p>
-                      <p className="text-xs text-gray-500">
+                      <p className="text-xs text-gray-400">
                         {discount !== null ? (
                           <span className="font-semibold text-emerald-400">
                             Save {discount}%
@@ -752,7 +758,7 @@ export default function GameDetail({
                       ) : (
                         <div className="flex items-baseline justify-end gap-2">
                           {discount !== null && p.regular_price !== null && (
-                            <span className="text-xs text-gray-500 line-through">
+                            <span className="text-xs text-gray-400 line-through">
                               {formatPrice(p.regular_price, p.currency)}
                             </span>
                           )}
@@ -768,10 +774,11 @@ export default function GameDetail({
                     </div>
                     {p.store_url && (
                       <a
-                        href={p.store_url}
+                        href={storeHref(p.store_url, platform, game.title)}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
+                        aria-label={`Visit ${platform?.name ?? 'the store'} to search for ${game.title}`}
                         className="flex shrink-0 items-center gap-1 rounded-md border border-white/10 px-3 py-1.5 text-xs font-semibold text-gray-300 transition-colors hover:border-sky-400/50 hover:text-sky-300"
                       >
                         Visit
@@ -782,7 +789,7 @@ export default function GameDetail({
                 );
               })}
               {prices.length === 0 && (
-                <p className="py-4 text-sm text-gray-500">
+                <p className="py-4 text-sm text-gray-400">
                   No store information available for this game yet.
                 </p>
               )}
@@ -884,7 +891,7 @@ export default function GameDetail({
             </SectionCard>
           )}
 
-          <div className="rounded-lg border border-white/5 bg-[#1a1a22] p-4 text-xs leading-relaxed text-gray-500">
+          <div className="rounded-lg border border-white/5 bg-[#1a1a22] p-4 text-xs leading-relaxed text-gray-400">
             <p className="flex items-center gap-1.5 font-semibold text-gray-400">
               <BookOpen className="h-3.5 w-3.5" />
               Wiki entry

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# The catalog is a client-rendered hash router, so there is a single indexable
+# entry point. Individual games are addressed with #/game/<slug>.

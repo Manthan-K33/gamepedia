@@ -23,10 +23,25 @@ function matchScore(game: Game, q: string): number | null {
   if (title.startsWith(q)) return 1;
   if (title.includes(q)) return 2;
   if (title.split(/\s+/).some((word) => word.startsWith(q))) return 3;
-  if ((game.developer ?? '').toLowerCase().includes(q)) return 4;
-  if ((game.publisher ?? '').toLowerCase().includes(q)) return 5;
-  if (game.genres.some((genre) => genre.toLowerCase().includes(q))) return 6;
-  if (game.tags.some((tag) => tag.toLowerCase().includes(q))) return 7;
+
+  // Metadata matches only make sense from three characters on, and only at a
+  // word boundary: otherwise "zz" would suggest every "Puzzle" game.
+  if (q.length < 3) return null;
+  const startsWord = (value: string) => {
+    const haystack = value.toLowerCase();
+    let index = haystack.indexOf(q);
+    while (index !== -1) {
+      const before = index === 0 ? '' : haystack[index - 1];
+      if (!/[a-z0-9]/.test(before)) return true;
+      index = haystack.indexOf(q, index + 1);
+    }
+    return false;
+  };
+
+  if (startsWord(game.developer ?? '')) return 4;
+  if (startsWord(game.publisher ?? '')) return 5;
+  if (game.genres.some(startsWord)) return 6;
+  if (game.tags.some(startsWord)) return 7;
   return null;
 }
 
@@ -170,7 +185,7 @@ export default function Header({
           role="search"
         >
           <div ref={wrapperRef} className="relative w-full">
-            <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-500" />
+            <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
             <input
               ref={inputRef}
               id="game-search"
@@ -193,7 +208,7 @@ export default function Header({
               }}
               onKeyDown={onInputKeyDown}
               placeholder="Search games..."
-              className="w-full rounded-md border border-white/10 bg-white/5 py-2 pl-9 pr-3 text-sm text-white placeholder:text-gray-500 focus:border-sky-400 focus:outline-none focus:ring-1 focus:ring-sky-400"
+              className="w-full rounded-md border border-white/10 bg-white/5 py-2 pl-9 pr-3 text-sm text-white placeholder:text-gray-400 focus:border-sky-400 focus:outline-none focus:ring-1 focus:ring-sky-400"
             />
 
             {showPanel && (

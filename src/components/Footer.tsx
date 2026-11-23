@@ -29,7 +29,7 @@ export default function Footer() {
               GAME<span className="text-sky-400">PEDIA</span>
             </span>
           </div>
-          <div className="space-y-1 text-center text-xs leading-relaxed text-gray-500 sm:text-right">
+          <div className="space-y-1 text-center text-xs leading-relaxed text-gray-400 sm:text-right">
             {updatedAt && (
               <p>Prices last checked {formatSnapshotDate(updatedAt)}</p>
             )}

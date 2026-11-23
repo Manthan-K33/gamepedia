@@ -62,7 +62,34 @@ export function formatSnapshotDate(iso: string): string {
   });
 }
 
-export async function fetchPlatforms(): Promise<Platform[]> {  const data = (await catalog()).platforms;
+// The stored `store_url` values point at storefront home pages, so build a
+// store search URL for the game instead of dropping people on a front page.
+const STORE_SEARCH: Record<string, (query: string) => string> = {
+  steam: (q) => `https://store.steampowered.com/search/?term=${encodeURIComponent(q)}`,
+  'epic-games-store': (q) =>
+    `https://store.epicgames.com/en-US/search?q=${encodeURIComponent(q)}`,
+  xbox: (q) => `https://www.xbox.com/en-US/search?q=${encodeURIComponent(q)}`,
+  playstation: (q) =>
+    `https://store.playstation.com/en-us/search/${encodeURIComponent(q)}`,
+  'nintendo-switch': (q) =>
+    `https://www.nintendo.com/us/search/#q=${encodeURIComponent(q)}&p=1`,
+  gog: (q) => `https://www.gog.com/en/games?query=${encodeURIComponent(q)}`,
+};
+
+export function storeHref(
+  storeUrl: string | null,
+  platform: Platform | null,
+  title: string
+): string {
+  if (platform) {
+    const build = STORE_SEARCH[platform.slug];
+    if (build) return build(title);
+  }
+  return storeUrl ?? '#';
+}
+
+export async function fetchPlatforms(): Promise<Platform[]> {
+  const data = (await catalog()).platforms;
   if (!data || data.length === 0) return FALLBACK_PLATFORMS;
   return data;
 }
@@ -73,6 +100,11 @@ export async function fetchGames(): Promise<Game[]> {
 
   return data.map((g) => ({
     ...g,
+    // The source data used "N/A" as a placeholder; treat it as "no series".
+    series:
+      g.series && g.series.trim() && g.series.trim().toUpperCase() !== 'N/A'
+        ? g.series.trim()
+        : null,
     game_prices: (g.game_prices ?? []).map((p) => ({
       ...p,
       price: p.price !== null ? Number(p.price) : null,
