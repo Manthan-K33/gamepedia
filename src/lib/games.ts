@@ -68,8 +68,9 @@ export function formatSnapshotDate(iso: string): string {
   });
 }
 
-// The stored `store_url` values point at storefront home pages, so build a
-// store search URL for the game instead of dropping people on a front page.
+// The stored `store_url` values point at storefront home pages. A price row can
+// carry a `product_url` for the exact game; when it does, "Visit" goes straight
+// there. Otherwise fall back to a store search for the title.
 const STORE_SEARCH: Record<string, (query: string) => string> = {
   steam: (q) => `https://store.steampowered.com/search/?term=${encodeURIComponent(q)}`,
   'epic-games-store': (q) =>
@@ -82,16 +83,18 @@ const STORE_SEARCH: Record<string, (query: string) => string> = {
   gog: (q) => `https://www.gog.com/en/games?query=${encodeURIComponent(q)}`,
 };
 
-export function storeHref(
-  storeUrl: string | null,
-  platform: Platform | null,
-  title: string
-): string {
+export function storeHref(price: Price, title: string): string {
+  if (price.product_url) return price.product_url;
+  const platform = price.platforms;
   if (platform) {
     const build = STORE_SEARCH[platform.slug];
     if (build) return build(title);
   }
-  return storeUrl ?? '#';
+  return price.store_url ?? '#';
+}
+
+export function hasProductPage(price: Price): boolean {
+  return Boolean(price.product_url);
 }
 
 export async function fetchPlatforms(): Promise<Platform[]> {

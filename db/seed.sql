@@ -64,213 +64,213 @@ INSERT INTO games (id, slug, title, short_description, about, developer, publish
 ('376bd987-40fd-43eb-94df-356adf878d28', 'the-sims-4', 'The Sims 4', 'The world-famous life simulator, where you create and control people.', 'Build homes, design personalities, pursue careers, start families, and tell stories with the most beloved life sim ever made. Free to play with a decade of add-on content, The Sims 4 lets you play with life in any way you can imagine.', 'Maxis', 'Electronic Arts', '2014-09-02', '["Simulation","Casual"]', '["Life Sim","Creative","Building","Relaxing","Single-player"]', '["Single-player","Controller Support","Cloud Saves","Gallery"]', '/covers/the-sims-4.hero.jpg', '/covers/the-sims-4.box.jpg', 76, 'Free', 0, '["PC","PlayStation 4/5","Xbox One/Series X|S"]', '["Single-player"]', 'T (Teen)', 'In-house (Maxis engine)', 'The Sims', 76, 'Mostly Positive', '70+ million players worldwide', 0, 0, '["Best Simulation Game 2014 (multiple outlets)"]', '["It became free-to-play in October 2022","Its Create-a-Sim introduced customizable body types and skin tones","The Gallery lets players share houses and households worldwide","Emotions — happy, angry, embarrassed — drive its simulation, a first for the series"]'),
 ('39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 'the-witcher-3-wild-hunt', 'The Witcher 3: Wild Hunt', 'A story-driven RPG of monster hunting and moral ambiguity.', 'You are Geralt of Rivia, a monster slayer for hire, on a quest to find your adopted daughter in a war-torn world. With rich characters, meaningful choices, breathtaking landscapes, and two massive story expansions, The Witcher 3 set a new standard for open-world RPGs and remains a genre benchmark.', 'CD Projekt Red', 'CD Projekt', '2015-05-19', '["RPG","Adventure","Action"]', '["Open World","Story Rich","Choices Matter","Fantasy","Third-Person"]', '["Single-player","Controller Support","Achievements","Cloud Saves"]', '/covers/the-witcher-3-wild-hunt.jpg', '/covers/the-witcher-3-wild-hunt.jpg', 93, '$49.99', 0, '["PC","PlayStation 4/5","Xbox One/Series X|S","Nintendo Switch"]', '["Single-player"]', 'M (Mature 17+)', 'REDengine 3', 'The Witcher', 93, 'Overwhelmingly Positive', '50+ million copies sold; among the best-selling RPGs ever', 105, 189, '["Game of the Year 2015 (The Game Awards)","Golden Joystick Ultimate Game of the Year 2015"]', '["CD Projekt Red promised no DRM and delivered","The Bloody Baron questline is taught in writing courses as an example of branching narrative","Gwent, an in-game card game, became its own standalone game","The game''s \"Evil Incarnate\" ending was voted on by fans in Poland"]'),
 ('693ca9bb-9c9c-4c54-819a-548f29e3fe5c', 'valheim', 'Valheim', 'A brutal Viking survival saga for one to ten players.', 'Prove your worth to the Norse gods by conquering a procedurally generated world of forests, mountains, and seas. Build longhalls, craft legendary weapons, and summon and slay ancient beasts. Deep survival mechanics and cooperative play make Valheim a phenomenon.', 'Iron Gate AB', 'Coffee Stain Publishing', '2021-02-02', '["Survival","Adventure","Indie"]', '["Co-op","Crafting","Open World","Vikings","Base Building"]', '["Single-player","Online Co-op","Cloud Saves","Steam Workshop"]', '/covers/valheim.hero.jpg', '/covers/valheim.box.jpg', 93, '$19.99', 0, '["PC","Xbox One/Series X|S"]', '["Single-player","Online Co-op (up to 10 players)"]', 'T (Teen)', 'Unity', 'N/A', 93, 'Overwhelmingly Positive', '12+ million copies sold', 60, 150, '["Best Debut Game 2021 nominee (The Game Awards)","Golden Joystick Breakthrough 2021"]', '["It was made by a five-person studio in Sweden","Its procedural worlds are inspired by Norse mythology","Building, farming, and sailing are as important as combat","The name \"Valheim\" refers to the tenth world in Norse mythology"]');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('aea4434c-df12-41b0-9030-a17f9c5efd77', '3a0b4f64-9472-4232-a870-3ae750c75174', 1, 2.99, 4.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z'),
-('943ef733-3d7b-4d64-93c6-fdb0567e3fe1', '3a0b4f64-9472-4232-a870-3ae750c75174', 2, 4.99, 4.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('92d74e6c-ea2c-4984-a7fc-32226b694acc', '3a0b4f64-9472-4232-a870-3ae750c75174', 5, 5, 5, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('83b2ef21-259e-477c-b770-4cc887cf13a0', 'b5760c21-1437-4da7-a91f-192cd6aee0fd', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('8421a21b-01d9-46e6-ac1f-9f6efaf32ac9', '660a3b51-d2ac-41c7-929f-644329c9b18c', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z'),
-('fea10e96-414d-42da-ab6c-b5a46984feba', '660a3b51-d2ac-41c7-929f-644329c9b18c', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('edcb1336-17f0-4831-a93d-74dea5d898c5', '660a3b51-d2ac-41c7-929f-644329c9b18c', 4, 0, 0, 'USD', 'https://store.playstation.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('0806fe23-f226-4ada-8d3d-2dec78662dbe', '6bb53ce9-495e-450b-a732-169a76185c9d', 1, 14.99, 14.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z'),
-('c6d5edf1-b6fa-4c03-b64f-ef161978a02c', '6bb53ce9-495e-450b-a732-169a76185c9d', 3, 14.99, 14.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('e1d5ae84-7ebe-4ee8-9cd7-b95a9245b3f0', '6bb53ce9-495e-450b-a732-169a76185c9d', 4, 9.99, 9.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('818b024c-bf4c-4b87-a78a-5d695e6d69f5', '6bb53ce9-495e-450b-a732-169a76185c9d', 5, 19.99, 19.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('e1a2681a-7e3c-4889-abf8-1052e8dc53bf', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 5, 69.99, 69.99, 'USD', 'https://www.nintendo.com/us/store', 0, NULL),
-('c1fa95d8-383a-4915-a815-306adee63501', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 3, 69.99, 69.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('b9967610-a823-40fc-a65d-f9e79efd2af1', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('949626f2-619f-4a44-b16e-83468fdfca63', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 1, 41.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('79e15575-910c-4c92-a8dc-0067fb2872e8', 'dfcc8105-c8c4-4288-9893-d3cbf4274229', 1, 8.99, 29.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z'),
-('5c49e473-d3b8-432a-96cc-e89681f744ca', 'dfcc8105-c8c4-4288-9893-d3cbf4274229', 6, 29.99, 29.99, 'USD', 'https://www.gog.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('1af6b7f8-12cf-4039-9d67-83f6379469d6', 'f5bd493b-e20d-4ba5-bb9f-b9b5b7fa53d0', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('24cbcd3f-932a-4f10-a7e6-9c6b39f703b6', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 0, NULL),
-('29982cb0-66c7-4601-a330-01b62593813a', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('839bf554-5a14-4acd-82c4-7bb58ec89ac9', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 3, 17.99, 59.99, 'USD', 'https://www.xbox.com/store', 1, '2026-11-24T06:14:10.674Z'),
-('06afda6d-a310-4723-8c57-9a0624eb10d2', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('46eb5c3f-d7c4-4df6-ae50-e720c79818aa', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 1, 59.99, 59.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('12800c37-56e3-44b5-98b9-f1f12e8f7ca2', '1e540e0b-998f-40c9-a345-ddd40254293f', 1, 29.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z'),
-('9f06c74f-3c16-49a5-9e22-1f20bc582104', '1e540e0b-998f-40c9-a345-ddd40254293f', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('15053884-0dab-4ab8-a237-4cd25dd3cfa2', '1e540e0b-998f-40c9-a345-ddd40254293f', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('52780ea3-f47c-44dd-a8c0-9be6479f1cce', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 1, 19.99, 19.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z'),
-('7ddddacb-73e6-48af-b7ce-ee211240dafc', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('a6b5cebf-4946-4516-a248-5bec49d0df73', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 4, 19.99, 19.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('e1723882-c0a9-4e47-a837-2375c2173fb1', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('640e1b4e-cc71-4969-bcda-e2cccf681088', 'aa252fe8-f40c-409c-b258-9f5ac4700d66', 1, 19.99, 19.99, 'USD', 'https://store.steampowered.com', 0, NULL),
-('b5577618-0d09-4a97-8024-99c59f327546', 'aa252fe8-f40c-409c-b258-9f5ac4700d66', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('405a0508-b56b-4d04-89ec-a38c6cfa547f', 'aa252fe8-f40c-409c-b258-9f5ac4700d66', 4, 19.99, 19.99, 'USD', 'https://store.playstation.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('476eb8ec-ccc0-4103-8ee2-beedf5ce5155', 'c7696fcc-edf4-4b6e-b183-e546ce0a933b', 1, 7.49, 29.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z'),
-('0d9f3a2f-2700-4da2-97e2-87f637882c23', 'c7696fcc-edf4-4b6e-b183-e546ce0a933b', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('1136395d-abfb-4ed1-a069-354a073a8fca', 'c7696fcc-edf4-4b6e-b183-e546ce0a933b', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('8a036af0-ec68-4b6a-aa02-c87db4335be1', '521b8936-f7d5-4c76-baf6-abe8fac48503', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('9d65bf4e-5993-476a-b176-75166e6ad12a', '521b8936-f7d5-4c76-baf6-abe8fac48503', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('a855d08d-2644-4720-804b-d0dfef9f95c2', '521b8936-f7d5-4c76-baf6-abe8fac48503', 2, 29.99, 29.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('87cfea4d-0ec5-4ca3-9650-160d90c3290e', '521b8936-f7d5-4c76-baf6-abe8fac48503', 1, 9.89, 29.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('225cd8a9-557a-4f3d-8b68-1ea9677aadab', 'f4450e91-f466-4125-ad74-00b4590066b5', 5, 69.99, 69.99, 'USD', 'https://www.nintendo.com/us/store', 0, NULL),
-('c021573c-3cc5-4530-8506-ea412a934faf', 'f4450e91-f466-4125-ad74-00b4590066b5', 4, 69.99, 69.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('1292c7f7-5530-4a3b-bb89-f5c4a1255690', 'f4450e91-f466-4125-ad74-00b4590066b5', 3, 69.99, 69.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('c3283ea6-4088-4190-913e-f46a44c65123', 'f4450e91-f466-4125-ad74-00b4590066b5', 2, 69.99, 69.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('644fe523-3e35-4a2c-ac7e-dac87da6d652', 'f4450e91-f466-4125-ad74-00b4590066b5', 1, 69.99, 69.99, 'USD', 'https://store.steampowered.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('ea41308e-5489-4518-b496-a5c15847c0b3', 'd12f3941-312f-423e-8988-5a8efbae6a3a', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('6b707853-24a6-4dfa-85ce-959b6eaea34c', 'd12f3941-312f-423e-8988-5a8efbae6a3a', 4, 69.99, 69.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('50c60d55-2d52-4304-aa33-afb402e8fd83', 'd12f3941-312f-423e-8988-5a8efbae6a3a', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('4dc1857c-f61c-40d4-ac29-f8b3ba442a30', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, NULL),
-('2b682e1b-6a27-4760-aa16-138011970da1', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 2, 0, 0, 'USD', 'https://store.epicgames.com', 0, NULL),
-('be3bc127-5272-40ce-8f09-ab51550010d0', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('5f7f709f-7d11-4748-b49a-14a4d0e84ed4', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 4, 0, 0, 'USD', 'https://store.playstation.com', 0, NULL),
-('a92e6823-f084-4e80-be8a-e9a925ed5afe', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('0ea57d4e-7648-410a-a9e5-f90d3cebb833', '9d32609e-58df-4ca5-83e5-8d67da09890e', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z'),
-('bb6b72ee-0fbe-4c93-80d1-c9040bdfd761', '9d32609e-58df-4ca5-83e5-8d67da09890e', 4, 0, 0, 'USD', 'https://store.playstation.com', 0, NULL),
-('ee765171-9ffd-4fe9-adec-7b65b2e6189a', '9d32609e-58df-4ca5-83e5-8d67da09890e', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('8dba77a0-e257-4de1-b446-48aa3f9cb8f3', '9d32609e-58df-4ca5-83e5-8d67da09890e', 1, 0, 0, 'USD', 'https://store.epicgames.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('c7d7e2e1-fa99-4f31-a798-0267f07c0dfd', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 0, NULL),
-('a7e7428a-3ea2-426d-869e-25fdaec16ca3', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('1920781d-cd82-45be-b919-f54f2a1104a5', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('9be3747d-595a-4ab0-953f-b46fee4fa65e', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 1, 23.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('428ab05d-c049-4fc2-a84f-09e75b761be7', '62aaca07-dd67-4e76-8a16-366533fd5267', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('af266cde-c621-4375-898d-1df1ecdf2e88', '0b7b7e53-4903-4683-afa5-18f6cfad574d', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('f6801d13-e116-44f9-a242-0e2a3a4085c3', '0b7b7e53-4903-4683-afa5-18f6cfad574d', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('a62cc89a-08d9-4ada-be80-b5c365594c3f', '6011fc29-2b04-4914-85af-bc3a6e0b6851', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('f2fe78bb-ea45-4be1-a99f-d2ade116e834', '6011fc29-2b04-4914-85af-bc3a6e0b6851', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('3c280088-bc3c-4493-ac84-d865e528ad39', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('e8425d2b-258e-48ce-8c0f-fbc428ae926e', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('25bb8807-b6ea-499f-bc33-6c7038c4fe72', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 2, 29.99, 29.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('9d552a71-b027-4c7c-8014-82a31413d935', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 1, 19.79, 44.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('2ead7152-5ce8-424f-8e27-03d4eda1e11f', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 5, 24.99, 24.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z'),
-('defa93a3-6ab5-4eb4-ba2a-a9eeb43645ed', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 4, 24.99, 24.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('572e8443-c9af-4219-8f3e-95fc924bc355', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 3, 24.99, 24.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('78e075b7-c0b5-4865-bb8d-abc40900913e', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 2, 24.99, 24.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('3d8f6c4d-4876-430b-a851-c4f282d293d9', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 1, 24.99, 24.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('c264d95a-d000-4edc-aea6-ffe1fb58bb90', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 1, 5.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z'),
-('485619ba-761a-4370-9382-98d184f33148', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 3, 6.99, 69.99, 'USD', 'https://www.xbox.com/store', 1, '2026-11-24T06:14:10.674Z'),
-('4788e6f3-ffd0-472b-96f3-5ad86eb5cac0', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('3c2d0a9f-677f-4e48-be85-0e3a8c03ed67', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('42727bd7-95a0-4453-95dd-28e7e1268f92', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 5, 15, 15, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z'),
-('6eb09bab-9afe-4e4a-8a49-7bad4a155a9a', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 4, 14.99, 14.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('20461900-1272-41c5-a536-9e5cb258f1cc', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 3, 14.99, 14.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('27e5a1bd-5fec-4223-b235-70602c689543', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 2, 14.99, 14.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('1cd8c690-29f0-4fe7-a872-9a9bb15f4e54', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 1, 14.99, 14.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('969da50a-75ff-4c29-9be6-855b91799333', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 5, 29.99, 39.99, 'USD', 'https://www.nintendo.com/us/store', 1, '2026-11-24T06:14:10.674Z'),
-('426a79ef-a4c5-4163-8aa5-13c22c55a42e', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('0b03a4e2-4655-40c6-a106-d7fd3f7c6fc4', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('42a6b8af-73a3-4e34-a471-fb7fc6e78be8', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 2, 39.99, 39.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('6c863b68-73d1-4e52-8b96-a4ecb811200c', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 1, 7.99, 39.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('7d12acf6-d2cc-4f8d-8cf2-ab6c94a9789c', '8f87fa0f-54f4-4900-a44b-fc7ca87eb58f', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('4770cf3c-43fc-4f20-9023-90500dddeb1e', '9c6907fc-0260-403f-b6f6-997e34d746a4', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z'),
-('6921f741-845a-49c5-a4d3-c7f92ac47cb5', '9c6907fc-0260-403f-b6f6-997e34d746a4', 4, 26.99, 26.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('098950d0-a22b-438f-b098-296948c1d101', '9c6907fc-0260-403f-b6f6-997e34d746a4', 3, 26.99, 26.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('2767e431-50fa-48ce-97de-406b12dcd89d', '9c6907fc-0260-403f-b6f6-997e34d746a4', 2, 26.99, 26.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('4b3f9e08-7893-4ed8-b3a5-c0931fd44c9f', '9c6907fc-0260-403f-b6f6-997e34d746a4', 1, 26.99, 26.99, 'USD', 'https://store.steampowered.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('e3e22a70-0153-4299-bbc3-b3065f8ed4a9', 'c3597765-81c6-4927-9f80-e451012b770a', 1, 29.99, 29.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z'),
-('062631df-041e-4239-8536-fd3ba13ac24a', 'c3597765-81c6-4927-9f80-e451012b770a', 3, 19.99, 19.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('697827f2-bcd7-4c3f-b9bc-c13b08c8e9ee', 'c3597765-81c6-4927-9f80-e451012b770a', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('b3117b21-3e8c-4b2e-9128-ce7459fc1fa3', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 1, 59.99, 59.99, 'USD', 'https://store.steampowered.com', 0, NULL),
-('aa1b67ec-4220-48d2-bc6e-916a01a395c1', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('efa94387-1cec-442c-a575-1f50289ba159', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('25efbb4a-e16d-4771-9b77-8a8fb7ac0f1e', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('7f04bfad-58a5-4723-b92e-50a9956f63f8', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 0, NULL),
-('b6d7d1a6-c325-4f45-a208-d3eb6f79d382', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 4, 0, 0, 'USD', 'https://store.playstation.com', 0, NULL),
-('96f6a4b5-a906-42d9-85ad-c4e1709c2dcc', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('c6318b36-3e0a-4fa3-9c3e-c7143c294a3e', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 2, 0, 0, 'USD', 'https://store.epicgames.com', 0, NULL),
-('c7650633-b774-4d4e-8ea8-58d0da946e3e', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('a0c832f1-e183-4204-970d-f341c967a911', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 1, 17.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z'),
-('5112af7f-7a13-4fa9-84f9-1b106c8f7a29', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 3, 17.99, 59.99, 'USD', 'https://www.xbox.com/store', 1, '2026-11-24T06:14:10.674Z'),
-('cb62b822-d0ab-48d6-bdaa-e07bc0461df4', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('b298e247-f4d1-444f-a065-fcc3ce63634a', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('6a11e39d-f121-428d-a4f3-8259b060ba6f', '481a12ad-a380-4596-bc77-59e07178874f', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('c1fcd7cc-319a-467c-baea-4abf3c4c78a9', '544d3d8b-3f84-490a-9d2a-ee111be17cd8', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('ae588fe0-d1f7-4d84-a36f-74902c646733', '2aa7db41-4cfd-4276-9c57-b0ce0feae525', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('4a6c96aa-57a4-495f-b386-d65abf8d19bd', '2aa7db41-4cfd-4276-9c57-b0ce0feae525', 1, 14.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('20da6c8c-f84b-429d-9c17-40c33d10aee8', '4e2a1c43-f039-4379-934f-dd2310e093fd', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('998b0350-d2a0-43c7-83d9-cf2af4a464b8', '4e2a1c43-f039-4379-934f-dd2310e093fd', 3, 29.99, 39.99, 'USD', 'https://www.xbox.com/store', 1, NULL),
-('360f688f-683e-48ea-b16a-cd1da845341a', '4e2a1c43-f039-4379-934f-dd2310e093fd', 1, 39.99, 39.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('b5f4fdad-0fa1-4686-8402-7458d11811a1', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, NULL),
-('ca857d93-74a2-45e9-b9f4-c2ad5f19a095', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 2, 0, 0, 'USD', 'https://store.epicgames.com', 0, NULL),
-('ede6bea2-edee-4221-8626-0c069e5bb9bc', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('b8321f15-3a7c-4606-b664-56a1e40a4067', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 4, 0, 0, 'USD', 'https://store.playstation.com', 0, NULL),
-('83155485-53a7-4828-bdab-4a9c0677e2ce', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('ba665183-8580-4310-99f3-d5acb5262f58', '231f5dfe-8b3e-4604-a475-f46e05e8c14d', 1, 39.99, 39.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z'),
-('8fa731c7-b46c-4151-8bf5-7339394aa6a8', '231f5dfe-8b3e-4604-a475-f46e05e8c14d', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('fd895748-2377-471a-88cf-f0fbfe9855ed', '231f5dfe-8b3e-4604-a475-f46e05e8c14d', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('99d58ac4-516e-4f37-813c-d09de56169b6', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('715c41dc-7f35-4699-a590-85e3549f2b3d', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('c311172b-c366-40a0-8592-c10b4e007560', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('dbda4cd4-c873-4dd8-a423-014480a0b14c', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 1, 59.99, 59.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('5fbd5eff-9b27-4d6d-a072-b950e7784f37', '73b33020-ef99-49d3-8a83-bc464b39400e', 1, 5.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z'),
-('27692922-9f4f-4c63-b7de-08af53f4c073', '73b33020-ef99-49d3-8a83-bc464b39400e', 3, 5.99, 29.99, 'USD', 'https://www.xbox.com/store', 1, '2026-11-24T06:14:10.674Z'),
-('d228e856-5708-4e26-867c-c16a207db7af', '73b33020-ef99-49d3-8a83-bc464b39400e', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('b3641be7-6e00-4055-8bc7-cc927cd4f65b', '73b33020-ef99-49d3-8a83-bc464b39400e', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z'),
-('d7ccf692-7003-47e8-acfd-9e72d3d46b1e', '73b33020-ef99-49d3-8a83-bc464b39400e', 6, 59.99, 59.99, 'USD', 'https://www.gog.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('16f53855-d0ee-4e93-9989-9ad1f25362f3', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 5, 14.99, 14.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z'),
-('056d5425-d846-4023-88db-62fbc1a6e732', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 4, 14.99, 14.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('337894e3-c051-4b67-b8c5-bbbdf77a9805', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 3, 14.99, 14.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('5bc1f5d8-12df-4c0b-af41-20e6ea22dd62', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 2, 14.99, 14.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('a03b08e8-d64f-4ccb-889a-ac1ac1698279', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 1, 14.99, 14.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('059f23a6-63bf-4b42-bacb-182477d5ceb6', 'a10ac461-f52e-41ee-8cb4-597a125691a6', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('ff025b3a-0350-4f15-a696-1e67ff25ae42', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 6, 9.99, 9.99, 'USD', 'https://www.gog.com', 0, NULL),
-('8703cc55-6fba-4ccd-8d1f-986add132fed', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z'),
-('03f8ce0a-46d1-46ee-8da7-65a5ff79224f', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 4, 9.99, 9.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('8d20299e-a064-46ff-8dbd-fb53de6c9516', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 3, 19.99, 19.99, 'USD', 'https://www.xbox.com/store', 0, '2026-11-24T06:14:10.674Z'),
-('c92405d6-c8d6-47e0-b124-cc148c61776f', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('0871c63d-fd9b-4d49-8cf3-37c3ff5e1b28', 'a5cde308-f6ea-4dc5-9640-a77d6db1fd03', 3, 39.99, 49.99, 'USD', 'https://www.xbox.com/store', 0, NULL),
-('3e1d70bf-95ac-483c-9353-50437a80ac72', 'a5cde308-f6ea-4dc5-9640-a77d6db1fd03', 4, 49.99, 49.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('3e2a7a53-e91d-4e32-a031-d5b340eabf9e', 'a5cde308-f6ea-4dc5-9640-a77d6db1fd03', 1, 29.99, 59.99, 'USD', 'https://store.steampowered.com', 1, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('cd11dc55-baa3-43e3-ae46-494b3d9ec10e', '854420a7-6f59-4cb8-97d1-be117c7aa31c', 5, 69.99, 69.99, 'USD', 'https://www.nintendo.com/us/store', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('e33cd57e-dfdf-4c9f-b7fe-1bb215f50388', '376bd987-40fd-43eb-94df-356adf878d28', 1, 0, 0, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z'),
-('c32a761e-f905-481e-b622-d40c7cb50559', '376bd987-40fd-43eb-94df-356adf878d28', 2, 0, 0, 'USD', 'https://store.epicgames.com', 0, NULL);
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('c7cfc261-1656-4f51-8d02-a542c7ca1c55', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 6, 49.99, 49.99, 'USD', 'https://www.gog.com', 0, NULL),
-('3b241082-bb7f-48a5-99fd-0992fe077b94', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 4, 49.99, 49.99, 'USD', 'https://store.playstation.com', 0, NULL),
-('585d2a6b-e5c5-4bcf-84d6-76e6cfd3c973', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 3, 19.99, 49.99, 'USD', 'https://www.xbox.com/store', 1, '2026-11-24T06:14:10.674Z'),
-('a18b47e1-f2b2-45f8-ac75-d5d351b7efe6', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 2, 49.99, 49.99, 'USD', 'https://store.epicgames.com', 0, NULL),
-('b5e40758-c24d-41f4-87f8-06960d55ba8d', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 1, 49.99, 49.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z');
-INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES
-('70a9a5af-037f-4628-bc6f-f9c14895a176', '693ca9bb-9c9c-4c54-819a-548f29e3fe5c', 1, 29.99, 29.99, 'USD', 'https://store.steampowered.com', 0, '2026-11-24T06:14:10.674Z'),
-('3b0f1f9d-917e-4529-911f-4bd55935ef17', '693ca9bb-9c9c-4c54-819a-548f29e3fe5c', 3, 23.99, 29.99, 'USD', 'https://www.xbox.com/store', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('aea4434c-df12-41b0-9030-a17f9c5efd77', '3a0b4f64-9472-4232-a870-3ae750c75174', 1, 2.99, 4.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/945360/', 1, '2026-11-24T06:14:10.674Z'),
+('943ef733-3d7b-4d64-93c6-fdb0567e3fe1', '3a0b4f64-9472-4232-a870-3ae750c75174', 2, 4.99, 4.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/among-us', 0, NULL),
+('92d74e6c-ea2c-4984-a7fc-32226b694acc', '3a0b4f64-9472-4232-a870-3ae750c75174', 5, 5, 5, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000036098/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('83b2ef21-259e-477c-b770-4cc887cf13a0', 'b5760c21-1437-4da7-a91f-192cd6aee0fd', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000027619/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('8421a21b-01d9-46e6-ac1f-9f6efaf32ac9', '660a3b51-d2ac-41c7-929f-644329c9b18c', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1172470/', 0, '2026-11-24T06:14:10.674Z'),
+('fea10e96-414d-42da-ab6c-b5a46984feba', '660a3b51-d2ac-41c7-929f-644329c9b18c', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/apex-legends/BV9ML45J2Q5V', 0, '2026-11-24T06:14:10.674Z'),
+('edcb1336-17f0-4831-a93d-74dea5d898c5', '660a3b51-d2ac-41c7-929f-644329c9b18c', 4, 0, 0, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0006-PPSA04873_00-APEXLEGENDRSPWN1', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('0806fe23-f226-4ada-8d3d-2dec78662dbe', '6bb53ce9-495e-450b-a732-169a76185c9d', 1, 14.99, 14.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/346110/', 0, '2026-11-24T06:14:10.674Z'),
+('c6d5edf1-b6fa-4c03-b64f-ef161978a02c', '6bb53ce9-495e-450b-a732-169a76185c9d', 3, 14.99, 14.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/ark-survival-evolved/BNBLC4ZGFNKB', 0, '2026-11-24T06:14:10.674Z'),
+('e1d5ae84-7ebe-4ee8-9cd7-b95a9245b3f0', '6bb53ce9-495e-450b-a732-169a76185c9d', 4, 9.99, 9.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0691-CUSA06676_00-ARKSEGAME0000000', 0, NULL),
+('818b024c-bf4c-4b87-a78a-5d695e6d69f5', '6bb53ce9-495e-450b-a732-169a76185c9d', 5, 19.99, 19.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000010940/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('e1a2681a-7e3c-4889-abf8-1052e8dc53bf', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 5, 69.99, 69.99, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL),
+('c1fa95d8-383a-4915-a815-306adee63501', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 3, 69.99, 69.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/baldurs-gate-3/9ND58LQTG09T', 0, '2026-11-24T06:14:10.674Z'),
+('b9967610-a823-40fc-a65d-f9e79efd2af1', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('949626f2-619f-4a44-b16e-83468fdfca63', 'dbb5a6fe-c8c1-418d-a306-b1a814015bda', 1, 41.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1086940/', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('79e15575-910c-4c92-a8dc-0067fb2872e8', 'dfcc8105-c8c4-4288-9893-d3cbf4274229', 1, 8.99, 29.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/255710/', 1, '2026-11-24T06:14:10.674Z'),
+('5c49e473-d3b8-432a-96cc-e89681f744ca', 'dfcc8105-c8c4-4288-9893-d3cbf4274229', 6, 29.99, 29.99, 'USD', 'https://www.gog.com', NULL, 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('1af6b7f8-12cf-4039-9d67-83f6379469d6', 'f5bd493b-e20d-4ba5-bb9f-b9b5b7fa53d0', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/730/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('24cbcd3f-932a-4f10-a7e6-9c6b39f703b6', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL),
+('29982cb0-66c7-4601-a330-01b62593813a', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP4497-PPSA03974_00-0000000000000CP1', 0, NULL),
+('839bf554-5a14-4acd-82c4-7bb58ec89ac9', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 3, 17.99, 59.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/cyberpunk-2077/BX3M8L83BBRW', 1, '2026-11-24T06:14:10.674Z'),
+('06afda6d-a310-4723-8c57-9a0624eb10d2', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/cyberpunk-2077', 0, NULL),
+('46eb5c3f-d7c4-4df6-ae50-e720c79818aa', 'deb0d6f1-d256-4906-841d-521f99cde4b9', 1, 59.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1091500/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('12800c37-56e3-44b5-98b9-f1f12e8f7ca2', '1e540e0b-998f-40c9-a345-ddd40254293f', 1, 29.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/374320/', 1, '2026-11-24T06:14:10.674Z'),
+('9f06c74f-3c16-49a5-9e22-1f20bc582104', '1e540e0b-998f-40c9-a345-ddd40254293f', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/dark-souls-iii/BW2XDRNSCCPZ', 0, NULL),
+('15053884-0dab-4ab8-a237-4cd25dd3cfa2', '1e540e0b-998f-40c9-a345-ddd40254293f', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0700-CUSA03388_00-DARKSOULS3000000', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('52780ea3-f47c-44dd-a8c0-9be6479f1cce', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 1, 19.99, 19.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/381210/', 0, '2026-11-24T06:14:10.674Z'),
+('7ddddacb-73e6-48af-b7ce-ee211240dafc', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/dead-by-daylight/C0N22P73QZ60', 0, '2026-11-24T06:14:10.674Z'),
+('a6b5cebf-4946-4516-a248-5bec49d0df73', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 4, 19.99, 19.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP3509-PPSA02048_00-DEADBYDAYLIGHT00', 0, NULL),
+('e1723882-c0a9-4e47-a837-2375c2173fb1', '15dfd122-9dcd-441f-b383-12a8e712b0e8', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000016124/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('640e1b4e-cc71-4969-bcda-e2cccf681088', 'aa252fe8-f40c-409c-b258-9f5ac4700d66', 1, 19.99, 19.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1190460/', 0, NULL),
+('b5577618-0d09-4a97-8024-99c59f327546', 'aa252fe8-f40c-409c-b258-9f5ac4700d66', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/death-stranding-directors-cut/9NQGN8TGNT8P', 0, NULL),
+('405a0508-b56b-4d04-89ec-a38c6cfa547f', 'aa252fe8-f40c-409c-b258-9f5ac4700d66', 4, 19.99, 19.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP9000-CUSA11260_00-DEATHSTRAND00001', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('476eb8ec-ccc0-4103-8ee2-beedf5ce5155', 'c7696fcc-edf4-4b6e-b183-e546ce0a933b', 1, 7.49, 29.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/601150/', 1, '2026-11-24T06:14:10.674Z'),
+('0d9f3a2f-2700-4da2-97e2-87f637882c23', 'c7696fcc-edf4-4b6e-b183-e546ce0a933b', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/devil-may-cry-5/BNLG5J5KDVJ3', 0, NULL),
+('1136395d-abfb-4ed1-a069-354a073a8fca', 'c7696fcc-edf4-4b6e-b183-e546ce0a933b', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0102-PPSA01442_00-DMC5SE0000000001', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('8a036af0-ec68-4b6a-aa02-c87db4335be1', '521b8936-f7d5-4c76-baf6-abe8fac48503', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP1003-PPSA01981_00-DOOMETERNALBUNDL', 0, NULL),
+('9d65bf4e-5993-476a-b176-75166e6ad12a', '521b8936-f7d5-4c76-baf6-abe8fac48503', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/doom-eternal-standard-edition/9P5S26314HWQ', 0, '2026-11-24T06:14:10.674Z'),
+('a855d08d-2644-4720-804b-d0dfef9f95c2', '521b8936-f7d5-4c76-baf6-abe8fac48503', 2, 29.99, 29.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/doom-eternal', 0, NULL),
+('87cfea4d-0ec5-4ca3-9650-160d90c3290e', '521b8936-f7d5-4c76-baf6-abe8fac48503', 1, 9.89, 29.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/782330/', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('225cd8a9-557a-4f3d-8b68-1ea9677aadab', 'f4450e91-f466-4125-ad74-00b4590066b5', 5, 69.99, 69.99, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL),
+('c021573c-3cc5-4530-8506-ea412a934faf', 'f4450e91-f466-4125-ad74-00b4590066b5', 4, 69.99, 69.99, 'USD', 'https://store.playstation.com', NULL, 0, NULL),
+('1292c7f7-5530-4a3b-bb89-f5c4a1255690', 'f4450e91-f466-4125-ad74-00b4590066b5', 3, 69.99, 69.99, 'USD', 'https://www.xbox.com/store', NULL, 0, NULL),
+('c3283ea6-4088-4190-913e-f46a44c65123', 'f4450e91-f466-4125-ad74-00b4590066b5', 2, 69.99, 69.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('644fe523-3e35-4a2c-ac7e-dac87da6d652', 'f4450e91-f466-4125-ad74-00b4590066b5', 1, 69.99, 69.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/2195250/', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('ea41308e-5489-4518-b496-a5c15847c0b3', 'd12f3941-312f-423e-8988-5a8efbae6a3a', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/elden-ring/9P3J32CTXLRZ', 0, '2026-11-24T06:14:10.674Z'),
+('6b707853-24a6-4dfa-85ce-959b6eaea34c', 'd12f3941-312f-423e-8988-5a8efbae6a3a', 4, 69.99, 69.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0700-PPSA04610_00-ELDENRING0000000', 0, NULL),
+('50c60d55-2d52-4304-aa33-afb402e8fd83', 'd12f3941-312f-423e-8988-5a8efbae6a3a', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('4dc1857c-f61c-40d4-ac29-f8b3ba442a30', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1097150/', 0, NULL),
+('2b682e1b-6a27-4760-aa16-138011970da1', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 2, 0, 0, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/fall-guys', 0, NULL),
+('be3bc127-5272-40ce-8f09-ab51550010d0', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/fall-guys/9PMXH5249DG5', 0, '2026-11-24T06:14:10.674Z'),
+('5f7f709f-7d11-4748-b49a-14a4d0e84ed4', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 4, 0, 0, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP1477-PPSA04476_00-FALLGUYS00000000', 0, NULL),
+('a92e6823-f084-4e80-be8a-e9a925ed5afe', '381001e9-b9c1-4627-b634-bbd34a08d9a2', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/fall-guys-switch/', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('0ea57d4e-7648-410a-a9e5-f90d3cebb833', '9d32609e-58df-4ca5-83e5-8d67da09890e', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000010192/', 0, '2026-11-24T06:14:10.674Z'),
+('bb6b72ee-0fbe-4c93-80d1-c9040bdfd761', '9d32609e-58df-4ca5-83e5-8d67da09890e', 4, 0, 0, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP1477-PPSA01922_00-FNBNDL0000000000', 0, NULL),
+('ee765171-9ffd-4fe9-adec-7b65b2e6189a', '9d32609e-58df-4ca5-83e5-8d67da09890e', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/fortnite/BT5P2X999VH2', 0, '2026-11-24T06:14:10.674Z'),
+('8dba77a0-e257-4de1-b446-48aa3f9cb8f3', '9d32609e-58df-4ca5-83e5-8d67da09890e', 1, 0, 0, 'USD', 'https://store.epicgames.com', NULL, 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('c7d7e2e1-fa99-4f31-a798-0267f07c0dfd', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL),
+('a7e7428a-3ea2-426d-869e-25fdaec16ca3', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/forza-horizon-5/9NNX1VVR3KNQ', 0, NULL),
+('1920781d-cd82-45be-b919-f54f2a1104a5', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('9be3747d-595a-4ab0-953f-b46fee4fa65e', 'f9a44543-433d-4fa0-b14f-c68e4c536de5', 1, 23.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1551360/', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('428ab05d-c049-4fc2-a84f-09e75b761be7', '62aaca07-dd67-4e76-8a16-366533fd5267', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/4000/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('af266cde-c621-4375-898d-1df1ecdf2e88', '0b7b7e53-4903-4683-afa5-18f6cfad574d', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', NULL, 0, NULL),
+('f6801d13-e116-44f9-a242-0e2a3a4085c3', '0b7b7e53-4903-4683-afa5-18f6cfad574d', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP9000-PPSA02225_00-GHOSTDIRECTORPS5', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('a62cc89a-08d9-4ada-be80-b5c365594c3f', '6011fc29-2b04-4914-85af-bc3a6e0b6851', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP9000-PPSA08329_00-GOWRAGNAROK00000', 0, NULL),
+('f2fe78bb-ea45-4be1-a99f-d2ade116e834', '6011fc29-2b04-4914-85af-bc3a6e0b6851', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', NULL, 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('3c280088-bc3c-4493-ac84-d865e528ad39', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP1004-PPSA03420_00-GTAVCROSSGENBUND', 0, NULL),
+('e8425d2b-258e-48ce-8c0f-fbc428ae926e', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 3, 29.99, 29.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/grand-theft-auto-v-xbox-one/BPJ686W6S0NH', 0, NULL),
+('25bb8807-b6ea-499f-bc33-6c7038c4fe72', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 2, 29.99, 29.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/grand-theft-auto-v', 0, NULL),
+('9d552a71-b027-4c7c-8014-82a31413d935', 'e283d6ce-556c-4c8e-8475-92d50c34dc45', 1, 19.79, 44.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/3240220/', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('2ead7152-5ce8-424f-8e27-03d4eda1e11f', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 5, 24.99, 24.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000033131/', 0, '2026-11-24T06:14:10.674Z'),
+('defa93a3-6ab5-4eb4-ba2a-a9eeb43645ed', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 4, 24.99, 24.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP2125-PPSA03355_00-3466019145463410', 0, NULL),
+('572e8443-c9af-4219-8f3e-95fc924bc355', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 3, 24.99, 24.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/hades/9P8DL6W0JBB8', 0, '2026-11-24T06:14:10.674Z'),
+('78e075b7-c0b5-4865-bb8d-abc40900913e', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 2, 24.99, 24.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/hades', 0, NULL),
+('3d8f6c4d-4876-430b-a851-c4f282d293d9', 'e8b23de3-bf5a-45b7-9a92-591f2126269a', 1, 24.99, 24.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1145360/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('c264d95a-d000-4edc-aea6-ffe1fb58bb90', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 1, 5.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/990080/', 1, '2026-11-24T06:14:10.674Z'),
+('485619ba-761a-4370-9382-98d184f33148', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 3, 6.99, 69.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/hogwarts-legacy/9MT5NJ5W7B8Z', 1, '2026-11-24T06:14:10.674Z'),
+('4788e6f3-ffd0-472b-96f3-5ad86eb5cac0', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP1018-PPSA01593_00-HOGWARTSLEGACY01', 0, NULL),
+('3c2d0a9f-677f-4e48-be85-0e3a8c03ed67', '9fd76a9b-59ae-41e0-9836-cbe4c562c96a', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000014724/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('42727bd7-95a0-4453-95dd-28e7e1268f92', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 5, 15, 15, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000003208/', 0, '2026-11-24T06:14:10.674Z'),
+('6eb09bab-9afe-4e4a-8a49-7bad4a155a9a', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 4, 14.99, 14.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP1822-PPSA34970_00-HOLLOWKNIGHTPS50', 0, NULL),
+('20461900-1272-41c5-a536-9e5cb258f1cc', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 3, 14.99, 14.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/hollow-knight-voidheart-edition/9MW9469V91LM', 0, NULL),
+('27e5a1bd-5fec-4223-b235-70602c689543', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 2, 14.99, 14.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('1cd8c690-29f0-4fe7-a872-9a9bb15f4e54', '426dbdd2-8504-4f4f-bc20-3c9a25f004bd', 1, 14.99, 14.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/367520/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('969da50a-75ff-4c29-9be6-855b91799333', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 5, 29.99, 39.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70070000014924/', 1, '2026-11-24T06:14:10.674Z'),
+('426a79ef-a4c5-4163-8aa5-13c22c55a42e', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0006-PPSA02342_00-ITTAKESTWORETAIL', 0, NULL),
+('0b03a4e2-4655-40c6-a106-d7fd3f7c6fc4', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/it-takes-two/9NKJ0VZQ4N0L', 0, NULL),
+('42a6b8af-73a3-4e34-a471-fb7fc6e78be8', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 2, 39.99, 39.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/it-takes-two', 0, NULL),
+('6c863b68-73d1-4e52-8b96-a4ecb811200c', 'ff0d61a3-08d1-4325-b133-7cc9b1cd760d', 1, 7.99, 39.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1426210/', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('7d12acf6-d2cc-4f8d-8cf2-ab6c94a9789c', '8f87fa0f-54f4-4900-a44b-fc7ca87eb58f', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/550/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('4770cf3c-43fc-4f20-9023-90500dddeb1e', '9c6907fc-0260-403f-b6f6-997e34d746a4', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000000964/', 0, '2026-11-24T06:14:10.674Z'),
+('6921f741-845a-49c5-a4d3-c7f92ac47cb5', '9c6907fc-0260-403f-b6f6-997e34d746a4', 4, 26.99, 26.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP4433-PPSA17221_00-MINECRAFTPS50000', 0, NULL),
+('098950d0-a22b-438f-b098-296948c1d101', '9c6907fc-0260-403f-b6f6-997e34d746a4', 3, 26.99, 26.99, 'USD', 'https://www.xbox.com/store', NULL, 0, NULL),
+('2767e431-50fa-48ce-97de-406b12dcd89d', '9c6907fc-0260-403f-b6f6-997e34d746a4', 2, 26.99, 26.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('4b3f9e08-7893-4ed8-b3a5-c0931fd44c9f', '9c6907fc-0260-403f-b6f6-997e34d746a4', 1, 26.99, 26.99, 'USD', 'https://store.steampowered.com', NULL, 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('e3e22a70-0153-4299-bbc3-b3065f8ed4a9', 'c3597765-81c6-4927-9f80-e451012b770a', 1, 29.99, 29.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/582010/', 0, '2026-11-24T06:14:10.674Z'),
+('062631df-041e-4239-8536-fd3ba13ac24a', 'c3597765-81c6-4927-9f80-e451012b770a', 3, 19.99, 19.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/monster-hunter-world/BNG91PT95LQN', 0, '2026-11-24T06:14:10.674Z'),
+('697827f2-bcd7-4c3f-b9bc-c13b08c8e9ee', 'c3597765-81c6-4927-9f80-e451012b770a', 4, 29.99, 29.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0102-CUSA07713_00-0000000000000000', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('b3117b21-3e8c-4b2e-9128-ce7459fc1fa3', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 1, 59.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/2338770/', 0, NULL),
+('aa1b67ec-4220-48d2-bc6e-916a01a395c1', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', NULL, 0, NULL),
+('efa94387-1cec-442c-a575-1f50289ba159', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', NULL, 0, NULL),
+('25efbb4a-e16d-4771-9b77-8a8fb7ac0f1e', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('7f04bfad-58a5-4723-b92e-50a9956f63f8', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL),
+('b6d7d1a6-c325-4f45-a208-d3eb6f79d382', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 4, 0, 0, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0002-PPSA07805_00-OWORIGINS0000000', 0, NULL),
+('96f6a4b5-a906-42d9-85ad-c4e1709c2dcc', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/overwatch/C1C4DZJPBC2V', 0, NULL),
+('c6318b36-3e0a-4fa3-9c3e-c7143c294a3e', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 2, 0, 0, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('c7650633-b774-4d4e-8ea8-58d0da946e3e', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/2357570/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('a0c832f1-e183-4204-970d-f341c967a911', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 1, 17.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1687950/', 1, '2026-11-24T06:14:10.674Z'),
+('5112af7f-7a13-4fa9-84f9-1b106c8f7a29', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 3, 17.99, 59.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/persona-5-royal/9NZDHXL9SJJ8', 1, '2026-11-24T06:14:10.674Z'),
+('cb62b822-d0ab-48d6-bdaa-e07bc0461df4', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0177-PPSA05109_00-P5RGAME000000000', 0, NULL),
+('b298e247-f4d1-444f-a065-fcc3ce63634a', 'a93cb0c6-96e2-4a89-9138-71fa3efe407f', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000043147/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('6a11e39d-f121-428d-a4f3-8259b060ba6f', '481a12ad-a380-4596-bc77-59e07178874f', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/620/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('c1fcd7cc-319a-467c-baea-4abf3c4c78a9', '544d3d8b-3f84-490a-9d2a-ee111be17cd8', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/578080/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('ae588fe0-d1f7-4d84-a36f-74902c646733', '2aa7db41-4cfd-4276-9c57-b0ce0feae525', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/red-dead-redemption-2', 0, NULL),
+('4a6c96aa-57a4-495f-b386-d65abf8d19bd', '2aa7db41-4cfd-4276-9c57-b0ce0feae525', 1, 14.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1174180/', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('20da6c8c-f84b-429d-9c17-40c33d10aee8', '4e2a1c43-f039-4379-934f-dd2310e093fd', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0102-PPSA07411_00-RE4RMAINGAME0000', 0, NULL),
+('998b0350-d2a0-43c7-83d9-cf2af4a464b8', '4e2a1c43-f039-4379-934f-dd2310e093fd', 3, 29.99, 39.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/resident-evil-4/9N7JCPPCPN37', 1, NULL),
+('360f688f-683e-48ea-b16a-cd1da845341a', '4e2a1c43-f039-4379-934f-dd2310e093fd', 1, 39.99, 39.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/2050650/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('b5f4fdad-0fa1-4686-8402-7458d11811a1', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/252950/', 0, NULL),
+('ca857d93-74a2-45e9-b9f4-c2ad5f19a095', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 2, 0, 0, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/rocket-league', 0, NULL),
+('ede6bea2-edee-4221-8626-0c069e5bb9bc', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/rocket-league/C125W9BG2K0V', 0, '2026-11-24T06:14:10.674Z'),
+('b8321f15-3a7c-4606-b664-56a1e40a4067', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 4, 0, 0, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP2002-CUSA01163_00-ROCKETLEAGUENA01', 0, NULL),
+('83155485-53a7-4828-bdab-4a9c0677e2ce', '6f2b43f0-5d7c-4856-a52e-01d46a9c051f', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000000457/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('ba665183-8580-4310-99f3-d5acb5262f58', '231f5dfe-8b3e-4604-a475-f46e05e8c14d', 1, 39.99, 39.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/252490/', 0, '2026-11-24T06:14:10.674Z'),
+('8fa731c7-b46c-4151-8bf5-7339394aa6a8', '231f5dfe-8b3e-4604-a475-f46e05e8c14d', 3, 39.99, 39.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/rust/9NPHHZBV60B4', 0, NULL),
+('fd895748-2377-471a-88cf-f0fbfe9855ed', '231f5dfe-8b3e-4604-a475-f46e05e8c14d', 4, 39.99, 39.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/EP4415-PPSA24616_00-RUSTCONSOLEBASE5', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('99d58ac4-516e-4f37-813c-d09de56169b6', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0002-CUSA12047_00-SEKIROGAME000001', 0, NULL),
+('715c41dc-7f35-4699-a590-85e3549f2b3d', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 3, 59.99, 59.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/sekiro-shadows-die-twice-goty-edition/BQD5WRRP2D6Q', 0, NULL),
+('c311172b-c366-40a0-8592-c10b4e007560', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 2, 59.99, 59.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('dbda4cd4-c873-4dd8-a423-014480a0b14c', 'bd5b5ea3-535e-46db-98a8-efbd93b42462', 1, 59.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/814380/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('5fbd5eff-9b27-4d6d-a072-b950e7784f37', '73b33020-ef99-49d3-8a83-bc464b39400e', 1, 5.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/289070/', 1, '2026-11-24T06:14:10.674Z'),
+('27692922-9f4f-4c63-b7de-08af53f4c073', '73b33020-ef99-49d3-8a83-bc464b39400e', 3, 5.99, 29.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/sid-meiers-civilization-vi/9N4RSG99KV1X', 1, '2026-11-24T06:14:10.674Z'),
+('d228e856-5708-4e26-867c-c16a207db7af', '73b33020-ef99-49d3-8a83-bc464b39400e', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP1001-CUSA15322_00-CIV6BASE00000000', 0, NULL),
+('b3641be7-6e00-4055-8bc7-cc927cd4f65b', '73b33020-ef99-49d3-8a83-bc464b39400e', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000013704/', 0, '2026-11-24T06:14:10.674Z'),
+('d7ccf692-7003-47e8-acfd-9e72d3d46b1e', '73b33020-ef99-49d3-8a83-bc464b39400e', 6, 59.99, 59.99, 'USD', 'https://www.gog.com', NULL, 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('16f53855-d0ee-4e93-9989-9ad1f25362f3', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 5, 14.99, 14.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000001801/', 0, '2026-11-24T06:14:10.674Z'),
+('056d5425-d846-4023-88db-62fbc1a6e732', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 4, 14.99, 14.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP2456-CUSA06840_00-STARDEW00000SIEA', 0, NULL),
+('337894e3-c051-4b67-b8c5-bbbdf77a9805', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 3, 14.99, 14.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/stardew-valley/C3D891Z6TNQM', 0, '2026-11-24T06:14:10.674Z'),
+('5bc1f5d8-12df-4c0b-af41-20e6ea22dd62', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 2, 14.99, 14.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
+('a03b08e8-d64f-4ccb-889a-ac1ac1698279', 'e73c1d83-9c4a-4158-aecb-4fc231ac9422', 1, 14.99, 14.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/413150/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('059f23a6-63bf-4b42-bacb-182477d5ceb6', 'a10ac461-f52e-41ee-8cb4-597a125691a6', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/440/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('ff025b3a-0350-4f15-a696-1e67ff25ae42', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 6, 9.99, 9.99, 'USD', 'https://www.gog.com', 'https://www.gog.com/en/game/terraria', 0, NULL),
+('8703cc55-6fba-4ccd-8d1f-986add132fed', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000001702/', 0, '2026-11-24T06:14:10.674Z'),
+('03f8ce0a-46d1-46ee-8da7-65a5ff79224f', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 4, 9.99, 9.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP4040-CUSA00740_00-TERRARIA00000001', 0, NULL),
+('8d20299e-a064-46ff-8dbd-fb53de6c9516', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 3, 19.99, 19.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/terraria/BTNPS60N3114', 0, '2026-11-24T06:14:10.674Z'),
+('c92405d6-c8d6-47e0-b124-cc148c61776f', 'ac96d8cc-99bc-4c5e-a63c-3a2656930c61', 1, 9.99, 9.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/105600/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('0871c63d-fd9b-4d49-8cf3-37c3ff5e1b28', 'a5cde308-f6ea-4dc5-9640-a77d6db1fd03', 3, 39.99, 49.99, 'USD', 'https://www.xbox.com/store', NULL, 0, NULL),
+('3e1d70bf-95ac-483c-9353-50437a80ac72', 'a5cde308-f6ea-4dc5-9640-a77d6db1fd03', 4, 49.99, 49.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP9000-PPSA03396_00-THELASTOFUSPART1', 0, NULL),
+('3e2a7a53-e91d-4e32-a031-d5b340eabf9e', 'a5cde308-f6ea-4dc5-9640-a77d6db1fd03', 1, 29.99, 59.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1888930/', 1, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('cd11dc55-baa3-43e3-ae46-494b3d9ec10e', '854420a7-6f59-4cb8-97d1-be117c7aa31c', 5, 69.99, 69.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000063714/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('e33cd57e-dfdf-4c9f-b7fe-1bb215f50388', '376bd987-40fd-43eb-94df-356adf878d28', 1, 0, 0, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/1222670/', 0, '2026-11-24T06:14:10.674Z'),
+('c32a761e-f905-481e-b622-d40c7cb50559', '376bd987-40fd-43eb-94df-356adf878d28', 2, 0, 0, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/the-sims-4', 0, NULL);
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('c7cfc261-1656-4f51-8d02-a542c7ca1c55', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 6, 49.99, 49.99, 'USD', 'https://www.gog.com', 'https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition', 0, NULL),
+('3b241082-bb7f-48a5-99fd-0992fe077b94', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 4, 49.99, 49.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP4497-PPSA03972_00-00000000000GOTY7', 0, NULL),
+('585d2a6b-e5c5-4bcf-84d6-76e6cfd3c973', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 3, 19.99, 49.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/the-witcher-3-wild-hunt-remastered/C261457LCNMJ', 1, '2026-11-24T06:14:10.674Z'),
+('a18b47e1-f2b2-45f8-ac75-d5d351b7efe6', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 2, 49.99, 49.99, 'USD', 'https://store.epicgames.com', 'https://store.epicgames.com/en-US/p/the-witcher-3-wild-hunt', 0, NULL),
+('b5e40758-c24d-41f4-87f8-06960d55ba8d', '39cc1bf8-37fa-43c1-a4ec-c00adee8ca98', 1, 49.99, 49.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/292030/', 0, '2026-11-24T06:14:10.674Z');
+INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
+('70a9a5af-037f-4628-bc6f-f9c14895a176', '693ca9bb-9c9c-4c54-819a-548f29e3fe5c', 1, 29.99, 29.99, 'USD', 'https://store.steampowered.com', 'https://store.steampowered.com/app/892970/', 0, '2026-11-24T06:14:10.674Z'),
+('3b0f1f9d-917e-4529-911f-4bd55935ef17', '693ca9bb-9c9c-4c54-819a-548f29e3fe5c', 3, 23.99, 29.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/valheim/9NCBL78CG9N7', 1, '2026-11-24T06:14:10.674Z');
 INSERT INTO catalog_meta (key, value) VALUES ('generated_at', '2026-11-21T04:39:58.931Z') ON CONFLICT (key) DO UPDATE SET value = excluded.value;
 INSERT INTO catalog_meta (key, value) VALUES ('source', 'ywwyppgegsfyxljwgdfv.supabase.co') ON CONFLICT (key) DO UPDATE SET value = excluded.value;
 INSERT INTO catalog_meta (key, value) VALUES ('prices_updated_at', '2026-11-24T06:14:10.674Z') ON CONFLICT (key) DO UPDATE SET value = excluded.value;

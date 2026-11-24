@@ -781,16 +781,20 @@ export default function GameDetail({
                         </div>
                       )}
                     </div>
-                    {p.store_url && (
+                    {(p.product_url || p.store_url) && (
                       <a
-                        href={storeHref(p.store_url, platform, game.title)}
+                        href={storeHref(p, game.title)}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                        aria-label={`Visit ${platform?.name ?? 'the store'} to search for ${game.title}`}
+                        aria-label={
+                          p.product_url
+                            ? `Visit ${game.title} on ${platform?.name ?? 'the store'}`
+                            : `Search ${platform?.name ?? 'the store'} for ${game.title}`
+                        }
                         className="flex shrink-0 items-center gap-1 rounded-md border border-white/10 px-3 py-1.5 text-xs font-semibold text-gray-300 transition-colors hover:border-sky-400/50 hover:text-sky-300"
                       >
-                        Visit
+                        {p.product_url ? 'Visit' : 'Search'}
                         <ArrowUpRight className="h-3.5 w-3.5" />
                       </a>
                     )}

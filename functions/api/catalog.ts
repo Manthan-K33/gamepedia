@@ -36,6 +36,7 @@ interface PriceRow {
   regular_price: number | null;
   currency: string;
   store_url: string | null;
+  product_url: string | null;
   on_sale: number;
   updated_at: string | null;
   platform_name: string | null;
@@ -96,6 +97,7 @@ export async function onRequestGet({ env }: { env: Env }): Promise<Response> {
       regular_price: p.regular_price === null ? null : Number(p.regular_price),
       currency: p.currency,
       store_url: p.store_url,
+      product_url: p.product_url ?? null,
       on_sale: Boolean(p.on_sale),
       updated_at: p.updated_at ?? null,
       platforms: p.platform_name

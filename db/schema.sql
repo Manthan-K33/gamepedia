@@ -53,6 +53,7 @@ CREATE TABLE IF NOT EXISTS game_prices (
   regular_price REAL,
   currency      TEXT NOT NULL DEFAULT 'USD',
   store_url     TEXT,
+  product_url   TEXT,                              -- direct game page on the store
   on_sale       INTEGER NOT NULL DEFAULT 0,
   updated_at    TEXT                               -- last successful store sync
 );

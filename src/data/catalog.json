@@ -80,7 +80,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 4.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/945360/"
         },
         {
           "id": "943ef733-3d7b-4d64-93c6-fdb0567e3fe1",
@@ -95,7 +96,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 4.99
+          "regular_price": 4.99,
+          "product_url": "https://store.epicgames.com/en-US/p/among-us"
         },
         {
           "id": "92d74e6c-ea2c-4984-a7fc-32226b694acc",
@@ -111,7 +113,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 5,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000036098/"
         }
       ]
     },
@@ -188,7 +191,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000027619/"
         }
       ]
     },
@@ -270,7 +274,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1172470/"
         },
         {
           "id": "fea10e96-414d-42da-ab6c-b5a46984feba",
@@ -286,7 +291,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/apex-legends/BV9ML45J2Q5V"
         },
         {
           "id": "edcb1336-17f0-4831-a93d-74dea5d898c5",
@@ -301,7 +307,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.playstation.com/en-us/product/UP0006-PPSA04873_00-APEXLEGENDRSPWN1"
         }
       ]
     },
@@ -382,7 +389,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 14.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/346110/"
         },
         {
           "id": "c6d5edf1-b6fa-4c03-b64f-ef161978a02c",
@@ -398,7 +406,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 14.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/ark-survival-evolved/BNBLC4ZGFNKB"
         },
         {
           "id": "e1d5ae84-7ebe-4ee8-9cd7-b95a9245b3f0",
@@ -413,7 +422,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 9.99
+          "regular_price": 9.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0691-CUSA06676_00-ARKSEGAME0000000"
         },
         {
           "id": "818b024c-bf4c-4b87-a78a-5d695e6d69f5",
@@ -429,7 +439,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 19.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000010940/"
         }
       ]
     },
@@ -529,7 +540,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 69.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/baldurs-gate-3/9ND58LQTG09T"
         },
         {
           "id": "b9967610-a823-40fc-a65d-f9e79efd2af1",
@@ -560,7 +572,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1086940/"
         }
       ]
     },
@@ -638,7 +651,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/255710/"
         },
         {
           "id": "5c49e473-d3b8-432a-96cc-e89681f744ca",
@@ -731,7 +745,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/730/"
         }
       ]
     },
@@ -823,7 +838,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP4497-PPSA03974_00-0000000000000CP1"
         },
         {
           "id": "839bf554-5a14-4acd-82c4-7bb58ec89ac9",
@@ -839,7 +855,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/cyberpunk-2077/BX3M8L83BBRW"
         },
         {
           "id": "06afda6d-a310-4723-8c57-9a0624eb10d2",
@@ -854,7 +871,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.epicgames.com/en-US/p/cyberpunk-2077"
         },
         {
           "id": "46eb5c3f-d7c4-4df6-ae50-e720c79818aa",
@@ -870,7 +888,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1091500/"
         }
       ]
     },
@@ -949,7 +968,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/374320/"
         },
         {
           "id": "9f06c74f-3c16-49a5-9e22-1f20bc582104",
@@ -964,7 +984,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/dark-souls-iii/BW2XDRNSCCPZ"
         },
         {
           "id": "15053884-0dab-4ab8-a237-4cd25dd3cfa2",
@@ -979,7 +1000,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0700-CUSA03388_00-DARKSOULS3000000"
         }
       ]
     },
@@ -1058,7 +1080,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 19.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/381210/"
         },
         {
           "id": "7ddddacb-73e6-48af-b7ce-ee211240dafc",
@@ -1074,7 +1097,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/dead-by-daylight/C0N22P73QZ60"
         },
         {
           "id": "a6b5cebf-4946-4516-a248-5bec49d0df73",
@@ -1089,7 +1113,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 19.99
+          "regular_price": 19.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP3509-PPSA02048_00-DEADBYDAYLIGHT00"
         },
         {
           "id": "e1723882-c0a9-4e47-a837-2375c2173fb1",
@@ -1105,7 +1130,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000016124/"
         }
       ]
     },
@@ -1181,7 +1207,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 19.99
+          "regular_price": 19.99,
+          "product_url": "https://store.steampowered.com/app/1190460/"
         },
         {
           "id": "b5577618-0d09-4a97-8024-99c59f327546",
@@ -1196,7 +1223,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/death-stranding-directors-cut/9NQGN8TGNT8P"
         },
         {
           "id": "405a0508-b56b-4d04-89ec-a38c6cfa547f",
@@ -1211,7 +1239,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 19.99
+          "regular_price": 19.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP9000-CUSA11260_00-DEATHSTRAND00001"
         }
       ]
     },
@@ -1287,7 +1316,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/601150/"
         },
         {
           "id": "0d9f3a2f-2700-4da2-97e2-87f637882c23",
@@ -1302,7 +1332,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/devil-may-cry-5/BNLG5J5KDVJ3"
         },
         {
           "id": "1136395d-abfb-4ed1-a069-354a073a8fca",
@@ -1317,7 +1348,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0102-PPSA01442_00-DMC5SE0000000001"
         }
       ]
     },
@@ -1395,7 +1427,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP1003-PPSA01981_00-DOOMETERNALBUNDL"
         },
         {
           "id": "9d65bf4e-5993-476a-b176-75166e6ad12a",
@@ -1411,7 +1444,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/doom-eternal-standard-edition/9P5S26314HWQ"
         },
         {
           "id": "a855d08d-2644-4720-804b-d0dfef9f95c2",
@@ -1426,7 +1460,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://store.epicgames.com/en-US/p/doom-eternal"
         },
         {
           "id": "87cfea4d-0ec5-4ca3-9650-160d90c3290e",
@@ -1442,7 +1477,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/782330/"
         }
       ]
     },
@@ -1581,7 +1617,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 69.99
+          "regular_price": 69.99,
+          "product_url": "https://store.steampowered.com/app/2195250/"
         }
       ]
     },
@@ -1664,7 +1701,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/elden-ring/9P3J32CTXLRZ"
         },
         {
           "id": "6b707853-24a6-4dfa-85ce-959b6eaea34c",
@@ -1679,7 +1717,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 69.99
+          "regular_price": 69.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0700-PPSA04610_00-ELDENRING0000000"
         },
         {
           "id": "50c60d55-2d52-4304-aa33-afb402e8fd83",
@@ -1772,7 +1811,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.steampowered.com/app/1097150/"
         },
         {
           "id": "2b682e1b-6a27-4760-aa16-138011970da1",
@@ -1787,7 +1827,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.epicgames.com/en-US/p/fall-guys"
         },
         {
           "id": "be3bc127-5272-40ce-8f09-ab51550010d0",
@@ -1803,7 +1844,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/fall-guys/9PMXH5249DG5"
         },
         {
           "id": "5f7f709f-7d11-4748-b49a-14a4d0e84ed4",
@@ -1818,7 +1860,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.playstation.com/en-us/product/UP1477-PPSA04476_00-FALLGUYS00000000"
         },
         {
           "id": "a92e6823-f084-4e80-be8a-e9a925ed5afe",
@@ -1833,7 +1876,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://www.nintendo.com/us/store/products/fall-guys-switch/"
         }
       ]
     },
@@ -1915,7 +1959,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000010192/"
         },
         {
           "id": "bb6b72ee-0fbe-4c93-80d1-c9040bdfd761",
@@ -1930,7 +1975,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.playstation.com/en-us/product/UP1477-PPSA01922_00-FNBNDL0000000000"
         },
         {
           "id": "ee765171-9ffd-4fe9-adec-7b65b2e6189a",
@@ -1946,7 +1992,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/fortnite/BT5P2X999VH2"
         },
         {
           "id": "8dba77a0-e257-4de1-b446-48aa3f9cb8f3",
@@ -2057,7 +2104,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/forza-horizon-5/9NNX1VVR3KNQ"
         },
         {
           "id": "1920781d-cd82-45be-b919-f54f2a1104a5",
@@ -2088,7 +2136,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1551360/"
         }
       ]
     },
@@ -2166,7 +2215,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 9.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/4000/"
         }
       ]
     },
@@ -2256,7 +2306,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP9000-PPSA02225_00-GHOSTDIRECTORPS5"
         }
       ]
     },
@@ -2333,7 +2384,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP9000-PPSA08329_00-GOWRAGNAROK00000"
         },
         {
           "id": "f2fe78bb-ea45-4be1-a99f-d2ade116e834",
@@ -2425,7 +2477,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP1004-PPSA03420_00-GTAVCROSSGENBUND"
         },
         {
           "id": "e8425d2b-258e-48ce-8c0f-fbc428ae926e",
@@ -2440,7 +2493,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/grand-theft-auto-v-xbox-one/BPJ686W6S0NH"
         },
         {
           "id": "25bb8807-b6ea-499f-bc33-6c7038c4fe72",
@@ -2455,7 +2509,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://store.epicgames.com/en-US/p/grand-theft-auto-v"
         },
         {
           "id": "9d552a71-b027-4c7c-8014-82a31413d935",
@@ -2471,7 +2526,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 44.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/3240220/"
         }
       ]
     },
@@ -2551,7 +2607,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 24.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000033131/"
         },
         {
           "id": "defa93a3-6ab5-4eb4-ba2a-a9eeb43645ed",
@@ -2566,7 +2623,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 24.99
+          "regular_price": 24.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP2125-PPSA03355_00-3466019145463410"
         },
         {
           "id": "572e8443-c9af-4219-8f3e-95fc924bc355",
@@ -2582,7 +2640,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 24.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/hades/9P8DL6W0JBB8"
         },
         {
           "id": "78e075b7-c0b5-4865-bb8d-abc40900913e",
@@ -2597,7 +2656,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 24.99
+          "regular_price": 24.99,
+          "product_url": "https://store.epicgames.com/en-US/p/hades"
         },
         {
           "id": "3d8f6c4d-4876-430b-a851-c4f282d293d9",
@@ -2613,7 +2673,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 24.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1145360/"
         }
       ]
     },
@@ -2692,7 +2753,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/990080/"
         },
         {
           "id": "485619ba-761a-4370-9382-98d184f33148",
@@ -2708,7 +2770,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 69.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/hogwarts-legacy/9MT5NJ5W7B8Z"
         },
         {
           "id": "4788e6f3-ffd0-472b-96f3-5ad86eb5cac0",
@@ -2723,7 +2786,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP1018-PPSA01593_00-HOGWARTSLEGACY01"
         },
         {
           "id": "3c2d0a9f-677f-4e48-be85-0e3a8c03ed67",
@@ -2739,7 +2803,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000014724/"
         }
       ]
     },
@@ -2818,7 +2883,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 15,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000003208/"
         },
         {
           "id": "6eb09bab-9afe-4e4a-8a49-7bad4a155a9a",
@@ -2833,7 +2899,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 14.99
+          "regular_price": 14.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP1822-PPSA34970_00-HOLLOWKNIGHTPS50"
         },
         {
           "id": "20461900-1272-41c5-a536-9e5cb258f1cc",
@@ -2848,7 +2915,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 14.99
+          "regular_price": 14.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/hollow-knight-voidheart-edition/9MW9469V91LM"
         },
         {
           "id": "27e5a1bd-5fec-4223-b235-70602c689543",
@@ -2879,7 +2947,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 14.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/367520/"
         }
       ]
     },
@@ -2961,7 +3030,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 39.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70070000014924/"
         },
         {
           "id": "426a79ef-a4c5-4163-8aa5-13c22c55a42e",
@@ -2976,7 +3046,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0006-PPSA02342_00-ITTAKESTWORETAIL"
         },
         {
           "id": "0b03a4e2-4655-40c6-a106-d7fd3f7c6fc4",
@@ -2991,7 +3062,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/it-takes-two/9NKJ0VZQ4N0L"
         },
         {
           "id": "42a6b8af-73a3-4e34-a471-fb7fc6e78be8",
@@ -3006,7 +3078,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://store.epicgames.com/en-US/p/it-takes-two"
         },
         {
           "id": "6c863b68-73d1-4e52-8b96-a4ecb811200c",
@@ -3022,7 +3095,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 39.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1426210/"
         }
       ]
     },
@@ -3100,7 +3174,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 9.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/550/"
         }
       ]
     },
@@ -3184,7 +3259,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000000964/"
         },
         {
           "id": "6921f741-845a-49c5-a4d3-c7f92ac47cb5",
@@ -3199,7 +3275,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 26.99
+          "regular_price": 26.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP4433-PPSA17221_00-MINECRAFTPS50000"
         },
         {
           "id": "098950d0-a22b-438f-b098-296948c1d101",
@@ -3323,7 +3400,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/582010/"
         },
         {
           "id": "062631df-041e-4239-8536-fd3ba13ac24a",
@@ -3339,7 +3417,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 19.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/monster-hunter-world/BNG91PT95LQN"
         },
         {
           "id": "697827f2-bcd7-4c3f-b9bc-c13b08c8e9ee",
@@ -3354,7 +3433,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0102-CUSA07713_00-0000000000000000"
         }
       ]
     },
@@ -3433,7 +3513,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.steampowered.com/app/2338770/"
         },
         {
           "id": "aa1b67ec-4220-48d2-bc6e-916a01a395c1",
@@ -3571,7 +3652,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.playstation.com/en-us/product/UP0002-PPSA07805_00-OWORIGINS0000000"
         },
         {
           "id": "96f6a4b5-a906-42d9-85ad-c4e1709c2dcc",
@@ -3586,7 +3668,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://www.xbox.com/en-US/games/store/overwatch/C1C4DZJPBC2V"
         },
         {
           "id": "c6318b36-3e0a-4fa3-9c3e-c7143c294a3e",
@@ -3617,7 +3700,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/2357570/"
         }
       ]
     },
@@ -3695,7 +3779,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1687950/"
         },
         {
           "id": "5112af7f-7a13-4fa9-84f9-1b106c8f7a29",
@@ -3711,7 +3796,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/persona-5-royal/9NZDHXL9SJJ8"
         },
         {
           "id": "cb62b822-d0ab-48d6-bdaa-e07bc0461df4",
@@ -3726,7 +3812,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0177-PPSA05109_00-P5RGAME000000000"
         },
         {
           "id": "b298e247-f4d1-444f-a065-fcc3ce63634a",
@@ -3742,7 +3829,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000043147/"
         }
       ]
     },
@@ -3825,7 +3913,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 9.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/620/"
         }
       ]
     },
@@ -3905,7 +3994,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/578080/"
         }
       ]
     },
@@ -3983,7 +4073,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.epicgames.com/en-US/p/red-dead-redemption-2"
         },
         {
           "id": "4a6c96aa-57a4-495f-b386-d65abf8d19bd",
@@ -3999,7 +4090,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1174180/"
         }
       ]
     },
@@ -4076,7 +4168,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0102-PPSA07411_00-RE4RMAINGAME0000"
         },
         {
           "id": "998b0350-d2a0-43c7-83d9-cf2af4a464b8",
@@ -4091,7 +4184,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/resident-evil-4/9N7JCPPCPN37"
         },
         {
           "id": "360f688f-683e-48ea-b16a-cd1da845341a",
@@ -4107,7 +4201,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 39.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/2050650/"
         }
       ]
     },
@@ -4187,7 +4282,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.steampowered.com/app/252950/"
         },
         {
           "id": "ca857d93-74a2-45e9-b9f4-c2ad5f19a095",
@@ -4202,7 +4298,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.epicgames.com/en-US/p/rocket-league"
         },
         {
           "id": "ede6bea2-edee-4221-8626-0c069e5bb9bc",
@@ -4218,7 +4315,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/rocket-league/C125W9BG2K0V"
         },
         {
           "id": "b8321f15-3a7c-4606-b664-56a1e40a4067",
@@ -4233,7 +4331,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.playstation.com/en-us/product/UP2002-CUSA01163_00-ROCKETLEAGUENA01"
         },
         {
           "id": "83155485-53a7-4828-bdab-4a9c0677e2ce",
@@ -4249,7 +4348,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000000457/"
         }
       ]
     },
@@ -4326,7 +4426,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 39.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/252490/"
         },
         {
           "id": "8fa731c7-b46c-4151-8bf5-7339394aa6a8",
@@ -4341,7 +4442,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/rust/9NPHHZBV60B4"
         },
         {
           "id": "fd895748-2377-471a-88cf-f0fbfe9855ed",
@@ -4356,7 +4458,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "product_url": "https://store.playstation.com/en-us/product/EP4415-PPSA24616_00-RUSTCONSOLEBASE5"
         }
       ]
     },
@@ -4431,7 +4534,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP0002-CUSA12047_00-SEKIROGAME000001"
         },
         {
           "id": "715c41dc-7f35-4699-a590-85e3549f2b3d",
@@ -4446,7 +4550,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/sekiro-shadows-die-twice-goty-edition/BQD5WRRP2D6Q"
         },
         {
           "id": "c311172b-c366-40a0-8592-c10b4e007560",
@@ -4477,7 +4582,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/814380/"
         }
       ]
     },
@@ -4558,7 +4664,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/289070/"
         },
         {
           "id": "27692922-9f4f-4c63-b7de-08af53f4c073",
@@ -4574,7 +4681,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/sid-meiers-civilization-vi/9N4RSG99KV1X"
         },
         {
           "id": "d228e856-5708-4e26-867c-c16a207db7af",
@@ -4589,7 +4697,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP1001-CUSA15322_00-CIV6BASE00000000"
         },
         {
           "id": "b3641be7-6e00-4055-8bc7-cc927cd4f65b",
@@ -4605,7 +4714,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000013704/"
         },
         {
           "id": "d7ccf692-7003-47e8-acfd-9e72d3d46b1e",
@@ -4704,7 +4814,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 14.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000001801/"
         },
         {
           "id": "056d5425-d846-4023-88db-62fbc1a6e732",
@@ -4719,7 +4830,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 14.99
+          "regular_price": 14.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP2456-CUSA06840_00-STARDEW00000SIEA"
         },
         {
           "id": "337894e3-c051-4b67-b8c5-bbbdf77a9805",
@@ -4735,7 +4847,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 14.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/stardew-valley/C3D891Z6TNQM"
         },
         {
           "id": "5bc1f5d8-12df-4c0b-af41-20e6ea22dd62",
@@ -4766,7 +4879,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 14.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/413150/"
         }
       ]
     },
@@ -4844,7 +4958,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/440/"
         }
       ]
     },
@@ -4927,7 +5042,8 @@
           },
           "store_url": "https://www.gog.com",
           "platform_id": 6,
-          "regular_price": 9.99
+          "regular_price": 9.99,
+          "product_url": "https://www.gog.com/en/game/terraria"
         },
         {
           "id": "8703cc55-6fba-4ccd-8d1f-986add132fed",
@@ -4943,7 +5059,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000001702/"
         },
         {
           "id": "03f8ce0a-46d1-46ee-8da7-65a5ff79224f",
@@ -4958,7 +5075,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 9.99
+          "regular_price": 9.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP4040-CUSA00740_00-TERRARIA00000001"
         },
         {
           "id": "8d20299e-a064-46ff-8dbd-fb53de6c9516",
@@ -4974,7 +5092,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 19.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/terraria/BTNPS60N3114"
         },
         {
           "id": "c92405d6-c8d6-47e0-b124-cc148c61776f",
@@ -4990,7 +5109,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 9.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/105600/"
         }
       ]
     },
@@ -5079,7 +5199,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 49.99
+          "regular_price": 49.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP9000-PPSA03396_00-THELASTOFUSPART1"
         },
         {
           "id": "3e2a7a53-e91d-4e32-a031-d5b340eabf9e",
@@ -5095,7 +5216,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 59.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1888930/"
         }
       ]
     },
@@ -5169,7 +5291,8 @@
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
           "regular_price": 69.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.nintendo.com/us/store/products/70010000063714/"
         }
       ]
     },
@@ -5245,7 +5368,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 0,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/1222670/"
         },
         {
           "id": "c32a761e-f905-481e-b622-d40c7cb50559",
@@ -5260,7 +5384,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://store.epicgames.com/en-US/p/the-sims-4"
         }
       ]
     },
@@ -5338,7 +5463,8 @@
           },
           "store_url": "https://www.gog.com",
           "platform_id": 6,
-          "regular_price": 49.99
+          "regular_price": 49.99,
+          "product_url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition"
         },
         {
           "id": "3b241082-bb7f-48a5-99fd-0992fe077b94",
@@ -5353,7 +5479,8 @@
           },
           "store_url": "https://store.playstation.com",
           "platform_id": 4,
-          "regular_price": 49.99
+          "regular_price": 49.99,
+          "product_url": "https://store.playstation.com/en-us/product/UP4497-PPSA03972_00-00000000000GOTY7"
         },
         {
           "id": "585d2a6b-e5c5-4bcf-84d6-76e6cfd3c973",
@@ -5369,7 +5496,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 49.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/the-witcher-3-wild-hunt-remastered/C261457LCNMJ"
         },
         {
           "id": "a18b47e1-f2b2-45f8-ac75-d5d351b7efe6",
@@ -5384,7 +5512,8 @@
           },
           "store_url": "https://store.epicgames.com",
           "platform_id": 2,
-          "regular_price": 49.99
+          "regular_price": 49.99,
+          "product_url": "https://store.epicgames.com/en-US/p/the-witcher-3-wild-hunt"
         },
         {
           "id": "b5e40758-c24d-41f4-87f8-06960d55ba8d",
@@ -5400,7 +5529,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 49.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/292030/"
         }
       ]
     },
@@ -5478,7 +5608,8 @@
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://store.steampowered.com/app/892970/"
         },
         {
           "id": "3b0f1f9d-917e-4529-911f-4bd55935ef17",
@@ -5494,7 +5625,8 @@
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
           "regular_price": 29.99,
-          "updated_at": "2026-11-24T06:14:10.674Z"
+          "updated_at": "2026-11-24T06:14:10.674Z",
+          "product_url": "https://www.xbox.com/en-US/games/store/valheim/9NCBL78CG9N7"
         }
       ]
     }

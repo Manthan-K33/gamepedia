@@ -1,0 +1,922 @@
+{
+  "generated_at": "2026-11-24T09:38:11.825Z",
+  "links": {
+    "among-us": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/945360/",
+        "id": "945360",
+        "title": "Among Us",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/among-us",
+        "id": "among-us",
+        "title": "Among Us",
+        "source": "epic-content"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000036098/",
+        "id": "70010000036098",
+        "title": "Among Us",
+        "source": "store-id"
+      }
+    },
+    "animal-crossing-new-horizons": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000027619/",
+        "id": "70010000027619",
+        "title": "Animal Crossing: New Horizons",
+        "source": "store-id"
+      }
+    },
+    "apex-legends": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1172470/",
+        "id": "1172470",
+        "title": "Apex Legends",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/apex-legends/BV9ML45J2Q5V",
+        "id": "BV9ML45J2Q5V",
+        "title": "Apex Legends™",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0006-PPSA04873_00-APEXLEGENDRSPWN1",
+        "id": "UP0006-PPSA04873_00-APEXLEGENDRSPWN1",
+        "title": "Apex Legends™ PS5",
+        "source": "ps-search"
+      }
+    },
+    "ark-survival-evolved": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/346110/",
+        "id": "346110",
+        "title": "ARK: Survival Evolved",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/ark-survival-evolved/BNBLC4ZGFNKB",
+        "id": "BNBLC4ZGFNKB",
+        "title": "ARK: Survival Evolved",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0691-CUSA06676_00-ARKSEGAME0000000",
+        "id": "UP0691-CUSA06676_00-ARKSEGAME0000000",
+        "title": "ARK: Survival Evolved",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000010940/",
+        "id": "70010000010940",
+        "title": "ARK: Survival Evolved",
+        "source": "store-id"
+      }
+    },
+    "baldur-s-gate-3": {
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/baldurs-gate-3/9ND58LQTG09T",
+        "id": "9ND58LQTG09T",
+        "title": "Baldur's Gate 3",
+        "source": "store-id"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/1086940/",
+        "id": "1086940",
+        "title": "Baldur's Gate 3",
+        "source": "store-id"
+      }
+    },
+    "cities-skylines": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/255710/",
+        "id": "255710",
+        "title": "Cities: Skylines",
+        "source": "store-id"
+      }
+    },
+    "counter-strike-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/730/",
+        "id": "730",
+        "title": "Counter-Strike 2",
+        "source": "store-id"
+      }
+    },
+    "cyberpunk-2077": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4497-PPSA03974_00-0000000000000CP1",
+        "id": "UP4497-PPSA03974_00-0000000000000CP1",
+        "title": "Cyberpunk 2077",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/cyberpunk-2077/BX3M8L83BBRW",
+        "id": "BX3M8L83BBRW",
+        "title": "Cyberpunk 2077",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/cyberpunk-2077",
+        "id": "cyberpunk-2077",
+        "title": "Cyberpunk 2077",
+        "source": "epic-content"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/1091500/",
+        "id": "1091500",
+        "title": "Cyberpunk 2077",
+        "source": "store-id"
+      }
+    },
+    "dark-souls-iii": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/374320/",
+        "id": "374320",
+        "title": "Dark Souls III",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/dark-souls-iii/BW2XDRNSCCPZ",
+        "id": "BW2XDRNSCCPZ",
+        "title": "DARK SOULS™ III",
+        "source": "xbox-autosuggest"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0700-CUSA03388_00-DARKSOULS3000000",
+        "id": "UP0700-CUSA03388_00-DARKSOULS3000000",
+        "title": "DARK SOULS™ III",
+        "source": "ps-search"
+      }
+    },
+    "dead-by-daylight": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/381210/",
+        "id": "381210",
+        "title": "Dead by Daylight",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/dead-by-daylight/C0N22P73QZ60",
+        "id": "C0N22P73QZ60",
+        "title": "Dead by Daylight",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP3509-PPSA02048_00-DEADBYDAYLIGHT00",
+        "id": "UP3509-PPSA02048_00-DEADBYDAYLIGHT00",
+        "title": "Dead by Daylight PS4® & PS5®",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000016124/",
+        "id": "70010000016124",
+        "title": "Dead by Daylight",
+        "source": "store-id"
+      }
+    },
+    "death-stranding": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1190460/",
+        "id": "1190460",
+        "title": "Death Stranding",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/death-stranding-directors-cut/9NQGN8TGNT8P",
+        "id": "9NQGN8TGNT8P",
+        "title": "DEATH STRANDING DIRECTOR'S CUT",
+        "source": "xbox-autosuggest"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-CUSA11260_00-DEATHSTRAND00001",
+        "id": "UP9000-CUSA11260_00-DEATHSTRAND00001",
+        "title": "DEATH STRANDING",
+        "source": "ps-search"
+      }
+    },
+    "devil-may-cry-5": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/601150/",
+        "id": "601150",
+        "title": "Devil May Cry 5",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/devil-may-cry-5/BNLG5J5KDVJ3",
+        "id": "BNLG5J5KDVJ3",
+        "title": "Devil May Cry 5",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0102-PPSA01442_00-DMC5SE0000000001",
+        "id": "UP0102-PPSA01442_00-DMC5SE0000000001",
+        "title": "Devil May Cry 5 Special Edition",
+        "source": "ps-search"
+      }
+    },
+    "doom-eternal": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1003-PPSA01981_00-DOOMETERNALBUNDL",
+        "id": "UP1003-PPSA01981_00-DOOMETERNALBUNDL",
+        "title": "DOOM Eternal Standard Edition",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/doom-eternal-standard-edition/9P5S26314HWQ",
+        "id": "9P5S26314HWQ",
+        "title": "DOOM Eternal Standard Edition",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/doom-eternal",
+        "id": "doom-eternal",
+        "title": "doom-eternal",
+        "source": "epic-content"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/782330/",
+        "id": "782330",
+        "title": "DOOM Eternal",
+        "source": "store-id"
+      }
+    },
+    "ea-sports-fc-24": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2195250/",
+        "id": "2195250",
+        "title": "EA Sports FC 24",
+        "source": "store-id"
+      }
+    },
+    "elden-ring": {
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/elden-ring/9P3J32CTXLRZ",
+        "id": "9P3J32CTXLRZ",
+        "title": "ELDEN RING",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0700-PPSA04610_00-ELDENRING0000000",
+        "id": "UP0700-PPSA04610_00-ELDENRING0000000",
+        "title": "ELDEN RING PS4 & PS5",
+        "source": "ps-search"
+      }
+    },
+    "fall-guys": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1097150/",
+        "id": "1097150",
+        "title": "Fall Guys",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/fall-guys",
+        "id": "fall-guys",
+        "title": "Fall Guys",
+        "source": "epic-content"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/fall-guys/9PMXH5249DG5",
+        "id": "9PMXH5249DG5",
+        "title": "Fall Guys",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1477-PPSA04476_00-FALLGUYS00000000",
+        "id": "UP1477-PPSA04476_00-FALLGUYS00000000",
+        "title": "Fall Guys",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/fall-guys-switch/",
+        "id": "fall-guys-switch",
+        "title": "Fall Guys",
+        "source": "nintendo-page"
+      }
+    },
+    "fortnite": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000010192/",
+        "id": "70010000010192",
+        "title": "Fortnite",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1477-PPSA01922_00-FNBNDL0000000000",
+        "id": "UP1477-PPSA01922_00-FNBNDL0000000000",
+        "title": "Fortnite",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/fortnite/BT5P2X999VH2",
+        "id": "BT5P2X999VH2",
+        "title": "Fortnite",
+        "source": "store-id"
+      }
+    },
+    "forza-horizon-5": {
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/forza-horizon-5/9NNX1VVR3KNQ",
+        "id": "9NNX1VVR3KNQ",
+        "title": "Forza Horizon 5",
+        "source": "store-id"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/1551360/",
+        "id": "1551360",
+        "title": "Forza Horizon 5",
+        "source": "store-id"
+      }
+    },
+    "garrys-mod": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/4000/",
+        "id": "4000",
+        "title": "Garry's Mod",
+        "source": "store-id"
+      }
+    },
+    "ghost-of-tsushima": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA02225_00-GHOSTDIRECTORPS5",
+        "id": "UP9000-PPSA02225_00-GHOSTDIRECTORPS5",
+        "title": "Ghost of Tsushima DIRECTOR’S CUT",
+        "source": "ps-search"
+      }
+    },
+    "god-of-war-ragnarok": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA08329_00-GOWRAGNAROK00000",
+        "id": "UP9000-PPSA08329_00-GOWRAGNAROK00000",
+        "title": "God of War Ragnarök",
+        "source": "ps-search"
+      }
+    },
+    "grand-theft-auto-v": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1004-PPSA03420_00-GTAVCROSSGENBUND",
+        "id": "UP1004-PPSA03420_00-GTAVCROSSGENBUND",
+        "title": "Grand Theft Auto V (PS4™ & PS5™)",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/grand-theft-auto-v-xbox-one/BPJ686W6S0NH",
+        "id": "BPJ686W6S0NH",
+        "title": "Grand Theft Auto V (Xbox One)",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/grand-theft-auto-v",
+        "id": "grand-theft-auto-v",
+        "title": "Grand Theft Auto V",
+        "source": "epic-content"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/3240220/",
+        "id": "3240220",
+        "title": "Grand Theft Auto V",
+        "source": "store-id"
+      }
+    },
+    "hades": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000033131/",
+        "id": "70010000033131",
+        "title": "Hades",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP2125-PPSA03355_00-3466019145463410",
+        "id": "UP2125-PPSA03355_00-3466019145463410",
+        "title": "Hades",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/hades/9P8DL6W0JBB8",
+        "id": "9P8DL6W0JBB8",
+        "title": "Hades",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/hades",
+        "id": "hades",
+        "title": "Hades",
+        "source": "epic-content"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/1145360/",
+        "id": "1145360",
+        "title": "Hades",
+        "source": "store-id"
+      }
+    },
+    "hogwarts-legacy": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/990080/",
+        "id": "990080",
+        "title": "Hogwarts Legacy",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/hogwarts-legacy/9MT5NJ5W7B8Z",
+        "id": "9MT5NJ5W7B8Z",
+        "title": "Hogwarts Legacy",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1018-PPSA01593_00-HOGWARTSLEGACY01",
+        "id": "UP1018-PPSA01593_00-HOGWARTSLEGACY01",
+        "title": "Hogwarts Legacy PS5 Version",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000014724/",
+        "id": "70010000014724",
+        "title": "Hogwarts Legacy",
+        "source": "store-id"
+      }
+    },
+    "hollow-knight": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000003208/",
+        "id": "70010000003208",
+        "title": "Hollow Knight",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1822-PPSA34970_00-HOLLOWKNIGHTPS50",
+        "id": "UP1822-PPSA34970_00-HOLLOWKNIGHTPS50",
+        "title": "Hollow Knight Voidheart Edition",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/hollow-knight-voidheart-edition/9MW9469V91LM",
+        "id": "9MW9469V91LM",
+        "title": "Hollow Knight: Voidheart Edition",
+        "source": "xbox-autosuggest"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/367520/",
+        "id": "367520",
+        "title": "Hollow Knight",
+        "source": "store-id"
+      }
+    },
+    "it-takes-two": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70070000014924/",
+        "id": "70070000014924",
+        "title": "It Takes Two",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0006-PPSA02342_00-ITTAKESTWORETAIL",
+        "id": "UP0006-PPSA02342_00-ITTAKESTWORETAIL",
+        "title": "It Takes Two PS4™ & PS5™",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/it-takes-two/9NKJ0VZQ4N0L",
+        "id": "9NKJ0VZQ4N0L",
+        "title": "It Takes Two",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/it-takes-two",
+        "id": "it-takes-two",
+        "title": "It Takes Two",
+        "source": "epic-content"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/1426210/",
+        "id": "1426210",
+        "title": "It Takes Two",
+        "source": "store-id"
+      }
+    },
+    "left-4-dead-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/550/",
+        "id": "550",
+        "title": "Left 4 Dead 2",
+        "source": "store-id"
+      }
+    },
+    "minecraft": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000000964/",
+        "id": "70010000000964",
+        "title": "Minecraft",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4433-PPSA17221_00-MINECRAFTPS50000",
+        "id": "UP4433-PPSA17221_00-MINECRAFTPS50000",
+        "title": "Minecraft",
+        "source": "ps-search"
+      }
+    },
+    "monster-hunter-world": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/582010/",
+        "id": "582010",
+        "title": "Monster Hunter: World",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/monster-hunter-world/BNG91PT95LQN",
+        "id": "BNG91PT95LQN",
+        "title": "MONSTER HUNTER: WORLD™",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0102-CUSA07713_00-0000000000000000",
+        "id": "UP0102-CUSA07713_00-0000000000000000",
+        "title": "MONSTER HUNTER: WORLD™",
+        "source": "ps-search"
+      }
+    },
+    "nba-2k24": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2338770/",
+        "id": "2338770",
+        "title": "NBA 2K24",
+        "source": "store-id"
+      }
+    },
+    "overwatch-2": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0002-PPSA07805_00-OWORIGINS0000000",
+        "id": "UP0002-PPSA07805_00-OWORIGINS0000000",
+        "title": "Overwatch®",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/overwatch/C1C4DZJPBC2V",
+        "id": "C1C4DZJPBC2V",
+        "title": "Overwatch®",
+        "source": "xbox-autosuggest"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/2357570/",
+        "id": "2357570",
+        "title": "Overwatch 2",
+        "source": "store-id"
+      }
+    },
+    "persona-5-royal": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1687950/",
+        "id": "1687950",
+        "title": "Persona 5 Royal",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/persona-5-royal/9NZDHXL9SJJ8",
+        "id": "9NZDHXL9SJJ8",
+        "title": "Persona 5 Royal",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0177-PPSA05109_00-P5RGAME000000000",
+        "id": "UP0177-PPSA05109_00-P5RGAME000000000",
+        "title": "Persona 5 Royal",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000043147/",
+        "id": "70010000043147",
+        "title": "Persona 5 Royal",
+        "source": "store-id"
+      }
+    },
+    "portal-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/620/",
+        "id": "620",
+        "title": "Portal 2",
+        "source": "store-id"
+      }
+    },
+    "pubg-battlegrounds": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/578080/",
+        "id": "578080",
+        "title": "PUBG: Battlegrounds",
+        "source": "store-id"
+      }
+    },
+    "red-dead-redemption-2": {
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/red-dead-redemption-2",
+        "id": "red-dead-redemption-2",
+        "title": "Red Dead Redemption 2",
+        "source": "epic-content"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/1174180/",
+        "id": "1174180",
+        "title": "Red Dead Redemption 2",
+        "source": "store-id"
+      }
+    },
+    "resident-evil-4-remake": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0102-PPSA07411_00-RE4RMAINGAME0000",
+        "id": "UP0102-PPSA07411_00-RE4RMAINGAME0000",
+        "title": "Resident Evil 4",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/resident-evil-4/9N7JCPPCPN37",
+        "id": "9N7JCPPCPN37",
+        "title": "Resident Evil 4",
+        "source": "xbox-autosuggest"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/2050650/",
+        "id": "2050650",
+        "title": "Resident Evil 4 (2023)",
+        "source": "store-id"
+      }
+    },
+    "rocket-league": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/252950/",
+        "id": "252950",
+        "title": "Rocket League",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/rocket-league",
+        "id": "rocket-league",
+        "title": "Rocket League",
+        "source": "epic-content"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/rocket-league/C125W9BG2K0V",
+        "id": "C125W9BG2K0V",
+        "title": "Rocket League®",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP2002-CUSA01163_00-ROCKETLEAGUENA01",
+        "id": "UP2002-CUSA01163_00-ROCKETLEAGUENA01",
+        "title": "Rocket League®",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000000457/",
+        "id": "70010000000457",
+        "title": "Rocket League",
+        "source": "store-id"
+      }
+    },
+    "rust": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/252490/",
+        "id": "252490",
+        "title": "Rust",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/rust/9NPHHZBV60B4",
+        "id": "9NPHHZBV60B4",
+        "title": "Rust",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/EP4415-PPSA24616_00-RUSTCONSOLEBASE5",
+        "id": "EP4415-PPSA24616_00-RUSTCONSOLEBASE5",
+        "title": "Rust Console Edition (PlayStation®5)",
+        "source": "ps-search"
+      }
+    },
+    "sekiro-shadows-die-twice": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0002-CUSA12047_00-SEKIROGAME000001",
+        "id": "UP0002-CUSA12047_00-SEKIROGAME000001",
+        "title": "Sekiro™: Shadows Die Twice - Game of the Year Edition",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/sekiro-shadows-die-twice-goty-edition/BQD5WRRP2D6Q",
+        "id": "BQD5WRRP2D6Q",
+        "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+        "source": "xbox-autosuggest"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/814380/",
+        "id": "814380",
+        "title": "Sekiro: Shadows Die Twice",
+        "source": "store-id"
+      }
+    },
+    "civilization-vi": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/289070/",
+        "id": "289070",
+        "title": "Sid Meier's Civilization VI",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/sid-meiers-civilization-vi/9N4RSG99KV1X",
+        "id": "9N4RSG99KV1X",
+        "title": "Sid Meier's Civilization VI",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1001-CUSA15322_00-CIV6BASE00000000",
+        "id": "UP1001-CUSA15322_00-CIV6BASE00000000",
+        "title": "Sid Meier's Civilization VI",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000013704/",
+        "id": "70010000013704",
+        "title": "Sid Meier's Civilization VI",
+        "source": "store-id"
+      }
+    },
+    "stardew-valley": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000001801/",
+        "id": "70010000001801",
+        "title": "Stardew Valley",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP2456-CUSA06840_00-STARDEW00000SIEA",
+        "id": "UP2456-CUSA06840_00-STARDEW00000SIEA",
+        "title": "Stardew Valley",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/stardew-valley/C3D891Z6TNQM",
+        "id": "C3D891Z6TNQM",
+        "title": "Stardew Valley",
+        "source": "store-id"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/413150/",
+        "id": "413150",
+        "title": "Stardew Valley",
+        "source": "store-id"
+      }
+    },
+    "team-fortress-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/440/",
+        "id": "440",
+        "title": "Team Fortress 2",
+        "source": "store-id"
+      }
+    },
+    "terraria": {
+      "gog": {
+        "url": "https://www.gog.com/en/game/terraria",
+        "id": "terraria",
+        "title": "Terraria",
+        "source": "gog-page"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000001702/",
+        "id": "70010000001702",
+        "title": "Terraria",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4040-CUSA00740_00-TERRARIA00000001",
+        "id": "UP4040-CUSA00740_00-TERRARIA00000001",
+        "title": "Terraria – PlayStation®4 Edition",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/terraria/BTNPS60N3114",
+        "id": "BTNPS60N3114",
+        "title": "Terraria",
+        "source": "store-id"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/105600/",
+        "id": "105600",
+        "title": "Terraria",
+        "source": "store-id"
+      }
+    },
+    "the-last-of-us-part-i": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA03396_00-THELASTOFUSPART1",
+        "id": "UP9000-PPSA03396_00-THELASTOFUSPART1",
+        "title": "The Last of Us™ Part I",
+        "source": "ps-search"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/1888930/",
+        "id": "1888930",
+        "title": "The Last of Us Part I",
+        "source": "store-id"
+      }
+    },
+    "the-legend-of-zelda-tears-of-the-kingdom": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000063714/",
+        "id": "70010000063714",
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "source": "store-id"
+      }
+    },
+    "the-sims-4": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1222670/",
+        "id": "1222670",
+        "title": "The Sims 4",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/the-sims-4",
+        "id": "the-sims-4",
+        "title": "The Sims™ 4",
+        "source": "epic-content"
+      }
+    },
+    "the-witcher-3-wild-hunt": {
+      "gog": {
+        "url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition",
+        "id": "the_witcher_3_wild_hunt",
+        "title": "The Witcher 3: Wild Hunt — Remastered",
+        "source": "gog-page"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4497-PPSA03972_00-00000000000GOTY7",
+        "id": "UP4497-PPSA03972_00-00000000000GOTY7",
+        "title": "The Witcher 3: Wild Hunt — Remastered",
+        "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/the-witcher-3-wild-hunt-remastered/C261457LCNMJ",
+        "id": "C261457LCNMJ",
+        "title": "The Witcher 3: Wild Hunt — Remastered",
+        "source": "store-id"
+      },
+      "epic-games-store": {
+        "url": "https://store.epicgames.com/en-US/p/the-witcher-3-wild-hunt",
+        "id": "the-witcher-3-wild-hunt",
+        "title": "The Witcher 3: Wild Hunt - Game of the Year Edition",
+        "source": "epic-content"
+      },
+      "steam": {
+        "url": "https://store.steampowered.com/app/292030/",
+        "id": "292030",
+        "title": "The Witcher 3: Wild Hunt",
+        "source": "store-id"
+      }
+    },
+    "valheim": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/892970/",
+        "id": "892970",
+        "title": "Valheim",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/valheim/9NCBL78CG9N7",
+        "id": "9NCBL78CG9N7",
+        "title": "Valheim",
+        "source": "store-id"
+      }
+    }
+  },
+  "unresolved": [
+    "nintendo-switch:baldur-s-gate-3 (Baldur's Gate 3)",
+    "epic-games-store:baldur-s-gate-3 (Baldur's Gate 3)",
+    "gog:cities-skylines (Cities: Skylines)",
+    "nintendo-switch:cyberpunk-2077 (Cyberpunk 2077)",
+    "nintendo-switch:ea-sports-fc-24 (EA Sports FC 24)",
+    "playstation:ea-sports-fc-24 (EA Sports FC 24)",
+    "xbox:ea-sports-fc-24 (EA Sports FC 24)",
+    "epic-games-store:ea-sports-fc-24 (EA Sports FC 24)",
+    "epic-games-store:elden-ring (Elden Ring)",
+    "steam:fortnite (Fortnite)",
+    "nintendo-switch:forza-horizon-5 (Forza Horizon 5)",
+    "epic-games-store:forza-horizon-5 (Forza Horizon 5)",
+    "xbox:ghost-of-tsushima (Ghost of Tsushima)",
+    "xbox:god-of-war-ragnarok (God of War Ragnarök)",
+    "epic-games-store:hollow-knight (Hollow Knight)",
+    "xbox:minecraft (Minecraft)",
+    "epic-games-store:minecraft (Minecraft)",
+    "steam:minecraft (Minecraft)",
+    "xbox:nba-2k24 (NBA 2K24)",
+    "playstation:nba-2k24 (NBA 2K24)",
+    "nintendo-switch:nba-2k24 (NBA 2K24)",
+    "nintendo-switch:overwatch-2 (Overwatch 2)",
+    "epic-games-store:overwatch-2 (Overwatch 2)",
+    "epic-games-store:sekiro-shadows-die-twice (Sekiro: Shadows Die Twice)",
+    "gog:civilization-vi (Sid Meier's Civilization VI)",
+    "epic-games-store:stardew-valley (Stardew Valley)",
+    "xbox:the-last-of-us-part-i (The Last of Us Part I)"
+  ]
+}

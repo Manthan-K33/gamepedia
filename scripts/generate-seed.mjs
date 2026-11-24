@@ -74,15 +74,15 @@ for (const g of games) {
   for (let i = 0; i < prices.length; i += 25) {
     const chunk = prices.slice(i, i + 25);
     lines.push(
-      'INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES\n' +
+      'INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES\n' +
         chunk
           .map(
             (p) =>
               `(${q(p.id)}, ${q(g.id)}, ${q(p.platform_id)}, ${q(p.price)}, ${q(
                 p.regular_price
-              )}, ${q(p.currency)}, ${q(p.store_url)}, ${q(p.on_sale)}, ${q(
-                p.updated_at ?? null
-              )})`
+              )}, ${q(p.currency)}, ${q(p.store_url)}, ${q(p.product_url ?? null)}, ${q(
+                p.on_sale
+              )}, ${q(p.updated_at ?? null)})`
           )
           .join(',\n') +
         ';'

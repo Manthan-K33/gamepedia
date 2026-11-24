@@ -13,9 +13,11 @@
     "db:schema": "wrangler d1 execute game-pedia --remote --file=db/schema.sql",
     "db:seed": "wrangler d1 execute game-pedia --remote --file=db/seed.sql",
     "db:seed:generate": "node scripts/generate-seed.mjs",
-    "db:migrate": "wrangler d1 execute game-pedia --remote --file=db/migrations/001_game_price_updated_at.sql",
+    "db:migrate": "node scripts/migrate.cjs",
     "db:query": "wrangler d1 execute game-pedia --remote",
     "prices:resolve": "node scripts/resolve-store-ids.cjs",
+    "prices:links": "node scripts/resolve-store-links.cjs",
+    "prices:links:apply": "node scripts/resolve-store-links.cjs --apply",
     "prices:sync": "node scripts/sync-prices.cjs",
     "prices:apply": "node scripts/sync-prices.cjs --apply"
   },

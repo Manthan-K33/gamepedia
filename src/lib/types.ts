@@ -12,6 +12,7 @@ export interface Price {
   regular_price: number | null;
   currency: string;
   store_url: string | null;
+  product_url?: string | null;
   on_sale: boolean;
   updated_at?: string | null;
   platforms: Platform | null;

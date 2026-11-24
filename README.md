@@ -58,7 +58,7 @@ db/seed.sql     generated idempotent load (48 games, 159 prices)
 | `npm run db:schema` | Apply the schema to remote D1 |
 | `npm run db:seed` | Load `db/seed.sql` into remote D1 |
 | `npm run db:seed:generate` | Regenerate `db/seed.sql` from the snapshot |
-| `npm run db:migrate` | Add `game_prices.updated_at` to remote D1 |
+| `npm run db:migrate` | Apply missing migrations to remote D1 |
 | `npm run db:query` | Interactive SQL against remote D1 |
 
 The browser fetches `/api/catalog`, which the function caches for 60 seconds
@@ -68,18 +68,24 @@ The browser fetches `/api/catalog`, which the function caches for 60 seconds
 Schema changes on an existing database are applied from `db/migrations/`:
 
 ```sh
-npm run db:migrate      # adds game_prices.updated_at to remote D1
+npm run db:migrate      # applies every migration whose column is missing
 ```
 
-## Prices
+## Prices and store links
 
 `game_prices.updated_at` records when each store price was last verified, and the
 catalog exposes a `prices_updated_at` timestamp used by the footer and the game
 page ("Prices last checked …").
 
+`game_prices.product_url` holds the direct page for that game on the store, so
+the "Visit" button on a game page opens the game itself rather than a search.
+Rows without a verified page keep a "Search" link instead.
+
 | Command | Purpose |
 |---|---|
 | `npm run prices:resolve` | Re-resolve store product IDs into `scripts/store-ids.json` |
+| `npm run prices:links` | Resolve direct product pages into `scripts/store-links.json` and the snapshot |
+| `npm run prices:links:apply` | Same, then push the page URLs to remote D1 |
 | `npm run prices:sync` | Fetch current prices, update the snapshot and `db/prices-sync.sql` |
 | `npm run prices:apply` | Same, then push the 70+ price updates to remote D1 |
 
@@ -114,6 +120,8 @@ last applied prices. `npm run prices:apply` works locally with `wrangler login`.
 | `npm run preview` | Serve the built output locally |
 | `npm run data:export` | Refresh `src/data/catalog.json` from Supabase |
 | `npm run prices:resolve` | Re-resolve store product IDs |
+| `npm run prices:links` | Re-resolve direct store pages |
+| `npm run prices:links:apply` | Re-resolve direct store pages and push them to D1 |
 | `npm run prices:sync` | Refresh prices into the snapshot + SQL |
 | `npm run prices:apply` | Refresh prices and push them to D1 |
 | `npm run typecheck` | `tsc --noEmit` over the app project |
@@ -172,8 +180,10 @@ scripts/
   export-data.mjs      pulls the catalog from Supabase into src/data
   generate-seed.mjs    turns the snapshot into db/seed.sql
   resolve-store-ids.cjs  maps games to Steam / Nintendo / Xbox product IDs
+  resolve-store-links.cjs  resolves the direct product page on every store
   sync-prices.cjs      fetches live prices into the catalog and D1
   store-ids.json       resolved store product IDs (checked in)
+  store-links.json     resolved direct product pages (checked in)
 supabase/
   migrations/          schema + 48-game catalog and wiki data
   covers/              source cover images
@@ -187,5 +197,8 @@ public/covers/         served cover art
 - Prices are synced daily for Steam, Nintendo Switch and Xbox; Epic Games Store,
   PlayStation and GOG show the catalog snapshot and are labelled that way on each
   game page. The API caches for 60 seconds.
+- "Visit" opens the exact game page on the store. When a store does not sell the
+  game (or the page is delisted), the button becomes "Search" and opens the store's
+  search for that title.
 - `game-pedia-source.tar.gz` and `game-pedia-source.zip` are export artifacts from
   the original Bolt project; they are not used at runtime.
