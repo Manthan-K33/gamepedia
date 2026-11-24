@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Gamepad2 } from 'lucide-react';
-import { fetchCatalogGeneratedAt, formatSnapshotDate } from '@/lib/games';
+import { fetchPricesUpdatedAt, formatSnapshotDate } from '@/lib/games';
 
 export default function Footer() {
   const [updatedAt, setUpdatedAt] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
-    fetchCatalogGeneratedAt()
+    fetchPricesUpdatedAt()
       .then((value) => {
         if (!cancelled) setUpdatedAt(value);
       })

@@ -53,7 +53,8 @@ CREATE TABLE IF NOT EXISTS game_prices (
   regular_price REAL,
   currency      TEXT NOT NULL DEFAULT 'USD',
   store_url     TEXT,
-  on_sale       INTEGER NOT NULL DEFAULT 0
+  on_sale       INTEGER NOT NULL DEFAULT 0,
+  updated_at    TEXT                               -- last successful store sync
 );
 
 CREATE INDEX IF NOT EXISTS idx_prices_game     ON game_prices (game_id);

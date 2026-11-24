@@ -20,8 +20,9 @@ import {
 } from 'lucide-react';
 import type { Game } from '@/lib/types';
 import {
+  AUTO_SYNCED_STORES,
   discountPercent,
-  fetchCatalogGeneratedAt,
+  fetchPricesUpdatedAt,
   formatPrice,
   formatSnapshotDate,
   storeHref,
@@ -355,7 +356,7 @@ export default function GameDetail({
   const [pricesUpdatedAt, setPricesUpdatedAt] = useState<string | null>(null);
   useEffect(() => {
     let cancelled = false;
-    fetchCatalogGeneratedAt()
+    fetchPricesUpdatedAt()
       .then((value) => {
         if (!cancelled) setPricesUpdatedAt(value);
       })
@@ -721,6 +722,10 @@ export default function GameDetail({
                 </>
               )}
             </p>
+            <p className="mt-1 text-[11px] text-gray-400">
+              {AUTO_SYNCED_STORES.join(', ')} prices refresh automatically.
+              Other stores show the catalog snapshot.
+            </p>
             <div className="mt-4 divide-y divide-white/5">
               {prices.map((p) => {
                 const discount = discountPercent(p);
@@ -748,6 +753,10 @@ export default function GameDetail({
                         ) : (
                           'Standard edition'
                         )}
+                        {' · '}
+                        {p.updated_at
+                          ? `Updated ${formatSnapshotDate(p.updated_at)}`
+                          : 'Catalog snapshot'}
                       </p>
                     </div>
                     <div className="text-right">

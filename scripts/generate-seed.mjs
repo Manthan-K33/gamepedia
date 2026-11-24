@@ -74,13 +74,15 @@ for (const g of games) {
   for (let i = 0; i < prices.length; i += 25) {
     const chunk = prices.slice(i, i + 25);
     lines.push(
-      'INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale) VALUES\n' +
+      'INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, on_sale, updated_at) VALUES\n' +
         chunk
           .map(
             (p) =>
               `(${q(p.id)}, ${q(g.id)}, ${q(p.platform_id)}, ${q(p.price)}, ${q(
                 p.regular_price
-              )}, ${q(p.currency)}, ${q(p.store_url)}, ${q(p.on_sale)})`
+              )}, ${q(p.currency)}, ${q(p.store_url)}, ${q(p.on_sale)}, ${q(
+                p.updated_at ?? null
+              )})`
           )
           .join(',\n') +
         ';'
@@ -96,6 +98,14 @@ lines.push(
     catalog.source
   )}) ON CONFLICT (key) DO UPDATE SET value = excluded.value;`
 );
+
+if (catalog.prices_updated_at) {
+  lines.push(
+    `INSERT INTO catalog_meta (key, value) VALUES ('prices_updated_at', ${q(
+      catalog.prices_updated_at
+    )}) ON CONFLICT (key) DO UPDATE SET value = excluded.value;`
+  );
+}
 
 await writeFile(join(root, 'db', 'seed.sql'), lines.join('\n') + '\n');
 

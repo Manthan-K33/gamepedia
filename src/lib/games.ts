@@ -4,6 +4,7 @@ import type { Game, Platform, Price } from './types';
 // `npm run db:seed` loads the checked-in snapshot into the database.
 interface Catalog {
   generated_at: string;
+  prices_updated_at?: string;
   games: Game[];
   platforms: Platform[];
 }
@@ -47,10 +48,15 @@ const FALLBACK_PLATFORMS: Platform[] = [
   { id: 6, name: 'GOG', slug: 'gog', color: '#86328c' },
 ];
 
-// Timestamp of the price snapshot the catalog was built from.
-export async function fetchCatalogGeneratedAt(): Promise<string> {
-  return (await catalog()).generated_at;
+// Timestamp of the most recent price sync (falls back to the catalog build date
+// for older snapshots that predate the sync pipeline).
+export async function fetchPricesUpdatedAt(): Promise<string> {
+  const data = await catalog();
+  return data.prices_updated_at ?? data.generated_at;
 }
+
+// Platforms whose prices scripts/sync-prices.cjs refreshes automatically.
+export const AUTO_SYNCED_STORES = ['Steam', 'Nintendo Switch', 'Xbox'];
 
 export function formatSnapshotDate(iso: string): string {
   const date = new Date(iso);

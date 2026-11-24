@@ -68,8 +68,8 @@
       "game_prices": [
         {
           "id": "aea4434c-df12-41b0-9030-a17f9c5efd77",
-          "price": 4.99,
-          "on_sale": false,
+          "price": 2.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -79,7 +79,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 4.99
+          "regular_price": 4.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "943ef733-3d7b-4d64-93c6-fdb0567e3fe1",
@@ -98,7 +99,7 @@
         },
         {
           "id": "92d74e6c-ea2c-4984-a7fc-32226b694acc",
-          "price": 4.99,
+          "price": 5,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -109,7 +110,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 4.99
+          "regular_price": 5,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -185,7 +187,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -266,7 +269,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "fea10e96-414d-42da-ab6c-b5a46984feba",
@@ -281,7 +285,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "edcb1336-17f0-4831-a93d-74dea5d898c5",
@@ -365,7 +370,7 @@
       "game_prices": [
         {
           "id": "0806fe23-f226-4ada-8d3d-2dec78662dbe",
-          "price": 9.99,
+          "price": 14.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -376,11 +381,12 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 9.99
+          "regular_price": 14.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "c6d5edf1-b6fa-4c03-b64f-ef161978a02c",
-          "price": 9.99,
+          "price": 14.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -391,7 +397,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 9.99
+          "regular_price": 14.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "e1d5ae84-7ebe-4ee8-9cd7-b95a9245b3f0",
@@ -410,7 +417,7 @@
         },
         {
           "id": "818b024c-bf4c-4b87-a78a-5d695e6d69f5",
-          "price": 9.99,
+          "price": 19.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -421,7 +428,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 9.99
+          "regular_price": 19.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -520,7 +528,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 69.99
+          "regular_price": 69.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "b9967610-a823-40fc-a65d-f9e79efd2af1",
@@ -539,8 +548,8 @@
         },
         {
           "id": "949626f2-619f-4a44-b16e-83468fdfca63",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 41.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -550,7 +559,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -616,8 +626,8 @@
       "game_prices": [
         {
           "id": "79e15575-910c-4c92-a8dc-0067fb2872e8",
-          "price": 29.99,
-          "on_sale": false,
+          "price": 8.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -627,7 +637,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "5c49e473-d3b8-432a-96cc-e89681f744ca",
@@ -719,7 +730,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -815,8 +827,8 @@
         },
         {
           "id": "839bf554-5a14-4acd-82c4-7bb58ec89ac9",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 17.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 3,
@@ -826,7 +838,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "06afda6d-a310-4723-8c57-9a0624eb10d2",
@@ -856,7 +869,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -923,8 +937,8 @@
       "game_prices": [
         {
           "id": "12800c37-56e3-44b5-98b9-f1f12e8f7ca2",
-          "price": 39.99,
-          "on_sale": false,
+          "price": 29.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -934,7 +948,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 39.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "9f06c74f-3c16-49a5-9e22-1f20bc582104",
@@ -1042,11 +1057,12 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 19.99
+          "regular_price": 19.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "7ddddacb-73e6-48af-b7ce-ee211240dafc",
-          "price": 19.99,
+          "price": 29.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -1057,7 +1073,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 19.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "a6b5cebf-4946-4516-a248-5bec49d0df73",
@@ -1076,7 +1093,7 @@
         },
         {
           "id": "e1723882-c0a9-4e47-a837-2375c2173fb1",
-          "price": 19.99,
+          "price": 29.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -1087,7 +1104,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 19.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -1257,8 +1275,8 @@
       "game_prices": [
         {
           "id": "476eb8ec-ccc0-4103-8ee2-beedf5ce5155",
-          "price": 29.99,
-          "on_sale": false,
+          "price": 7.49,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -1268,7 +1286,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "0d9f3a2f-2700-4da2-97e2-87f637882c23",
@@ -1380,8 +1399,8 @@
         },
         {
           "id": "9d65bf4e-5993-476a-b176-75166e6ad12a",
-          "price": 19.99,
-          "on_sale": true,
+          "price": 29.99,
+          "on_sale": false,
           "currency": "USD",
           "platforms": {
             "id": 3,
@@ -1391,7 +1410,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "a855d08d-2644-4720-804b-d0dfef9f95c2",
@@ -1410,8 +1430,8 @@
         },
         {
           "id": "87cfea4d-0ec5-4ca3-9650-160d90c3290e",
-          "price": 29.99,
-          "on_sale": false,
+          "price": 9.89,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -1421,7 +1441,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -1642,7 +1663,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "6b707853-24a6-4dfa-85ce-959b6eaea34c",
@@ -1780,7 +1802,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "5f7f709f-7d11-4748-b49a-14a4d0e84ed4",
@@ -1891,7 +1914,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "bb6b72ee-0fbe-4c93-80d1-c9040bdfd761",
@@ -1921,7 +1945,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "8dba77a0-e257-4de1-b446-48aa3f9cb8f3",
@@ -2051,8 +2076,8 @@
         },
         {
           "id": "9be3747d-595a-4ab0-953f-b46fee4fa65e",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 23.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -2062,7 +2087,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -2139,7 +2165,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 9.99
+          "regular_price": 9.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -2432,8 +2459,8 @@
         },
         {
           "id": "9d552a71-b027-4c7c-8014-82a31413d935",
-          "price": 29.99,
-          "on_sale": false,
+          "price": 19.79,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -2443,7 +2470,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 29.99
+          "regular_price": 44.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -2522,7 +2550,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 24.99
+          "regular_price": 24.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "defa93a3-6ab5-4eb4-ba2a-a9eeb43645ed",
@@ -2552,7 +2581,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 24.99
+          "regular_price": 24.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "78e075b7-c0b5-4865-bb8d-abc40900913e",
@@ -2582,7 +2612,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 24.99
+          "regular_price": 24.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -2649,8 +2680,8 @@
       "game_prices": [
         {
           "id": "c264d95a-d000-4edc-aea6-ffe1fb58bb90",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 5.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -2660,12 +2691,13 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "485619ba-761a-4370-9382-98d184f33148",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 6.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 3,
@@ -2675,7 +2707,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 59.99
+          "regular_price": 69.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "4788e6f3-ffd0-472b-96f3-5ad86eb5cac0",
@@ -2705,7 +2738,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -2772,7 +2806,7 @@
       "game_prices": [
         {
           "id": "42727bd7-95a0-4453-95dd-28e7e1268f92",
-          "price": 14.99,
+          "price": 15,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -2783,7 +2817,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 14.99
+          "regular_price": 15,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "6eb09bab-9afe-4e4a-8a49-7bad4a155a9a",
@@ -2843,7 +2878,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 14.99
+          "regular_price": 14.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -2913,8 +2949,8 @@
       "game_prices": [
         {
           "id": "969da50a-75ff-4c29-9be6-855b91799333",
-          "price": 39.99,
-          "on_sale": false,
+          "price": 29.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 5,
@@ -2924,7 +2960,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "426a79ef-a4c5-4163-8aa5-13c22c55a42e",
@@ -2973,8 +3010,8 @@
         },
         {
           "id": "6c863b68-73d1-4e52-8b96-a4ecb811200c",
-          "price": 39.99,
-          "on_sale": false,
+          "price": 7.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -2984,7 +3021,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -3061,7 +3099,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 9.99
+          "regular_price": 9.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -3144,7 +3183,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "6921f741-845a-49c5-a4d3-c7f92ac47cb5",
@@ -3282,11 +3322,12 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 29.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "062631df-041e-4239-8536-fd3ba13ac24a",
-          "price": 29.99,
+          "price": 19.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -3297,7 +3338,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 29.99
+          "regular_price": 19.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "697827f2-bcd7-4c3f-b9bc-c13b08c8e9ee",
@@ -3574,7 +3616,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -3640,8 +3683,8 @@
       "game_prices": [
         {
           "id": "a0c832f1-e183-4204-970d-f341c967a911",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 17.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -3651,12 +3694,13 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "5112af7f-7a13-4fa9-84f9-1b106c8f7a29",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 17.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 3,
@@ -3666,7 +3710,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "cb62b822-d0ab-48d6-bdaa-e07bc0461df4",
@@ -3696,7 +3741,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -3778,7 +3824,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 9.99
+          "regular_price": 9.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -3857,7 +3904,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -3939,8 +3987,8 @@
         },
         {
           "id": "4a6c96aa-57a4-495f-b386-d65abf8d19bd",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 14.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -3950,7 +3998,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -4057,7 +4106,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -4167,7 +4217,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "b8321f15-3a7c-4606-b664-56a1e40a4067",
@@ -4197,7 +4248,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -4273,7 +4325,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 39.99
+          "regular_price": 39.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "8fa731c7-b46c-4151-8bf5-7339394aa6a8",
@@ -4423,7 +4476,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -4492,8 +4546,8 @@
       "game_prices": [
         {
           "id": "5fbd5eff-9b27-4d6d-a072-b950e7784f37",
-          "price": 59.99,
-          "on_sale": false,
+          "price": 5.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -4503,11 +4557,12 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 59.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "27692922-9f4f-4c63-b7de-08af53f4c073",
-          "price": 29.99,
+          "price": 5.99,
           "on_sale": true,
           "currency": "USD",
           "platforms": {
@@ -4518,7 +4573,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 59.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "d228e856-5708-4e26-867c-c16a207db7af",
@@ -4537,7 +4593,7 @@
         },
         {
           "id": "b3641be7-6e00-4055-8bc7-cc927cd4f65b",
-          "price": 59.99,
+          "price": 29.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -4548,7 +4604,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 59.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "d7ccf692-7003-47e8-acfd-9e72d3d46b1e",
@@ -4646,7 +4703,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 14.99
+          "regular_price": 14.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "056d5425-d846-4023-88db-62fbc1a6e732",
@@ -4676,7 +4734,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 14.99
+          "regular_price": 14.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "5bc1f5d8-12df-4c0b-af41-20e6ea22dd62",
@@ -4706,7 +4765,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 14.99
+          "regular_price": 14.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -4783,7 +4843,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -4870,7 +4931,7 @@
         },
         {
           "id": "8703cc55-6fba-4ccd-8d1f-986add132fed",
-          "price": 9.99,
+          "price": 29.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -4881,7 +4942,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 9.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "03f8ce0a-46d1-46ee-8da7-65a5ff79224f",
@@ -4900,7 +4962,7 @@
         },
         {
           "id": "8d20299e-a064-46ff-8dbd-fb53de6c9516",
-          "price": 9.99,
+          "price": 19.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -4911,7 +4973,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 9.99
+          "regular_price": 19.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "c92405d6-c8d6-47e0-b124-cc148c61776f",
@@ -4926,7 +4989,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 9.99
+          "regular_price": 9.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -5019,8 +5083,8 @@
         },
         {
           "id": "3e2a7a53-e91d-4e32-a031-d5b340eabf9e",
-          "price": 49.99,
-          "on_sale": false,
+          "price": 29.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 1,
@@ -5030,7 +5094,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 49.99
+          "regular_price": 59.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -5103,7 +5168,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 69.99
+          "regular_price": 69.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -5178,7 +5244,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 0
+          "regular_price": 0,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "c32a761e-f905-481e-b622-d40c7cb50559",
@@ -5290,8 +5357,8 @@
         },
         {
           "id": "585d2a6b-e5c5-4bcf-84d6-76e6cfd3c973",
-          "price": 49.99,
-          "on_sale": false,
+          "price": 19.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 3,
@@ -5301,7 +5368,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 49.99
+          "regular_price": 49.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "a18b47e1-f2b2-45f8-ac75-d5d351b7efe6",
@@ -5331,7 +5399,8 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 49.99
+          "regular_price": 49.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     },
@@ -5397,7 +5466,7 @@
       "game_prices": [
         {
           "id": "70a9a5af-037f-4628-bc6f-f9c14895a176",
-          "price": 19.99,
+          "price": 29.99,
           "on_sale": false,
           "currency": "USD",
           "platforms": {
@@ -5408,12 +5477,13 @@
           },
           "store_url": "https://store.steampowered.com",
           "platform_id": 1,
-          "regular_price": 19.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         },
         {
           "id": "3b0f1f9d-917e-4529-911f-4bd55935ef17",
-          "price": 19.99,
-          "on_sale": false,
+          "price": 23.99,
+          "on_sale": true,
           "currency": "USD",
           "platforms": {
             "id": 3,
@@ -5423,7 +5493,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 19.99
+          "regular_price": 29.99,
+          "updated_at": "2026-11-24T06:14:10.674Z"
         }
       ]
     }
@@ -5465,5 +5536,6 @@
       "slug": "gog",
       "color": "#86328c"
     }
-  ]
+  ],
+  "prices_updated_at": "2026-11-24T06:14:10.674Z"
 }

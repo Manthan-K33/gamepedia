@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-11-23T15:53:44.629Z",
+  "steam": {
+    "among-us": {
+      "id": "945360"
+    },
+    "apex-legends": {
+      "id": "1172470"
+    },
+    "ark-survival-evolved": {
+      "id": "346110"
+    },
+    "baldur-s-gate-3": {
+      "id": "1086940"
+    },
+    "cities-skylines": {
+      "id": "255710"
+    },
+    "counter-strike-2": {
+      "id": "730"
+    },
+    "cyberpunk-2077": {
+      "id": "1091500"
+    },
+    "dark-souls-iii": {
+      "id": "374320"
+    },
+    "dead-by-daylight": {
+      "id": "381210"
+    },
+    "death-stranding": {
+      "id": "1190460"
+    },
+    "devil-may-cry-5": {
+      "id": "601150"
+    },
+    "doom-eternal": {
+      "id": "782330"
+    },
+    "ea-sports-fc-24": {
+      "id": "2195250"
+    },
+    "fall-guys": {
+      "id": "1097150"
+    },
+    "forza-horizon-5": {
+      "id": "1551360"
+    },
+    "garrys-mod": {
+      "id": "4000"
+    },
+    "grand-theft-auto-v": {
+      "id": "3240220"
+    },
+    "hades": {
+      "id": "1145360"
+    },
+    "hogwarts-legacy": {
+      "id": "990080"
+    },
+    "hollow-knight": {
+      "id": "367520"
+    },
+    "it-takes-two": {
+      "id": "1426210"
+    },
+    "left-4-dead-2": {
+      "id": "550"
+    },
+    "monster-hunter-world": {
+      "id": "582010"
+    },
+    "nba-2k24": {
+      "id": "2338770"
+    },
+    "overwatch-2": {
+      "id": "2357570"
+    },
+    "persona-5-royal": {
+      "id": "1687950"
+    },
+    "portal-2": {
+      "id": "620"
+    },
+    "pubg-battlegrounds": {
+      "id": "578080"
+    },
+    "red-dead-redemption-2": {
+      "id": "1174180"
+    },
+    "resident-evil-4-remake": {
+      "id": "2050650"
+    },
+    "rocket-league": {
+      "id": "252950"
+    },
+    "rust": {
+      "id": "252490"
+    },
+    "sekiro-shadows-die-twice": {
+      "id": "814380"
+    },
+    "civilization-vi": {
+      "id": "289070"
+    },
+    "stardew-valley": {
+      "id": "413150"
+    },
+    "team-fortress-2": {
+      "id": "440"
+    },
+    "terraria": {
+      "id": "105600"
+    },
+    "the-last-of-us-part-i": {
+      "id": "1888930"
+    },
+    "the-sims-4": {
+      "id": "1222670"
+    },
+    "the-witcher-3-wild-hunt": {
+      "id": "292030"
+    },
+    "valheim": {
+      "id": "892970"
+    }
+  },
+  "nintendo-switch": {
+    "among-us": {
+      "id": "70010000036098"
+    },
+    "animal-crossing-new-horizons": {
+      "id": "70010000027619"
+    },
+    "ark-survival-evolved": {
+      "id": "70010000010940"
+    },
+    "dead-by-daylight": {
+      "id": "70010000016124"
+    },
+    "fortnite": {
+      "id": "70010000010192"
+    },
+    "hades": {
+      "id": "70010000033131"
+    },
+    "hogwarts-legacy": {
+      "id": "70010000014724"
+    },
+    "hollow-knight": {
+      "id": "70010000003208"
+    },
+    "it-takes-two": {
+      "id": "70070000014924"
+    },
+    "minecraft": {
+      "id": "70010000000964"
+    },
+    "persona-5-royal": {
+      "id": "70010000043147"
+    },
+    "rocket-league": {
+      "id": "70010000000457"
+    },
+    "civilization-vi": {
+      "id": "70010000013704"
+    },
+    "stardew-valley": {
+      "id": "70010000001801"
+    },
+    "terraria": {
+      "id": "70010000001702"
+    },
+    "the-legend-of-zelda-tears-of-the-kingdom": {
+      "id": "70010000063714"
+    }
+  },
+  "xbox": {
+    "apex-legends": {
+      "id": "BV9ML45J2Q5V",
+      "title": "Apex Legends™",
+      "score": 1
+    },
+    "ark-survival-evolved": {
+      "id": "BNBLC4ZGFNKB",
+      "title": "ARK: Survival Evolved",
+      "score": 1
+    },
+    "baldur-s-gate-3": {
+      "id": "9ND58LQTG09T",
+      "title": "Baldur's Gate 3",
+      "score": 1
+    },
+    "cyberpunk-2077": {
+      "id": "BX3M8L83BBRW",
+      "title": "Cyberpunk 2077",
+      "score": 1
+    },
+    "dead-by-daylight": {
+      "id": "C0N22P73QZ60",
+      "title": "Dead by Daylight",
+      "score": 1
+    },
+    "devil-may-cry-5": {
+      "id": "BNLG5J5KDVJ3",
+      "title": "Devil May Cry 5",
+      "score": 1
+    },
+    "doom-eternal": {
+      "id": "9P5S26314HWQ",
+      "title": "DOOM Eternal Standard Edition",
+      "score": 1
+    },
+    "elden-ring": {
+      "id": "9P3J32CTXLRZ",
+      "title": "ELDEN RING",
+      "score": 1
+    },
+    "fall-guys": {
+      "id": "9PMXH5249DG5",
+      "title": "Fall Guys",
+      "score": 1
+    },
+    "fortnite": {
+      "id": "BT5P2X999VH2",
+      "title": "Fortnite",
+      "score": 1
+    },
+    "forza-horizon-5": {
+      "id": "9NNX1VVR3KNQ",
+      "title": "Forza Horizon 5",
+      "score": 1
+    },
+    "grand-theft-auto-v": {
+      "id": "BPJ686W6S0NH",
+      "title": "Grand Theft Auto V (Xbox One)",
+      "score": 1
+    },
+    "hades": {
+      "id": "9P8DL6W0JBB8",
+      "title": "Hades",
+      "score": 1
+    },
+    "hogwarts-legacy": {
+      "id": "9MT5NJ5W7B8Z",
+      "title": "Hogwarts Legacy",
+      "score": 1
+    },
+    "it-takes-two": {
+      "id": "9NKJ0VZQ4N0L",
+      "title": "It Takes Two",
+      "score": 1
+    },
+    "monster-hunter-world": {
+      "id": "BNG91PT95LQN",
+      "title": "MONSTER HUNTER: WORLD™",
+      "score": 1
+    },
+    "persona-5-royal": {
+      "id": "9NZDHXL9SJJ8",
+      "title": "Persona 5 Royal",
+      "score": 1
+    },
+    "rocket-league": {
+      "id": "C125W9BG2K0V",
+      "title": "Rocket League®",
+      "score": 1
+    },
+    "rust": {
+      "id": "9NPHHZBV60B4",
+      "title": "Rust",
+      "score": 1
+    },
+    "civilization-vi": {
+      "id": "9N4RSG99KV1X",
+      "title": "Sid Meier's Civilization VI",
+      "score": 1
+    },
+    "stardew-valley": {
+      "id": "C3D891Z6TNQM",
+      "title": "Stardew Valley",
+      "score": 1
+    },
+    "terraria": {
+      "id": "BTNPS60N3114",
+      "title": "Terraria",
+      "score": 1
+    },
+    "the-witcher-3-wild-hunt": {
+      "id": "C261457LCNMJ",
+      "title": "The Witcher 3: Wild Hunt — Remastered",
+      "score": 1
+    },
+    "valheim": {
+      "id": "9NCBL78CG9N7",
+      "title": "Valheim",
+      "score": 1
+    }
+  }
+}

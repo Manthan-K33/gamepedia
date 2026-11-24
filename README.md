@@ -14,6 +14,7 @@ Built with React 18 + TypeScript + Vite + Tailwind. Game data lives in Cloudflar
 | Build | Vite 7 |
 | Data | Cloudflare D1 (`games`, `game_prices`, `platforms`) |
 | API | Pages Function `functions/api/catalog.ts` |
+| Prices | Daily sync from Steam, Nintendo eShop and Xbox (GitHub Actions) |
 | Routing | Hash router (`#/`, `#/browse`, `#/game/:slug`) |
 | Hosting | Cloudflare Pages + Pages Functions |
 
@@ -57,11 +58,52 @@ db/seed.sql     generated idempotent load (48 games, 159 prices)
 | `npm run db:schema` | Apply the schema to remote D1 |
 | `npm run db:seed` | Load `db/seed.sql` into remote D1 |
 | `npm run db:seed:generate` | Regenerate `db/seed.sql` from the snapshot |
+| `npm run db:migrate` | Add `game_prices.updated_at` to remote D1 |
 | `npm run db:query` | Interactive SQL against remote D1 |
 
 The browser fetches `/api/catalog`, which the function caches for 60 seconds
 (`stale-while-revalidate=300`). Editing a row in D1 shows up within that window;
 `?cb=<timestamp>` bypasses the edge cache while testing.
+
+Schema changes on an existing database are applied from `db/migrations/`:
+
+```sh
+npm run db:migrate      # adds game_prices.updated_at to remote D1
+```
+
+## Prices
+
+`game_prices.updated_at` records when each store price was last verified, and the
+catalog exposes a `prices_updated_at` timestamp used by the footer and the game
+page ("Prices last checked …").
+
+| Command | Purpose |
+|---|---|
+| `npm run prices:resolve` | Re-resolve store product IDs into `scripts/store-ids.json` |
+| `npm run prices:sync` | Fetch current prices, update the snapshot and `db/prices-sync.sql` |
+| `npm run prices:apply` | Same, then push the 70+ price updates to remote D1 |
+
+Sources are public and key-free:
+
+| Store | Endpoint |
+|---|---|
+| Steam | `store.steampowered.com/api/appdetails` |
+| Nintendo Switch | `api.ec.nintendo.com/v1/price` |
+| Xbox | `displaycatalog.mp.microsoft.com/v7.0/products` |
+
+Epic Games Store, PlayStation and GOG do not expose a public price API, so those
+rows keep their catalog snapshot and are labelled `Catalog snapshot` in the UI.
+
+`.github/workflows/price-sync.yml` runs `npm run prices:apply` every day at 05:23
+UTC. It needs two repository secrets:
+
+| Secret | Where to get it |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | Cloudflare dashboard → My Profile → API Tokens → *Edit Cloudflare Workers* template, plus **D1 Edit** |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard → Workers & Pages → Account ID |
+
+Without the secrets the workflow logs a notice and skips, leaving the site on the
+last applied prices. `npm run prices:apply` works locally with `wrangler login`.
 
 ## Scripts
 
@@ -71,6 +113,9 @@ The browser fetches `/api/catalog`, which the function caches for 60 seconds
 | `npm run build` | Production build into `dist/` |
 | `npm run preview` | Serve the built output locally |
 | `npm run data:export` | Refresh `src/data/catalog.json` from Supabase |
+| `npm run prices:resolve` | Re-resolve store product IDs |
+| `npm run prices:sync` | Refresh prices into the snapshot + SQL |
+| `npm run prices:apply` | Refresh prices and push them to D1 |
 | `npm run typecheck` | `tsc --noEmit` over the app project |
 | `npm run lint` | ESLint |
 
@@ -126,6 +171,9 @@ db/
 scripts/
   export-data.mjs      pulls the catalog from Supabase into src/data
   generate-seed.mjs    turns the snapshot into db/seed.sql
+  resolve-store-ids.cjs  maps games to Steam / Nintendo / Xbox product IDs
+  sync-prices.cjs      fetches live prices into the catalog and D1
+  store-ids.json       resolved store product IDs (checked in)
 supabase/
   migrations/          schema + 48-game catalog and wiki data
   covers/              source cover images
@@ -136,7 +184,8 @@ public/covers/         served cover art
 
 - All 48 games have complete wiki fields (reception, trivia, awards, playtime,
   engine, series, ESRB, platforms, modes).
-- Prices in D1 are a snapshot from the original import. Update them with SQL or by
-  re-running the export → seed → deploy chain; the API caches for 60 seconds.
+- Prices are synced daily for Steam, Nintendo Switch and Xbox; Epic Games Store,
+  PlayStation and GOG show the catalog snapshot and are labelled that way on each
+  game page. The API caches for 60 seconds.
 - `game-pedia-source.tar.gz` and `game-pedia-source.zip` are export artifacts from
   the original Bolt project; they are not used at runtime.

@@ -37,6 +37,7 @@ interface PriceRow {
   currency: string;
   store_url: string | null;
   on_sale: number;
+  updated_at: string | null;
   platform_name: string | null;
   platform_slug: string | null;
   platform_color: string | null;
@@ -96,6 +97,7 @@ export async function onRequestGet({ env }: { env: Env }): Promise<Response> {
       currency: p.currency,
       store_url: p.store_url,
       on_sale: Boolean(p.on_sale),
+      updated_at: p.updated_at ?? null,
       platforms: p.platform_name
         ? {
             id: p.platform_id,
@@ -113,6 +115,10 @@ export async function onRequestGet({ env }: { env: Env }): Promise<Response> {
   const payload = {
     generated_at:
       meta.results.find((m) => m.key === 'generated_at')?.value ?? new Date().toISOString(),
+    prices_updated_at:
+      meta.results.find((m) => m.key === 'prices_updated_at')?.value ??
+      meta.results.find((m) => m.key === 'generated_at')?.value ??
+      new Date().toISOString(),
     games: games.results.map((g) => ({
       ...shapeGame(g),
       game_prices: byGame.get(g.id) ?? [],
