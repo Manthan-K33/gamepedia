@@ -24,6 +24,7 @@ const ROOT = path.join(__dirname, '..');
 const CATALOG_PATH = path.join(ROOT, 'src', 'data', 'catalog.json');
 const STORE_IDS_PATH = path.join(__dirname, 'store-ids.json');
 const LINKS_PATH = path.join(__dirname, 'store-links.json');
+const OVERRIDES_PATH = path.join(__dirname, 'store-link-overrides.json');
 const SQL_PATH = path.join(ROOT, 'db', 'store-links.sql');
 const APPLY = process.argv.includes('--apply');
 const DRY_RUN = process.argv.includes('--dry-run');
@@ -33,6 +34,9 @@ const UA =
 
 const catalog = JSON.parse(fs.readFileSync(CATALOG_PATH, 'utf8'));
 const storeIds = JSON.parse(fs.readFileSync(STORE_IDS_PATH, 'utf8'));
+const overrides = fs.existsSync(OVERRIDES_PATH)
+  ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf8')).links ?? {}
+  : {};
 const platformById = new Map(catalog.platforms.map((p) => [p.id, p.slug]));
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -136,7 +140,12 @@ async function resolveGog(title) {
     if (!slug) continue;
     const page = await fetchPage(gogUrl(slug));
     if (!page || !/\/game\//.test(page.finalUrl)) continue;
-    const pageTitle = page.title.replace(/\s*\|\s*GOG\.com\s*$/i, '').trim();
+    const pageTitle = page.title
+      // GOG appends both the site name and the current discount: "… | GOG.com"
+      // and "… 60% off".
+      .replace(/\s*\|\s*GOG\.com\s*$/i, '')
+      .replace(/\s+\d+%\s*off\s*$/i, '')
+      .trim();
     if (score(title, pageTitle) >= 0.85) {
       return { url: page.finalUrl, id: slug, title: pageTitle, source: 'gog-page' };
     }
@@ -421,7 +430,10 @@ async function resolveXbox(title, slug) {
       total += 1;
 
       let link = null;
-      if (platform === 'steam' && storeIds.steam?.[game.slug]) {
+      const override = overrides[game.slug]?.[platform];
+      if (override?.url) {
+        link = { ...override, source: override.source ?? 'manual' };
+      } else if (platform === 'steam' && storeIds.steam?.[game.slug]) {
         link = {
           url: steamUrl(storeIds.steam[game.slug].id),
           id: storeIds.steam[game.slug].id,

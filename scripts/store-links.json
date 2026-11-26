@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:38:11.825Z",
+  "generated_at": "2026-11-26T13:33:26.318Z",
   "links": {
     "among-us": {
       "steam": {
@@ -517,6 +517,12 @@
         "id": "UP4433-PPSA17221_00-MINECRAFTPS50000",
         "title": "Minecraft",
         "source": "ps-search"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/minecraft/9mvxmvt8zkwc",
+        "id": "9MVXMVT8ZKWC",
+        "title": "Minecraft",
+        "source": "manual"
       }
     },
     "monster-hunter-world": {
@@ -548,6 +554,12 @@
       }
     },
     "overwatch-2": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/overwatch-switch/",
+        "id": "overwatch-switch",
+        "title": "Overwatch® for Nintendo Switch",
+        "source": "manual"
+      },
       "playstation": {
         "url": "https://store.playstation.com/en-us/product/UP0002-PPSA07805_00-OWORIGINS0000000",
         "id": "UP0002-PPSA07805_00-OWORIGINS0000000",
@@ -906,13 +918,11 @@
     "xbox:ghost-of-tsushima (Ghost of Tsushima)",
     "xbox:god-of-war-ragnarok (God of War Ragnarök)",
     "epic-games-store:hollow-knight (Hollow Knight)",
-    "xbox:minecraft (Minecraft)",
     "epic-games-store:minecraft (Minecraft)",
     "steam:minecraft (Minecraft)",
     "xbox:nba-2k24 (NBA 2K24)",
     "playstation:nba-2k24 (NBA 2K24)",
     "nintendo-switch:nba-2k24 (NBA 2K24)",
-    "nintendo-switch:overwatch-2 (Overwatch 2)",
     "epic-games-store:overwatch-2 (Overwatch 2)",
     "epic-games-store:sekiro-shadows-die-twice (Sekiro: Shadows Die Twice)",
     "gog:civilization-vi (Sid Meier's Civilization VI)",

@@ -184,7 +184,7 @@ INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currenc
 INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
 ('4770cf3c-43fc-4f20-9023-90500dddeb1e', '9c6907fc-0260-403f-b6f6-997e34d746a4', 5, 29.99, 29.99, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/70010000000964/', 0, '2026-11-24T06:14:10.674Z'),
 ('6921f741-845a-49c5-a4d3-c7f92ac47cb5', '9c6907fc-0260-403f-b6f6-997e34d746a4', 4, 26.99, 26.99, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP4433-PPSA17221_00-MINECRAFTPS50000', 0, NULL),
-('098950d0-a22b-438f-b098-296948c1d101', '9c6907fc-0260-403f-b6f6-997e34d746a4', 3, 26.99, 26.99, 'USD', 'https://www.xbox.com/store', NULL, 0, NULL),
+('098950d0-a22b-438f-b098-296948c1d101', '9c6907fc-0260-403f-b6f6-997e34d746a4', 3, 26.99, 26.99, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/minecraft/9mvxmvt8zkwc', 0, NULL),
 ('2767e431-50fa-48ce-97de-406b12dcd89d', '9c6907fc-0260-403f-b6f6-997e34d746a4', 2, 26.99, 26.99, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),
 ('4b3f9e08-7893-4ed8-b3a5-c0931fd44c9f', '9c6907fc-0260-403f-b6f6-997e34d746a4', 1, 26.99, 26.99, 'USD', 'https://store.steampowered.com', NULL, 0, NULL);
 INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
@@ -197,7 +197,7 @@ INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currenc
 ('efa94387-1cec-442c-a575-1f50289ba159', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 4, 59.99, 59.99, 'USD', 'https://store.playstation.com', NULL, 0, NULL),
 ('25efbb4a-e16d-4771-9b77-8a8fb7ac0f1e', 'd92a912c-50c4-43f8-aba0-24fb3cd9300e', 5, 59.99, 59.99, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL);
 INSERT INTO game_prices (id, game_id, platform_id, price, regular_price, currency, store_url, product_url, on_sale, updated_at) VALUES
-('7f04bfad-58a5-4723-b92e-50a9956f63f8', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', NULL, 0, NULL),
+('7f04bfad-58a5-4723-b92e-50a9956f63f8', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 5, 0, 0, 'USD', 'https://www.nintendo.com/us/store', 'https://www.nintendo.com/us/store/products/overwatch-switch/', 0, NULL),
 ('b6d7d1a6-c325-4f45-a208-d3eb6f79d382', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 4, 0, 0, 'USD', 'https://store.playstation.com', 'https://store.playstation.com/en-us/product/UP0002-PPSA07805_00-OWORIGINS0000000', 0, NULL),
 ('96f6a4b5-a906-42d9-85ad-c4e1709c2dcc', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 3, 0, 0, 'USD', 'https://www.xbox.com/store', 'https://www.xbox.com/en-US/games/store/overwatch/C1C4DZJPBC2V', 0, NULL),
 ('c6318b36-3e0a-4fa3-9c3e-c7143c294a3e', '13985fec-f8b9-4ef4-ad5d-628c3e41660a', 2, 0, 0, 'USD', 'https://store.epicgames.com', NULL, 0, NULL),

@@ -3291,7 +3291,8 @@
           },
           "store_url": "https://www.xbox.com/store",
           "platform_id": 3,
-          "regular_price": 26.99
+          "regular_price": 26.99,
+          "product_url": "https://www.xbox.com/en-US/games/store/minecraft/9mvxmvt8zkwc"
         },
         {
           "id": "2767e431-50fa-48ce-97de-406b12dcd89d",
@@ -3637,7 +3638,8 @@
           },
           "store_url": "https://www.nintendo.com/us/store",
           "platform_id": 5,
-          "regular_price": 0
+          "regular_price": 0,
+          "product_url": "https://www.nintendo.com/us/store/products/overwatch-switch/"
         },
         {
           "id": "b6d7d1a6-c325-4f45-a208-d3eb6f79d382",

@@ -74,7 +74,7 @@ export function formatSnapshotDate(iso: string): string {
 const STORE_SEARCH: Record<string, (query: string) => string> = {
   steam: (q) => `https://store.steampowered.com/search/?term=${encodeURIComponent(q)}`,
   'epic-games-store': (q) =>
-    `https://store.epicgames.com/en-US/search?q=${encodeURIComponent(q)}`,
+    `https://store.epicgames.com/en-US/browse?q=${encodeURIComponent(q)}`,
   xbox: (q) => `https://www.xbox.com/en-US/search?q=${encodeURIComponent(q)}`,
   playstation: (q) =>
     `https://store.playstation.com/en-us/search/${encodeURIComponent(q)}`,

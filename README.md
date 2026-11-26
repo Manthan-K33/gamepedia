@@ -81,6 +81,10 @@ page ("Prices last checked …").
 the "Visit" button on a game page opens the game itself rather than a search.
 Rows without a verified page keep a "Search" link instead.
 
+`scripts/store-link-overrides.json` pins pages that a store's public endpoints
+cannot return (they are verified by hand and always win), and the Epic search
+fallback uses the store's `/browse?q=` route.
+
 | Command | Purpose |
 |---|---|
 | `npm run prices:resolve` | Re-resolve store product IDs into `scripts/store-ids.json` |
@@ -184,6 +188,7 @@ scripts/
   sync-prices.cjs      fetches live prices into the catalog and D1
   store-ids.json       resolved store product IDs (checked in)
   store-links.json     resolved direct product pages (checked in)
+  store-link-overrides.json  hand-verified pages the store endpoints miss
 supabase/
   migrations/          schema + 48-game catalog and wiki data
   covers/              source cover images

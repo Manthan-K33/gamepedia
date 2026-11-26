@@ -1,0 +1,21 @@
+{
+  "_comment": "Direct store pages verified by hand for rows the public endpoints cannot find. They win over automatic resolution and keep the row out of the search fallback list.",
+  "links": {
+    "minecraft": {
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/minecraft/9mvxmvt8zkwc",
+        "id": "9MVXMVT8ZKWC",
+        "title": "Minecraft",
+        "source": "manual"
+      }
+    },
+    "overwatch-2": {
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/overwatch-switch/",
+        "id": "overwatch-switch",
+        "title": "Overwatch® for Nintendo Switch",
+        "source": "manual"
+      }
+    }
+  }
+}
