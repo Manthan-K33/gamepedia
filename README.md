@@ -1,6 +1,6 @@
 # GamePedia — Game Library & Price Tracker
 
-A browsable, wiki-style catalog of 48 games: cover art, store prices, Metacritic and
+A browsable, wiki-style catalog of 115 games: cover art, store prices, Metacritic and
 community reception, playtime estimates, trivia, awards, platforms, and series links.
 
 Built with React 18 + TypeScript + Vite + Tailwind. Game data lives in Cloudflare D1
@@ -50,7 +50,7 @@ turns it into `db/seed.sql`. Never put a `service_role` key in `.env`.
 
 ```
 db/schema.sql   tables, indexes, FKs
-db/seed.sql     generated idempotent load (48 games, 159 prices)
+db/seed.sql     generated idempotent load (115 games, 322 prices)
 ```
 
 | Command | Purpose |
@@ -91,7 +91,7 @@ fallback uses the store's `/browse?q=` route.
 | `npm run prices:links` | Resolve direct product pages into `scripts/store-links.json` and the snapshot |
 | `npm run prices:links:apply` | Same, then push the page URLs to remote D1 |
 | `npm run prices:sync` | Fetch current prices, update the snapshot and `db/prices-sync.sql` |
-| `npm run prices:apply` | Same, then push the 70+ price updates to remote D1 |
+| `npm run prices:apply` | Same, then push the fetched price updates to remote D1 |
 
 Sources are public and key-free:
 
@@ -183,6 +183,9 @@ db/
 scripts/
   export-data.mjs      pulls the catalog from Supabase into src/data
   generate-seed.mjs    turns the snapshot into db/seed.sql
+  add-games.cjs        adds curated games (art, prices, per-store rows)
+  new-games/           curated game files consumed by add-games.cjs
+  store-pins.json      hand-picked store product IDs for matcher misses
   resolve-store-ids.cjs  maps games to Steam / Nintendo / Xbox product IDs
   resolve-store-links.cjs  resolves the direct product page on every store
   sync-prices.cjs      fetches live prices into the catalog and D1
@@ -190,15 +193,16 @@ scripts/
   store-links.json     resolved direct product pages (checked in)
   store-link-overrides.json  hand-verified pages the store endpoints miss
 supabase/
-  migrations/          schema + 48-game catalog and wiki data
+  migrations/          schema + 115-game catalog and wiki data
   covers/              source cover images
 public/covers/         served cover art
 ```
 
 ## Notes
 
-- All 48 games have complete wiki fields (reception, trivia, awards, playtime,
-  engine, series, ESRB, platforms, modes).
+- Every game carries the full wiki field set (reception, trivia, awards, playtime,
+  engine, series, ESRB, platforms, modes); values that could not be verified stay
+  empty instead of being guessed.
 - Prices are synced daily for Steam, Nintendo Switch and Xbox; Epic Games Store,
   PlayStation and GOG show the catalog snapshot and are labelled that way on each
   game page. The API caches for 60 seconds.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:33:26.318Z",
+  "generated_at": "2026-11-27T16:03:09.270Z",
   "links": {
     "among-us": {
       "steam": {
@@ -39,7 +39,7 @@
       "xbox": {
         "url": "https://www.xbox.com/en-US/games/store/apex-legends/BV9ML45J2Q5V",
         "id": "BV9ML45J2Q5V",
-        "title": "Apex Legends™",
+        "title": "Apex Legends",
         "source": "store-id"
       },
       "playstation": {
@@ -141,8 +141,8 @@
       "xbox": {
         "url": "https://www.xbox.com/en-US/games/store/dark-souls-iii/BW2XDRNSCCPZ",
         "id": "BW2XDRNSCCPZ",
-        "title": "DARK SOULS™ III",
-        "source": "xbox-autosuggest"
+        "title": "Dark Souls III",
+        "source": "store-id"
       },
       "playstation": {
         "url": "https://store.playstation.com/en-us/product/UP0700-CUSA03388_00-DARKSOULS3000000",
@@ -185,10 +185,10 @@
         "source": "store-id"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/death-stranding-directors-cut/9NQGN8TGNT8P",
+        "url": "https://www.xbox.com/en-US/games/store/death-stranding/9NQGN8TGNT8P",
         "id": "9NQGN8TGNT8P",
-        "title": "DEATH STRANDING DIRECTOR'S CUT",
-        "source": "xbox-autosuggest"
+        "title": "Death Stranding",
+        "source": "store-id"
       },
       "playstation": {
         "url": "https://store.playstation.com/en-us/product/UP9000-CUSA11260_00-DEATHSTRAND00001",
@@ -225,9 +225,9 @@
         "source": "ps-search"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/doom-eternal-standard-edition/9P5S26314HWQ",
+        "url": "https://www.xbox.com/en-US/games/store/doom-eternal/9P5S26314HWQ",
         "id": "9P5S26314HWQ",
-        "title": "DOOM Eternal Standard Edition",
+        "title": "DOOM Eternal",
         "source": "store-id"
       },
       "epic-games-store": {
@@ -255,7 +255,7 @@
       "xbox": {
         "url": "https://www.xbox.com/en-US/games/store/elden-ring/9P3J32CTXLRZ",
         "id": "9P3J32CTXLRZ",
-        "title": "ELDEN RING",
+        "title": "Elden Ring",
         "source": "store-id"
       },
       "playstation": {
@@ -363,9 +363,9 @@
         "source": "ps-search"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/grand-theft-auto-v-xbox-one/BPJ686W6S0NH",
+        "url": "https://www.xbox.com/en-US/games/store/grand-theft-auto-v/BPJ686W6S0NH",
         "id": "BPJ686W6S0NH",
-        "title": "Grand Theft Auto V (Xbox One)",
+        "title": "Grand Theft Auto V",
         "source": "store-id"
       },
       "epic-games-store": {
@@ -453,10 +453,10 @@
         "source": "ps-search"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/hollow-knight-voidheart-edition/9MW9469V91LM",
+        "url": "https://www.xbox.com/en-US/games/store/hollow-knight/9MW9469V91LM",
         "id": "9MW9469V91LM",
-        "title": "Hollow Knight: Voidheart Edition",
-        "source": "xbox-autosuggest"
+        "title": "Hollow Knight",
+        "source": "store-id"
       },
       "steam": {
         "url": "https://store.steampowered.com/app/367520/",
@@ -535,7 +535,7 @@
       "xbox": {
         "url": "https://www.xbox.com/en-US/games/store/monster-hunter-world/BNG91PT95LQN",
         "id": "BNG91PT95LQN",
-        "title": "MONSTER HUNTER: WORLD™",
+        "title": "Monster Hunter: World",
         "source": "store-id"
       },
       "playstation": {
@@ -567,10 +567,10 @@
         "source": "ps-search"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/overwatch/C1C4DZJPBC2V",
+        "url": "https://www.xbox.com/en-US/games/store/overwatch-2/C1C4DZJPBC2V",
         "id": "C1C4DZJPBC2V",
-        "title": "Overwatch®",
-        "source": "xbox-autosuggest"
+        "title": "Overwatch 2",
+        "source": "store-id"
       },
       "steam": {
         "url": "https://store.steampowered.com/app/2357570/",
@@ -643,10 +643,10 @@
         "source": "ps-search"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/resident-evil-4/9N7JCPPCPN37",
+        "url": "https://www.xbox.com/en-US/games/store/resident-evil-4-2023/9N7JCPPCPN37",
         "id": "9N7JCPPCPN37",
-        "title": "Resident Evil 4",
-        "source": "xbox-autosuggest"
+        "title": "Resident Evil 4 (2023)",
+        "source": "store-id"
       },
       "steam": {
         "url": "https://store.steampowered.com/app/2050650/",
@@ -671,7 +671,7 @@
       "xbox": {
         "url": "https://www.xbox.com/en-US/games/store/rocket-league/C125W9BG2K0V",
         "id": "C125W9BG2K0V",
-        "title": "Rocket League®",
+        "title": "Rocket League",
         "source": "store-id"
       },
       "playstation": {
@@ -715,10 +715,10 @@
         "source": "ps-search"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/sekiro-shadows-die-twice-goty-edition/BQD5WRRP2D6Q",
+        "url": "https://www.xbox.com/en-US/games/store/sekiro-shadows-die-twice/BQD5WRRP2D6Q",
         "id": "BQD5WRRP2D6Q",
-        "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-        "source": "xbox-autosuggest"
+        "title": "Sekiro: Shadows Die Twice",
+        "source": "store-id"
       },
       "steam": {
         "url": "https://store.steampowered.com/app/814380/",
@@ -869,9 +869,9 @@
         "source": "ps-search"
       },
       "xbox": {
-        "url": "https://www.xbox.com/en-US/games/store/the-witcher-3-wild-hunt-remastered/C261457LCNMJ",
+        "url": "https://www.xbox.com/en-US/games/store/the-witcher-3-wild-hunt/C261457LCNMJ",
         "id": "C261457LCNMJ",
-        "title": "The Witcher 3: Wild Hunt — Remastered",
+        "title": "The Witcher 3: Wild Hunt",
         "source": "store-id"
       },
       "epic-games-store": {
@@ -898,6 +898,1118 @@
         "url": "https://www.xbox.com/en-US/games/store/valheim/9NCBL78CG9N7",
         "id": "9NCBL78CG9N7",
         "title": "Valheim",
+        "source": "store-id"
+      }
+    },
+    "dark-souls-remastered": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/570940/",
+        "id": "570940",
+        "title": "Dark Souls: Remastered",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/dark-souls-remastered/BS18VCF4NLQ9",
+        "id": "BS18VCF4NLQ9",
+        "title": "Dark Souls: Remastered",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0700-CUSA08692_00-DARKSOULSHD00000",
+        "id": "UP0700-CUSA08692_00-DARKSOULSHD00000",
+        "title": "DARK SOULS™: REMASTERED",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000008122/",
+        "id": "70010000008122",
+        "title": "Dark Souls: Remastered",
+        "source": "store-id"
+      }
+    },
+    "the-elder-scrolls-v-skyrim": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/489830/",
+        "id": "489830",
+        "title": "The Elder Scrolls V: Skyrim",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/the-elder-scrolls-v-skyrim/BQ1W1T1FC14W",
+        "id": "BQ1W1T1FC14W",
+        "title": "The Elder Scrolls V: Skyrim",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1003-PPSA03746_00-TESVSKYRIM000000",
+        "id": "UP1003-PPSA03746_00-TESVSKYRIM000000",
+        "title": "The Elder Scrolls V: Skyrim Special Edition - PS5 & PS4",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000001369/",
+        "id": "70010000001369",
+        "title": "The Elder Scrolls V: Skyrim",
+        "source": "store-id"
+      }
+    },
+    "fallout-new-vegas": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/22380/",
+        "id": "22380",
+        "title": "Fallout: New Vegas",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/fallout-new-vegas/BX3JNK07Z6QK",
+        "id": "BX3JNK07Z6QK",
+        "title": "Fallout: New Vegas",
+        "source": "store-id"
+      }
+    },
+    "mass-effect-legendary-edition": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1328670/",
+        "id": "1328670",
+        "title": "Mass Effect Legendary Edition",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/mass-effect-legendary-edition/9PKWHT7G60WQ",
+        "id": "9PKWHT7G60WQ",
+        "title": "Mass Effect Legendary Edition",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0006-CUSA19500_00-METR000000000000",
+        "id": "UP0006-CUSA19500_00-METR000000000000",
+        "title": "Mass Effect™ Legendary Edition",
+        "source": "ps-search"
+      }
+    },
+    "god-of-war": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1593500/",
+        "id": "1593500",
+        "title": "God of War",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-CUSA07408_00-00000000GODOFWAR",
+        "id": "UP9000-CUSA07408_00-00000000GODOFWAR",
+        "title": "God of War",
+        "source": "ps-search"
+      }
+    },
+    "uncharted-legacy-of-thieves": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1659420/",
+        "id": "1659420",
+        "title": "Uncharted: Legacy of Thieves Collection",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA05389_00-UNCHARTED4R00000",
+        "id": "UP9000-PPSA05389_00-UNCHARTED4R00000",
+        "title": "UNCHARTED: Legacy of Thieves Collection",
+        "source": "ps-search"
+      }
+    },
+    "marvels-spider-man-remastered": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1817070/",
+        "id": "1817070",
+        "title": "Marvel's Spider-Man Remastered",
+        "source": "store-id"
+      }
+    },
+    "monster-hunter-rise": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1446780/",
+        "id": "1446780",
+        "title": "Monster Hunter Rise",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/monster-hunter-rise/9N1VP8WDQK4D",
+        "id": "9N1VP8WDQK4D",
+        "title": "Monster Hunter Rise",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0102-PPSA08033_00-FULLGAME00000001",
+        "id": "UP0102-PPSA08033_00-FULLGAME00000001",
+        "title": "Monster Hunter Rise PS4 & PS5",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000029016/",
+        "id": "70010000029016",
+        "title": "Monster Hunter Rise",
+        "source": "store-id"
+      }
+    },
+    "monster-hunter-wilds": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2246340/",
+        "id": "2246340",
+        "title": "Monster Hunter Wilds",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/monster-hunter-wilds/9NMT6XFN0LVD",
+        "id": "9NMT6XFN0LVD",
+        "title": "Monster Hunter Wilds",
+        "source": "store-id"
+      }
+    },
+    "resident-evil-village": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1196590/",
+        "id": "1196590",
+        "title": "Resident Evil Village",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/resident-evil-village/9N2S04LGXXH4",
+        "id": "9N2S04LGXXH4",
+        "title": "Resident Evil Village",
+        "source": "store-id"
+      }
+    },
+    "resident-evil-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/883710/",
+        "id": "883710",
+        "title": "Resident Evil 2",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/resident-evil-2/BWMH951M3G3P",
+        "id": "BWMH951M3G3P",
+        "title": "Resident Evil 2",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0102-PPSA07813_00-CLASSICRE2000001",
+        "id": "UP0102-PPSA07813_00-CLASSICRE2000001",
+        "title": "Resident Evil 2",
+        "source": "ps-search"
+      }
+    },
+    "street-fighter-6": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1364780/",
+        "id": "1364780",
+        "title": "Street Fighter 6",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/street-fighter-6/9NM79B7N9JM6",
+        "id": "9NM79B7N9JM6",
+        "title": "Street Fighter 6",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0102-PPSA02632_00-SF600000STANDARD",
+        "id": "UP0102-PPSA02632_00-SF600000STANDARD",
+        "title": "Street Fighter™ 6",
+        "source": "ps-search"
+      }
+    },
+    "tekken-8": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1778820/",
+        "id": "1778820",
+        "title": "Tekken 8",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/tekken-8/9PPSM14VKCLW",
+        "id": "9PPSM14VKCLW",
+        "title": "Tekken 8",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0700-PPSA10595_00-TEKKEN8000000000",
+        "id": "UP0700-PPSA10595_00-TEKKEN8000000000",
+        "title": "TEKKEN 8",
+        "source": "ps-search"
+      }
+    },
+    "persona-3-reload": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2161700/",
+        "id": "2161700",
+        "title": "Persona 3 Reload",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/persona-3-reload/9NKK6Z0K3RH2",
+        "id": "9NKK6Z0K3RH2",
+        "title": "Persona 3 Reload",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0177-PPSA10872_00-APPLICATION00000",
+        "id": "UP0177-PPSA10872_00-APPLICATION00000",
+        "title": "Persona 3 Reload PS4 & PS5",
+        "source": "ps-search"
+      }
+    },
+    "metaphor-refantazio": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2679460/",
+        "id": "2679460",
+        "title": "Metaphor: ReFantazio",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/metaphor-refantazio/9N5DV8310XP7",
+        "id": "9N5DV8310XP7",
+        "title": "Metaphor: ReFantazio",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0177-PPSA20800_00-METAPHORNA000001",
+        "id": "UP0177-PPSA20800_00-METAPHORNA000001",
+        "title": "Metaphor: ReFantazio PS4 & PS5",
+        "source": "ps-search"
+      }
+    },
+    "yakuza-like-a-dragon": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1235140/",
+        "id": "1235140",
+        "title": "Yakuza: Like a Dragon",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/yakuza-like-a-dragon/9NXCSWCQTNFG",
+        "id": "9NXCSWCQTNFG",
+        "title": "Yakuza: Like a Dragon",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0177-PPSA02383_00-LIKEADRAGON00000",
+        "id": "UP0177-PPSA02383_00-LIKEADRAGON00000",
+        "title": "Yakuza: Like a Dragon PS4 & PS5",
+        "source": "ps-search"
+      }
+    },
+    "final-fantasy-vii-remake-intergrade": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1462040/",
+        "id": "1462040",
+        "title": "Final Fantasy VII Remake Intergrade",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0082-PPSA01903_00-5827003902180177",
+        "id": "UP0082-PPSA01903_00-5827003902180177",
+        "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+        "source": "ps-search"
+      }
+    },
+    "nier-automata": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/524220/",
+        "id": "524220",
+        "title": "NieR: Automata",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/nier-automata/BPPZVT8BZ15N",
+        "id": "BPPZVT8BZ15N",
+        "title": "NieR: Automata",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0082-CUSA04551_00-GOTYORHADIGITAL0",
+        "id": "UP0082-CUSA04551_00-GOTYORHADIGITAL0",
+        "title": "NieR: Automata™ Game of the YoRHa Edition",
+        "source": "manual"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000045182/",
+        "id": "70010000045182",
+        "title": "NieR: Automata",
+        "source": "store-id"
+      }
+    },
+    "dragon-quest-xi-s": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1295510/",
+        "id": "1295510",
+        "title": "Dragon Quest XI S: Echoes of an Elusive Age",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/dragon-quest-xi-s-echoes-of-an-elusive-age/9PBDC0XZ8TXK",
+        "id": "9PBDC0XZ8TXK",
+        "title": "Dragon Quest XI S: Echoes of an Elusive Age",
+        "source": "store-id"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000021451/",
+        "id": "70010000021451",
+        "title": "Dragon Quest XI S: Echoes of an Elusive Age",
+        "source": "store-id"
+      }
+    },
+    "ori-and-the-will-of-the-wisps": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1057090/",
+        "id": "1057090",
+        "title": "Ori and the Will of the Wisps",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/ori-and-the-will-of-the-wisps/9N8CD0XZKLP4",
+        "id": "9N8CD0XZKLP4",
+        "title": "Ori and the Will of the Wisps",
+        "source": "store-id"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000034725/",
+        "id": "70010000034725",
+        "title": "Ori and the Will of the Wisps",
+        "source": "store-id"
+      }
+    },
+    "assassins-creed-valhalla": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2208920/",
+        "id": "2208920",
+        "title": "Assassin's Creed Valhalla",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/assassins-creed-valhalla/9P4NJFH17MRT",
+        "id": "9P4NJFH17MRT",
+        "title": "Assassin's Creed Valhalla",
+        "source": "store-id"
+      }
+    },
+    "far-cry-6": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2369390/",
+        "id": "2369390",
+        "title": "Far Cry 6",
+        "source": "store-id"
+      }
+    },
+    "tom-clancys-rainbow-six-siege": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/359550/",
+        "id": "359550",
+        "title": "Tom Clancy's Rainbow Six Siege",
+        "source": "store-id"
+      }
+    },
+    "destiny-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1085660/",
+        "id": "1085660",
+        "title": "Destiny 2",
+        "source": "store-id"
+      }
+    },
+    "warframe": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/230410/",
+        "id": "230410",
+        "title": "Warframe",
+        "source": "store-id"
+      }
+    },
+    "path-of-exile": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/238960/",
+        "id": "238960",
+        "title": "Path of Exile",
+        "source": "store-id"
+      }
+    },
+    "final-fantasy-xiv-online": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/39210/",
+        "id": "39210",
+        "title": "Final Fantasy XIV Online",
+        "source": "store-id"
+      }
+    },
+    "total-war-three-kingdoms": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/779340/",
+        "id": "779340",
+        "title": "Total War: Three Kingdoms",
+        "source": "store-id"
+      }
+    },
+    "crusader-kings-iii": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1158310/",
+        "id": "1158310",
+        "title": "Crusader Kings III",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/crusader-kings-iii/9MZ8RZSD0NFQ",
+        "id": "9MZ8RZSD0NFQ",
+        "title": "Crusader Kings III",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4139-PPSA02307_00-TTL0000000000001",
+        "id": "UP4139-PPSA02307_00-TTL0000000000001",
+        "title": "Crusader Kings III",
+        "source": "ps-search"
+      }
+    },
+    "stellaris": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/281990/",
+        "id": "281990",
+        "title": "Stellaris",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/stellaris/9NXQPGMR917R",
+        "id": "9NXQPGMR917R",
+        "title": "Stellaris",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4139-PPSA27597_00-STELLARISBASEPS5",
+        "id": "UP4139-PPSA27597_00-STELLARISBASEPS5",
+        "title": "Stellaris: Console Edition PS5",
+        "source": "ps-search"
+      }
+    },
+    "age-of-empires-iv": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1466860/",
+        "id": "1466860",
+        "title": "Age of Empires IV",
+        "source": "store-id"
+      }
+    },
+    "halo-infinite": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1240440/",
+        "id": "1240440",
+        "title": "Halo Infinite",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/halo-infinite/9NP1P1WFS0LB",
+        "id": "9NP1P1WFS0LB",
+        "title": "Halo Infinite",
+        "source": "store-id"
+      }
+    },
+    "halo-the-master-chief-collection": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/976730/",
+        "id": "976730",
+        "title": "Halo: The Master Chief Collection",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/halo-the-master-chief-collection/9MT8PTGVHX2P",
+        "id": "9MT8PTGVHX2P",
+        "title": "Halo: The Master Chief Collection",
+        "source": "store-id"
+      }
+    },
+    "a-way-out": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1222700/",
+        "id": "1222700",
+        "title": "A Way Out",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/a-way-out/BWVBNCMF22ZK",
+        "id": "BWVBNCMF22ZK",
+        "title": "A Way Out",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0006-CUSA07995_00-HAZELIGHTAWAYOUT",
+        "id": "UP0006-CUSA07995_00-HAZELIGHTAWAYOUT",
+        "title": "A Way Out",
+        "source": "ps-search"
+      }
+    },
+    "overcooked-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/728880/",
+        "id": "728880",
+        "title": "Overcooked! 2",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/overcooked-2/BVJLKDG2TX8H",
+        "id": "BVJLKDG2TX8H",
+        "title": "Overcooked! 2",
+        "source": "store-id"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000003402/",
+        "id": "70010000003402",
+        "title": "Overcooked! 2",
+        "source": "store-id"
+      }
+    },
+    "human-fall-flat": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/477160/",
+        "id": "477160",
+        "title": "Human: Fall Flat",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/human-fall-flat/BSMZH25V6V46",
+        "id": "BSMZH25V6V46",
+        "title": "Human: Fall Flat",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4395-PPSA02431_00-HFFGAME000000PS5",
+        "id": "UP4395-PPSA02431_00-HFFGAME000000PS5",
+        "title": "Human: Fall Flat PS4 & PS5",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000001204/",
+        "id": "70010000001204",
+        "title": "Human: Fall Flat",
+        "source": "store-id"
+      }
+    },
+    "sons-of-the-forest": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1326470/",
+        "id": "1326470",
+        "title": "Sons of the Forest",
+        "source": "store-id"
+      }
+    },
+    "phasmophobia": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/739630/",
+        "id": "739630",
+        "title": "Phasmophobia",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/EP7789-PPSA09030_00-5648706170853559",
+        "id": "EP7789-PPSA09030_00-5648706170853559",
+        "title": "Phasmophobia",
+        "source": "ps-search"
+      }
+    },
+    "lethal-company": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1966720/",
+        "id": "1966720",
+        "title": "Lethal Company",
+        "source": "store-id"
+      }
+    },
+    "helldivers-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/553850/",
+        "id": "553850",
+        "title": "Helldivers 2",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA01413_00-HELLDIVERS200000",
+        "id": "UP9000-PPSA01413_00-HELLDIVERS200000",
+        "title": "HELLDIVERS™ 2",
+        "source": "ps-search"
+      }
+    },
+    "palworld": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1623730/",
+        "id": "1623730",
+        "title": "Palworld",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/palworld/9NKV34XDW014",
+        "id": "9NKV34XDW014",
+        "title": "Palworld",
+        "source": "store-id"
+      }
+    },
+    "divinity-original-sin-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/435150/",
+        "id": "435150",
+        "title": "Divinity: Original Sin 2",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/divinity-original-sin-2/BW8PVL4CJ2Q6",
+        "id": "BW8PVL4CJ2Q6",
+        "title": "Divinity: Original Sin 2",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP3526-PPSA06865_00-ORIGINALSIN2XPS5",
+        "id": "UP3526-PPSA06865_00-ORIGINALSIN2XPS5",
+        "title": "Divinity: Original Sin 2 - Definitive Edition PS4 & PS5",
+        "source": "ps-search"
+      }
+    },
+    "final-fantasy-xvi": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2515020/",
+        "id": "2515020",
+        "title": "Final Fantasy XVI",
+        "source": "store-id"
+      }
+    },
+    "horizon-forbidden-west": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2420110/",
+        "id": "2420110",
+        "title": "Horizon Forbidden West",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA04072_00-FORBIDDENWESTPS5",
+        "id": "UP9000-PPSA04072_00-FORBIDDENWESTPS5",
+        "title": "Horizon Forbidden West™",
+        "source": "ps-search"
+      }
+    },
+    "watch-dogs-legion": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2239550/",
+        "id": "2239550",
+        "title": "Watch Dogs: Legion",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/watch-dogs-legion/C1WRX8ZD77M9",
+        "id": "C1WRX8ZD77M9",
+        "title": "Watch Dogs: Legion",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0001-PPSA01487_00-ORWFULLGAME00000",
+        "id": "UP0001-PPSA01487_00-ORWFULLGAME00000",
+        "title": "Watch Dogs®: Legion PS4 & PS5",
+        "source": "ps-search"
+      }
+    },
+    "microsoft-flight-simulator": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1250410/",
+        "id": "1250410",
+        "title": "Microsoft Flight Simulator",
+        "source": "store-id"
+      }
+    },
+    "ratchet-and-clank-rift-apart": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1895880/",
+        "id": "1895880",
+        "title": "Ratchet & Clank: Rift Apart",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA01473_00-RATCHETCLANKRIFT",
+        "id": "UP9000-PPSA01473_00-RATCHETCLANKRIFT",
+        "title": "Ratchet & Clank: Rift Apart",
+        "source": "ps-search"
+      }
+    },
+    "returnal": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1649240/",
+        "id": "1649240",
+        "title": "Returnal",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA01284_00-RETURNALGAME0001",
+        "id": "UP9000-PPSA01284_00-RETURNALGAME0001",
+        "title": "Returnal",
+        "source": "ps-search"
+      }
+    },
+    "days-gone": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1259420/",
+        "id": "1259420",
+        "title": "Days Gone",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP9000-PPSA28180_00-DAYSGONEREMASTER",
+        "id": "UP9000-PPSA28180_00-DAYSGONEREMASTER",
+        "title": "Days Gone Remastered",
+        "source": "ps-search"
+      }
+    },
+    "marvels-spider-man-miles-morales": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1817190/",
+        "id": "1817190",
+        "title": "Marvel's Spider-Man: Miles Morales",
+        "source": "store-id"
+      }
+    },
+    "shadow-of-the-tomb-raider": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/750920/",
+        "id": "750920",
+        "title": "Shadow of the Tomb Raider",
+        "source": "store-id"
+      }
+    },
+    "batman-arkham-knight": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/208650/",
+        "id": "208650",
+        "title": "Batman: Arkham Knight",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/batman-arkham-knight/C3DRG5G7FCB5",
+        "id": "C3DRG5G7FCB5",
+        "title": "Batman: Arkham Knight",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1018-CUSA00133_00-BATMANARKHAMKNHT",
+        "id": "UP1018-CUSA00133_00-BATMANARKHAMKNHT",
+        "title": "Batman™: Arkham Knight",
+        "source": "ps-search"
+      }
+    },
+    "bioshock-infinite": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/8870/",
+        "id": "8870",
+        "title": "BioShock Infinite",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/bioshock-infinite/C4XX6JL0N0DM",
+        "id": "C4XX6JL0N0DM",
+        "title": "BioShock Infinite",
+        "source": "store-id"
+      }
+    },
+    "dishonored-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/403640/",
+        "id": "403640",
+        "title": "Dishonored 2",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/dishonored-2/BSZM480TSWGP",
+        "id": "BSZM480TSWGP",
+        "title": "Dishonored 2",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1003-CUSA03642_00-DISHONORED2NAMER",
+        "id": "UP1003-CUSA03642_00-DISHONORED2NAMER",
+        "title": "Dishonored 2",
+        "source": "ps-search"
+      }
+    },
+    "prey-2017": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/480490/",
+        "id": "480490",
+        "title": "Prey",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/prey/BVPGZMMDDZ0M",
+        "id": "BVPGZMMDDZ0M",
+        "title": "Prey",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1003-CUSA04493_00-PREYPS4FULLGAME1",
+        "id": "UP1003-CUSA04493_00-PREYPS4FULLGAME1",
+        "title": "Prey",
+        "source": "ps-search"
+      }
+    },
+    "doom-2016": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/379720/",
+        "id": "379720",
+        "title": "DOOM",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/doom/C3QH42WRGM3R",
+        "id": "C3QH42WRGM3R",
+        "title": "DOOM",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1003-CUSA02085_00-DOOMNORTHAMERICA",
+        "id": "UP1003-CUSA02085_00-DOOMNORTHAMERICA",
+        "title": "DOOM",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000001367/",
+        "id": "70010000001367",
+        "title": "DOOM",
+        "source": "store-id"
+      }
+    },
+    "titanfall-2": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1237970/",
+        "id": "1237970",
+        "title": "Titanfall 2",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/titanfall-2/C0X2HNVH08FB",
+        "id": "C0X2HNVH08FB",
+        "title": "Titanfall 2",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0006-CUSA04027_00-TITANFALL2RSPWN1",
+        "id": "UP0006-CUSA04027_00-TITANFALL2RSPWN1",
+        "title": "Titanfall® 2 Standard Edition",
+        "source": "ps-search"
+      }
+    },
+    "control": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/870780/",
+        "id": "870780",
+        "title": "Control",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/control/BZ6W9LRPC26W",
+        "id": "BZ6W9LRPC26W",
+        "title": "Control",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4040-PPSA01949_00-CONTROLUEPS50000",
+        "id": "UP4040-PPSA01949_00-CONTROLUEPS50000",
+        "title": "CONTROL Ultimate Edition",
+        "source": "ps-search"
+      }
+    },
+    "outer-wilds": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/753640/",
+        "id": "753640",
+        "title": "Outer Wilds",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/outer-wilds/C596FKDKMQN7",
+        "id": "C596FKDKMQN7",
+        "title": "Outer Wilds",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP2470-PPSA08101_00-OUTERWILDSSIEA00",
+        "id": "UP2470-PPSA08101_00-OUTERWILDSSIEA00",
+        "title": "Outer Wilds",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000038712/",
+        "id": "70010000038712",
+        "title": "Outer Wilds",
+        "source": "store-id"
+      }
+    },
+    "disco-elysium": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/632470/",
+        "id": "632470",
+        "title": "Disco Elysium",
+        "source": "store-id"
+      }
+    },
+    "celeste": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/504230/",
+        "id": "504230",
+        "title": "Celeste",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP2120-CUSA11302_00-CELESTEXXCELESTE",
+        "id": "UP2120-CUSA11302_00-CELESTEXXCELESTE",
+        "title": "Celeste",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000006442/",
+        "id": "70010000006442",
+        "title": "Celeste",
+        "source": "store-id"
+      }
+    },
+    "vampire-survivors": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/1794680/",
+        "id": "1794680",
+        "title": "Vampire Survivors",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/vampire-survivors/9PD5BM2Z8C4L",
+        "id": "9PD5BM2Z8C4L",
+        "title": "Vampire Survivors",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/EB0324-PPSA21703_00-0027916840515656",
+        "id": "EB0324-PPSA21703_00-0027916840515656",
+        "title": "Vampire Survivors",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000059002/",
+        "id": "70010000059002",
+        "title": "Vampire Survivors",
+        "source": "store-id"
+      }
+    },
+    "factorio": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/427520/",
+        "id": "427520",
+        "title": "Factorio",
+        "source": "store-id"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000056818/",
+        "id": "70010000056818",
+        "title": "Factorio",
+        "source": "store-id"
+      }
+    },
+    "balatro": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/2379780/",
+        "id": "2379780",
+        "title": "Balatro",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/balatro/9PK087LNGJC5",
+        "id": "9PK087LNGJC5",
+        "title": "Balatro",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP3639-PPSA21401_00-0767712965312971",
+        "id": "UP3639-PPSA21401_00-0767712965312971",
+        "title": "Balatro",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000072051/",
+        "id": "70010000072051",
+        "title": "Balatro",
+        "source": "store-id"
+      }
+    },
+    "cuphead": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/268910/",
+        "id": "268910",
+        "title": "Cuphead",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/cuphead/9NJRX71M5X9P",
+        "id": "9NJRX71M5X9P",
+        "title": "Cuphead",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP8062-CUSA20499_00-CUPHEAD000000000",
+        "id": "UP8062-CUSA20499_00-CUPHEAD000000000",
+        "title": "Cuphead",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000016330/",
+        "id": "70010000016330",
+        "title": "Cuphead",
+        "source": "store-id"
+      }
+    },
+    "dead-cells": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/588650/",
+        "id": "588650",
+        "title": "Dead Cells",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/dead-cells/BQSCNS1T8PHQ",
+        "id": "BQSCNS1T8PHQ",
+        "title": "Dead Cells",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP4016-PPSA15552_00-DEADCELLSPS5SIEA",
+        "id": "UP4016-PPSA15552_00-DEADCELLSPS5SIEA",
+        "title": "Dead Cells (PS4® & PS5®)",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000007706/",
+        "id": "70010000007706",
+        "title": "Dead Cells",
+        "source": "store-id"
+      }
+    },
+    "slay-the-spire": {
+      "steam": {
+        "url": "https://store.steampowered.com/app/646570/",
+        "id": "646570",
+        "title": "Slay the Spire",
+        "source": "store-id"
+      },
+      "xbox": {
+        "url": "https://www.xbox.com/en-US/games/store/slay-the-spire/9P6W46XMDJM5",
+        "id": "9P6W46XMDJM5",
+        "title": "Slay the Spire",
+        "source": "store-id"
+      },
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP3864-CUSA15289_00-SLAYTHESPIREGAME",
+        "id": "UP3864-CUSA15289_00-SLAYTHESPIREGAME",
+        "title": "Slay the Spire",
+        "source": "ps-search"
+      },
+      "nintendo-switch": {
+        "url": "https://www.nintendo.com/us/store/products/70010000012389/",
+        "id": "70010000012389",
+        "title": "Slay the Spire",
         "source": "store-id"
       }
     }

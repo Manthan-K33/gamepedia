@@ -16,6 +16,14 @@
         "title": "Overwatch® for Nintendo Switch",
         "source": "manual"
       }
+    },
+    "nier-automata": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP0082-CUSA04551_00-GOTYORHADIGITAL0",
+        "id": "UP0082-CUSA04551_00-GOTYORHADIGITAL0",
+        "title": "NieR: Automata™ Game of the YoRHa Edition",
+        "source": "manual"
+      }
     }
   }
 }

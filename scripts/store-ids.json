@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:53:44.629Z",
+  "generated_at": "2026-11-27T15:56:18.574Z",
   "steam": {
     "among-us": {
       "id": "945360"
@@ -123,6 +123,207 @@
     },
     "valheim": {
       "id": "892970"
+    },
+    "dark-souls-remastered": {
+      "id": "570940"
+    },
+    "the-elder-scrolls-v-skyrim": {
+      "id": "489830"
+    },
+    "fallout-new-vegas": {
+      "id": "22380"
+    },
+    "mass-effect-legendary-edition": {
+      "id": "1328670"
+    },
+    "god-of-war": {
+      "id": "1593500"
+    },
+    "uncharted-legacy-of-thieves": {
+      "id": "1659420"
+    },
+    "marvels-spider-man-remastered": {
+      "id": "1817070"
+    },
+    "monster-hunter-rise": {
+      "id": "1446780"
+    },
+    "monster-hunter-wilds": {
+      "id": "2246340"
+    },
+    "resident-evil-village": {
+      "id": "1196590"
+    },
+    "resident-evil-2": {
+      "id": "883710"
+    },
+    "street-fighter-6": {
+      "id": "1364780"
+    },
+    "tekken-8": {
+      "id": "1778820"
+    },
+    "persona-3-reload": {
+      "id": "2161700"
+    },
+    "metaphor-refantazio": {
+      "id": "2679460"
+    },
+    "yakuza-like-a-dragon": {
+      "id": "1235140"
+    },
+    "final-fantasy-vii-remake-intergrade": {
+      "id": "1462040"
+    },
+    "nier-automata": {
+      "id": "524220"
+    },
+    "dragon-quest-xi-s": {
+      "id": "1295510"
+    },
+    "ori-and-the-will-of-the-wisps": {
+      "id": "1057090"
+    },
+    "assassins-creed-valhalla": {
+      "id": "2208920"
+    },
+    "far-cry-6": {
+      "id": "2369390"
+    },
+    "tom-clancys-rainbow-six-siege": {
+      "id": "359550"
+    },
+    "destiny-2": {
+      "id": "1085660"
+    },
+    "warframe": {
+      "id": "230410"
+    },
+    "path-of-exile": {
+      "id": "238960"
+    },
+    "final-fantasy-xiv-online": {
+      "id": "39210"
+    },
+    "total-war-three-kingdoms": {
+      "id": "779340"
+    },
+    "crusader-kings-iii": {
+      "id": "1158310"
+    },
+    "stellaris": {
+      "id": "281990"
+    },
+    "age-of-empires-iv": {
+      "id": "1466860"
+    },
+    "halo-infinite": {
+      "id": "1240440"
+    },
+    "halo-the-master-chief-collection": {
+      "id": "976730"
+    },
+    "a-way-out": {
+      "id": "1222700"
+    },
+    "overcooked-2": {
+      "id": "728880"
+    },
+    "human-fall-flat": {
+      "id": "477160"
+    },
+    "sons-of-the-forest": {
+      "id": "1326470"
+    },
+    "phasmophobia": {
+      "id": "739630"
+    },
+    "lethal-company": {
+      "id": "1966720"
+    },
+    "helldivers-2": {
+      "id": "553850"
+    },
+    "palworld": {
+      "id": "1623730"
+    },
+    "divinity-original-sin-2": {
+      "id": "435150"
+    },
+    "final-fantasy-xvi": {
+      "id": "2515020"
+    },
+    "horizon-forbidden-west": {
+      "id": "2420110"
+    },
+    "watch-dogs-legion": {
+      "id": "2239550"
+    },
+    "microsoft-flight-simulator": {
+      "id": "1250410"
+    },
+    "ratchet-and-clank-rift-apart": {
+      "id": "1895880"
+    },
+    "returnal": {
+      "id": "1649240"
+    },
+    "days-gone": {
+      "id": "1259420"
+    },
+    "marvels-spider-man-miles-morales": {
+      "id": "1817190"
+    },
+    "shadow-of-the-tomb-raider": {
+      "id": "750920"
+    },
+    "batman-arkham-knight": {
+      "id": "208650"
+    },
+    "bioshock-infinite": {
+      "id": "8870"
+    },
+    "dishonored-2": {
+      "id": "403640"
+    },
+    "prey-2017": {
+      "id": "480490"
+    },
+    "doom-2016": {
+      "id": "379720"
+    },
+    "titanfall-2": {
+      "id": "1237970"
+    },
+    "control": {
+      "id": "870780"
+    },
+    "outer-wilds": {
+      "id": "753640"
+    },
+    "disco-elysium": {
+      "id": "632470"
+    },
+    "celeste": {
+      "id": "504230"
+    },
+    "vampire-survivors": {
+      "id": "1794680"
+    },
+    "factorio": {
+      "id": "427520"
+    },
+    "balatro": {
+      "id": "2379780"
+    },
+    "cuphead": {
+      "id": "268910"
+    },
+    "dead-cells": {
+      "id": "588650"
+    },
+    "slay-the-spire": {
+      "id": "646570"
     }
   },
   "nintendo-switch": {
@@ -173,12 +374,63 @@
     },
     "the-legend-of-zelda-tears-of-the-kingdom": {
       "id": "70010000063714"
+    },
+    "dark-souls-remastered": {
+      "id": "70010000008122"
+    },
+    "the-elder-scrolls-v-skyrim": {
+      "id": "70010000001369"
+    },
+    "monster-hunter-rise": {
+      "id": "70010000029016"
+    },
+    "nier-automata": {
+      "id": "70010000045182"
+    },
+    "dragon-quest-xi-s": {
+      "id": "70010000021451"
+    },
+    "ori-and-the-will-of-the-wisps": {
+      "id": "70010000034725"
+    },
+    "overcooked-2": {
+      "id": "70010000003402"
+    },
+    "human-fall-flat": {
+      "id": "70010000001204"
+    },
+    "doom-2016": {
+      "id": "70010000001367"
+    },
+    "outer-wilds": {
+      "id": "70010000038712"
+    },
+    "celeste": {
+      "id": "70010000006442"
+    },
+    "vampire-survivors": {
+      "id": "70010000059002"
+    },
+    "factorio": {
+      "id": "70010000056818"
+    },
+    "balatro": {
+      "id": "70010000072051"
+    },
+    "cuphead": {
+      "id": "70010000016330"
+    },
+    "dead-cells": {
+      "id": "70010000007706"
+    },
+    "slay-the-spire": {
+      "id": "70010000012389"
     }
   },
   "xbox": {
     "apex-legends": {
       "id": "BV9ML45J2Q5V",
-      "title": "Apex Legends™",
+      "title": "Apex Legends",
       "score": 1
     },
     "ark-survival-evolved": {
@@ -196,9 +448,19 @@
       "title": "Cyberpunk 2077",
       "score": 1
     },
+    "dark-souls-iii": {
+      "id": "BW2XDRNSCCPZ",
+      "title": "Dark Souls III",
+      "score": 1
+    },
     "dead-by-daylight": {
       "id": "C0N22P73QZ60",
       "title": "Dead by Daylight",
+      "score": 1
+    },
+    "death-stranding": {
+      "id": "9NQGN8TGNT8P",
+      "title": "Death Stranding",
       "score": 1
     },
     "devil-may-cry-5": {
@@ -208,12 +470,12 @@
     },
     "doom-eternal": {
       "id": "9P5S26314HWQ",
-      "title": "DOOM Eternal Standard Edition",
+      "title": "DOOM Eternal",
       "score": 1
     },
     "elden-ring": {
       "id": "9P3J32CTXLRZ",
-      "title": "ELDEN RING",
+      "title": "Elden Ring",
       "score": 1
     },
     "fall-guys": {
@@ -233,7 +495,7 @@
     },
     "grand-theft-auto-v": {
       "id": "BPJ686W6S0NH",
-      "title": "Grand Theft Auto V (Xbox One)",
+      "title": "Grand Theft Auto V",
       "score": 1
     },
     "hades": {
@@ -246,6 +508,11 @@
       "title": "Hogwarts Legacy",
       "score": 1
     },
+    "hollow-knight": {
+      "id": "9MW9469V91LM",
+      "title": "Hollow Knight",
+      "score": 1
+    },
     "it-takes-two": {
       "id": "9NKJ0VZQ4N0L",
       "title": "It Takes Two",
@@ -253,7 +520,12 @@
     },
     "monster-hunter-world": {
       "id": "BNG91PT95LQN",
-      "title": "MONSTER HUNTER: WORLD™",
+      "title": "Monster Hunter: World",
+      "score": 1
+    },
+    "overwatch-2": {
+      "id": "C1C4DZJPBC2V",
+      "title": "Overwatch 2",
       "score": 1
     },
     "persona-5-royal": {
@@ -261,14 +533,24 @@
       "title": "Persona 5 Royal",
       "score": 1
     },
+    "resident-evil-4-remake": {
+      "id": "9N7JCPPCPN37",
+      "title": "Resident Evil 4 (2023)",
+      "score": 1
+    },
     "rocket-league": {
       "id": "C125W9BG2K0V",
-      "title": "Rocket League®",
+      "title": "Rocket League",
       "score": 1
     },
     "rust": {
       "id": "9NPHHZBV60B4",
       "title": "Rust",
+      "score": 1
+    },
+    "sekiro-shadows-die-twice": {
+      "id": "BQD5WRRP2D6Q",
+      "title": "Sekiro: Shadows Die Twice",
       "score": 1
     },
     "civilization-vi": {
@@ -288,12 +570,212 @@
     },
     "the-witcher-3-wild-hunt": {
       "id": "C261457LCNMJ",
-      "title": "The Witcher 3: Wild Hunt — Remastered",
+      "title": "The Witcher 3: Wild Hunt",
       "score": 1
     },
     "valheim": {
       "id": "9NCBL78CG9N7",
       "title": "Valheim",
+      "score": 1
+    },
+    "dark-souls-remastered": {
+      "id": "BS18VCF4NLQ9",
+      "title": "Dark Souls: Remastered",
+      "score": 1
+    },
+    "the-elder-scrolls-v-skyrim": {
+      "id": "BQ1W1T1FC14W",
+      "title": "The Elder Scrolls V: Skyrim",
+      "score": 1
+    },
+    "fallout-new-vegas": {
+      "id": "BX3JNK07Z6QK",
+      "title": "Fallout: New Vegas",
+      "score": 1
+    },
+    "mass-effect-legendary-edition": {
+      "id": "9PKWHT7G60WQ",
+      "title": "Mass Effect Legendary Edition",
+      "score": 1
+    },
+    "monster-hunter-rise": {
+      "id": "9N1VP8WDQK4D",
+      "title": "Monster Hunter Rise",
+      "score": 1
+    },
+    "monster-hunter-wilds": {
+      "id": "9NMT6XFN0LVD",
+      "title": "Monster Hunter Wilds",
+      "score": 1
+    },
+    "resident-evil-village": {
+      "id": "9N2S04LGXXH4",
+      "title": "Resident Evil Village",
+      "score": 1
+    },
+    "resident-evil-2": {
+      "id": "BWMH951M3G3P",
+      "title": "Resident Evil 2",
+      "score": 1
+    },
+    "street-fighter-6": {
+      "id": "9NM79B7N9JM6",
+      "title": "Street Fighter 6",
+      "score": 1
+    },
+    "tekken-8": {
+      "id": "9PPSM14VKCLW",
+      "title": "Tekken 8",
+      "score": 1
+    },
+    "persona-3-reload": {
+      "id": "9NKK6Z0K3RH2",
+      "title": "Persona 3 Reload",
+      "score": 1
+    },
+    "metaphor-refantazio": {
+      "id": "9N5DV8310XP7",
+      "title": "Metaphor: ReFantazio",
+      "score": 1
+    },
+    "yakuza-like-a-dragon": {
+      "id": "9NXCSWCQTNFG",
+      "title": "Yakuza: Like a Dragon",
+      "score": 1
+    },
+    "nier-automata": {
+      "id": "BPPZVT8BZ15N",
+      "title": "NieR: Automata",
+      "score": 1
+    },
+    "dragon-quest-xi-s": {
+      "id": "9PBDC0XZ8TXK",
+      "title": "Dragon Quest XI S: Echoes of an Elusive Age",
+      "score": 1
+    },
+    "ori-and-the-will-of-the-wisps": {
+      "id": "9N8CD0XZKLP4",
+      "title": "Ori and the Will of the Wisps",
+      "score": 1
+    },
+    "assassins-creed-valhalla": {
+      "id": "9P4NJFH17MRT",
+      "title": "Assassin's Creed Valhalla",
+      "score": 1
+    },
+    "crusader-kings-iii": {
+      "id": "9MZ8RZSD0NFQ",
+      "title": "Crusader Kings III",
+      "score": 1
+    },
+    "stellaris": {
+      "id": "9NXQPGMR917R",
+      "title": "Stellaris",
+      "score": 1
+    },
+    "halo-infinite": {
+      "id": "9NP1P1WFS0LB",
+      "title": "Halo Infinite",
+      "score": 1
+    },
+    "halo-the-master-chief-collection": {
+      "id": "9MT8PTGVHX2P",
+      "title": "Halo: The Master Chief Collection",
+      "score": 1
+    },
+    "a-way-out": {
+      "id": "BWVBNCMF22ZK",
+      "title": "A Way Out",
+      "score": 1
+    },
+    "overcooked-2": {
+      "id": "BVJLKDG2TX8H",
+      "title": "Overcooked! 2",
+      "score": 1
+    },
+    "human-fall-flat": {
+      "id": "BSMZH25V6V46",
+      "title": "Human: Fall Flat",
+      "score": 1
+    },
+    "palworld": {
+      "id": "9NKV34XDW014",
+      "title": "Palworld",
+      "score": 1
+    },
+    "divinity-original-sin-2": {
+      "id": "BW8PVL4CJ2Q6",
+      "title": "Divinity: Original Sin 2",
+      "score": 1
+    },
+    "watch-dogs-legion": {
+      "id": "C1WRX8ZD77M9",
+      "title": "Watch Dogs: Legion",
+      "score": 1
+    },
+    "batman-arkham-knight": {
+      "id": "C3DRG5G7FCB5",
+      "title": "Batman: Arkham Knight",
+      "score": 1
+    },
+    "bioshock-infinite": {
+      "id": "C4XX6JL0N0DM",
+      "title": "BioShock Infinite",
+      "score": 1
+    },
+    "dishonored-2": {
+      "id": "BSZM480TSWGP",
+      "title": "Dishonored 2",
+      "score": 1
+    },
+    "prey-2017": {
+      "id": "BVPGZMMDDZ0M",
+      "title": "Prey",
+      "score": 1
+    },
+    "doom-2016": {
+      "id": "C3QH42WRGM3R",
+      "title": "DOOM",
+      "score": 1
+    },
+    "titanfall-2": {
+      "id": "C0X2HNVH08FB",
+      "title": "Titanfall 2",
+      "score": 1
+    },
+    "control": {
+      "id": "BZ6W9LRPC26W",
+      "title": "Control",
+      "score": 1
+    },
+    "outer-wilds": {
+      "id": "C596FKDKMQN7",
+      "title": "Outer Wilds",
+      "score": 1
+    },
+    "vampire-survivors": {
+      "id": "9PD5BM2Z8C4L",
+      "title": "Vampire Survivors",
+      "score": 1
+    },
+    "balatro": {
+      "id": "9PK087LNGJC5",
+      "title": "Balatro",
+      "score": 1
+    },
+    "cuphead": {
+      "id": "9NJRX71M5X9P",
+      "title": "Cuphead",
+      "score": 1
+    },
+    "dead-cells": {
+      "id": "BQSCNS1T8PHQ",
+      "title": "Dead Cells",
+      "score": 1
+    },
+    "slay-the-spire": {
+      "id": "9P6W46XMDJM5",
+      "title": "Slay the Spire",
       "score": 1
     }
   }
