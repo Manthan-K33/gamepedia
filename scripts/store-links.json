@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T16:03:09.270Z",
+  "generated_at": "2026-11-27T17:25:49.576Z",
   "links": {
     "among-us": {
       "steam": {
@@ -222,7 +222,7 @@
         "url": "https://store.playstation.com/en-us/product/UP1003-PPSA01981_00-DOOMETERNALBUNDL",
         "id": "UP1003-PPSA01981_00-DOOMETERNALBUNDL",
         "title": "DOOM Eternal Standard Edition",
-        "source": "ps-search"
+        "source": "manual"
       },
       "xbox": {
         "url": "https://www.xbox.com/en-US/games/store/doom-eternal/9P5S26314HWQ",

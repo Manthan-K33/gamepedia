@@ -24,6 +24,14 @@
         "title": "NieR: Automata™ Game of the YoRHa Edition",
         "source": "manual"
       }
+    },
+    "doom-eternal": {
+      "playstation": {
+        "url": "https://store.playstation.com/en-us/product/UP1003-PPSA01981_00-DOOMETERNALBUNDL",
+        "id": "UP1003-PPSA01981_00-DOOMETERNALBUNDL",
+        "title": "DOOM Eternal Standard Edition",
+        "source": "manual"
+      }
     }
   }
 }
